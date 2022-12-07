@@ -1,0 +1,73 @@
+capital = 672
+oob = "STK_2275"
+set_technology = {
+	tribal_civilization = 1
+	settled_civilization = 1
+	tool_engineering = 1
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+	support_weaponry = 1
+	recon_company_tech_1 = 1
+	raider_reckless_aggression = 1
+	
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		nautics_tech_1 = 1
+		light_navy_hull_tech_1 = 1
+		waterproof_sealing_tech = 1
+		naval_invasion_tech_1 = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		nautics_tech_non_mtg_1 = 1
+		light_navy_hull_tech_non_mtg_1 = 1
+		waterproof_sealing_tech_non_mtg = 1
+		naval_invasion_tech_non_mtg_1 = 1
+	}
+}
+
+set_stability = 0.07
+set_war_support = 0.2
+set_convoys = 20
+set_research_slots = 3
+
+
+set_politics = {
+	ruling_party = elites
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 0
+	elites = 50
+	intellectuals = 50
+	ruler = 0
+}
+
+set_country_flag = slavery_allowed
+
+create_country_leader = {
+	name = "The Paladin of Steel"
+	desc = "Paladin_of_Steel_DESC"
+	picture = "Steel Paladin.dds"
+	expire = "3000.1.1"
+	ideology = feudalism
+
+	
+}
+
+create_country_leader = {
+name = "The Steel Council"
+desc = "Steel_Council_DESC"
+expire = "3000.1.1"
+ideology = technocracy
+}

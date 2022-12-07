@@ -1,0 +1,71 @@
+division_template = {
+	name = "Militia Force"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Steel Knights"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+   name = "Squires"
+  
+   regiments = {
+     infantry = { x = 0 y = 0 }
+	 infantry = { x = 0 y = 1 }
+	 infantry = { x = 1 y = 1 }
+	 infantry = { x = 1 y = 0 }
+	 
+  }
+  support = {
+		recon_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Paladin of the Armor of Steel"
+		location = 8626
+		division_template = "Steel Knights"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+		
+  }
+	
+	division = {
+	 name = "Squires of the Armor of Steel"
+	 location = 8626
+	 division_template = "Squires"
+	 start_experience_factor = 0.3
+	 start_equipment_factor = 1.0
+	
+   }
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "STK"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+}

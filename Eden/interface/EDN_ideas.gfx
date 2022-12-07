@@ -1,0 +1,20 @@
+
+spriteTypes = {
+
+spriteType = {
+	name = "GFX_Eden_geck"
+	texturefile = "gfx/ideas/bdt_geck_eden.dds"
+ }
+
+ spriteType = {
+	name = "GFX_idea_Eden_jungle_bonuses"
+	texturefile = "gfx/ideas/edn_jungle_bonuses.dds"
+
+ }
+
+ spriteType = {
+	name = "GFX_idea_eden_spore"
+	texturefile = "gfx/ideas/edn_spore.dds"
+
+ }
+}

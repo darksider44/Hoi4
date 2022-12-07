@@ -1,0 +1,129 @@
+add_namespace = STK_claim
+
+country_event = {
+	id = STK_claim.1
+	title = STK_claim.1.t
+	desc = STK_claim.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STK_claim.1.a
+		ai_chance = {
+			factor = 80
+		
+		}
+		STK = {
+		country_event = {days = 1 id = STK_Test.1}
+		}
+	
+		effect_tooltip = {
+		STK = { transfer_state = 374 }
+		}
+	}
+	
+	option = {
+		name = STK_claim.1.b
+		ai_chance = {
+		factor = 20
+	
+		}
+		
+		STK = {
+			country_event = { days = 1 id = STK_Test.2}
+		}
+		
+		effect_tooltip = {
+			IRN = {
+				STK = {
+					grant_wargoals_on_core_states_of_prev = yes
+				}
+			}
+		}
+
+	}
+}
+
+
+# event for border war start here
+
+country_event = {
+	id = STK_claim.2
+	title = STK_claim.2.t
+	desc = STK_claim.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STK_claim.2.a
+		ai_chance = {
+		factor = 100
+		}
+	
+		STK = { transfer_state = 209 }
+	
+	}
+
+	# need a loc who tell you you won the border war
+}
+
+country_event = {
+	id = STK_claim.3
+	title = STK_claim.3.t
+	desc = STK_claim.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STK_claim.3.a
+		ai_chance = {
+		factor = 100
+		}
+	
+		# need to make a loc who tell you lost the border war
+	
+	}
+
+}
+
+country_event = {
+	id = STK_claim.4
+	title = STK_claim.4.t
+	desc = STK_claim.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STK_claim.4.a
+		ai_chance = {
+		factor = 100
+		}
+	
+		# make a loc who told you you win the border war
+	
+	}
+
+}
+
+country_event = {
+	id = STK_claim.5
+	title = STK_claim.5.t
+	desc = STK_claim.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STK_claim.5.a
+		ai_chance = {
+		factor = 100
+		}
+	
+		effect_tooltip = {
+		STK = { transfer_state = 209 } # example of a effect_tooltip i told you earlier this week
+		}
+		
+	# make a loc who you you lost the border war 
+	}
+
+}
+		

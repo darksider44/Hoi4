@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_goal_EDN_Start"
+		texturefile = "gfx/focus/edenscarlet.dds"
+	}
+}

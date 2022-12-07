@@ -1,0 +1,8 @@
+spriteTypes = {
+
+spriteType = {
+		name = "GFX_idea_eliteweaponry"
+		texturefile = "gfx/interface/ideas/stk_weaponry.dds"
+	}
+	
+	}

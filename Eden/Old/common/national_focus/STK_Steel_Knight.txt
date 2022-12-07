@@ -1,0 +1,541 @@
+focus_tree = {
+	id = Steel_Knight
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = STK
+		}
+	}
+	#Focus for In The Ancient Time
+	focus = {
+		id = STK_intheancienttime
+		icon = GFX_goal_generic_major_war
+		x = 15
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+			 days = 1 
+			 id = sub.1 
+			 }
+		}
+	}
+
+	#Focus for There Was A Hero
+	focus = {
+		id = STK_therewasahero
+		icon = GFX_goal_unknown
+		relative_position_id = STK_intheancienttime
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_intheancienttime }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+			 days = 1 
+			 id = sub.2 
+		    }
+		}
+	}
+
+#Focus for There Was A Hero
+	focus = {
+		id = STK_theteaching
+		icon = GFX_goal_unknown
+		relative_position_id = STK_therewasahero
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_therewasahero }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+			 days = 1 
+			 id = sub.3
+			}
+		}
+	}
+	
+	focus = {
+		id = STK_disapear
+		icon = GFX_goal_unknown
+		relative_position_id = STK_theteaching
+		x = 0
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_theteaching }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+		 days = 1 
+		 id = sub.4
+		 }
+		}
+	}
+	
+	
+	focus = {
+		id = STK_Indus1
+		icon = GFX_goal_unknown
+		relative_position_id = STK_disapear
+		x = -5
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_disapear }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = STK
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				if = {
+					limit = { STK = {has_idea = onthesearch} is_core_of = STK}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = STK_Indus2
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Indus1
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Indus1 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+		    }
+		}
+	}
+	
+	focus = {
+		id = STK_Indus3
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Indus2
+		x = -1
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Indus2 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+		    }
+		}
+	}
+	
+		focus = {
+		id = STK_Indus3.1
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Indus3
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Indus3 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+		    }
+		}
+	}
+	
+	focus = {
+		id = STK_Indus4
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Indus2
+		x = 1
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Indus2 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+		    }
+		}
+	}
+	
+	focus = {
+		id = STK_Indus4.1
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Indus4
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Indus4 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+		    }
+		}
+	}
+	
+	
+	focus = {
+		id = STK_Military1
+		icon = GFX_goal_unknown
+		relative_position_id = STK_disapear
+		x = 5
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_disapear }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = steel_knight_explosives_bonus
+				bonus = 0.75
+				uses = 2
+				category = support_demolitions_tech_category
+		}
+		
+	
+		set_technology = {stk_bonus = 1
+						wasteland_tech = 1		}
+	}
+}
+	 
+	 
+	focus = {
+		id = STK_Military2
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Military1
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Military1 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			}
+		}
+	}
+	
+		focus = {
+		id = STK_Military3
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Military2
+		x = -1
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		available = {  NOT = {has_idea = armyofiron}}
+		prerequisite = {  focus = STK_Military2  }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			}
+		}
+	}
+	
+	focus = {
+		id = STK_Military3.1
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Military3
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Military3 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			}
+		}
+	}	
+	
+		focus = {
+		id = STK_Military4
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Military2
+		x = 1
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Military2 }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			}
+		}
+	}
+	
+		focus = {
+		id = STK_Military4.1
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Military4
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Military4}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			}
+		}
+	}
+
+
+	
+	
+################ Enclave focus #####################
+	
+	focus = {
+		id = STK_Story1
+		icon = GFX_goal_unknown
+		relative_position_id = STK_disapear
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_disapear }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		868 = { add_manpower =  10000}
+			
+		}
+	}
+	
+	focus = {
+		id = STK_Story1A
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Story1
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Story1 }
+		bypass = {
+			IRN = {
+				all_core_land_owned_by_prev_sphere = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		
+		
+			if = {
+				limit = {
+					IRN = {
+						exists = yes
+					}
+				}
+				IRN = {
+					country_event= { id = STK_claim.1}
+				}
+			}
+		}
+	}
+
+			
+		
+	
+	
+	
+
+	focus = {
+		id = STK_Story2_Elite
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Story1A
+		x = 1
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Story1A}
+		mutually_exclusive = { focus = STK_Story2_Intellectual }
+		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			}
+		}
+	}
+	
+		focus = {
+		id = STK_Story3_Elite
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Story2_Elite
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Story2_Elite}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			}
+		}
+	}
+	
+			focus = {
+		id = STK_Story4_Elite
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Story3_Elite
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Story3_Elite}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			}
+		}
+	}
+
+################ Steel Council ###############################
+
+
+	focus = {
+		id = STK_Story2_Intellectual
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Story1A
+		x = -1
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Story1A }
+		mutually_exclusive = { focus = STK_Story2_Elite }
+		
+		
+		ai_will_do = {
+			factor = 8.6
+		}
+		completion_reward = {
+			country_event= {
+
+			 }
+		}
+    }
+	
+	focus = {
+		id = STK_Story3_Intellectual
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Story2_Intellectual
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Story2_Intellectual }
+		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			 }
+		}
+    }
+	
+		focus = {
+		id = STK_Story4_Intellectual
+		icon = GFX_goal_unknown
+		relative_position_id = STK_Story3_Intellectual
+		x = 0
+		y = 1
+		cost = 8.6
+		available_if_capitulated = yes
+		prerequisite = { focus = STK_Story3_Intellectual }
+		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+
+			 }
+		}
+    }
+	
+	
+	
+#End of focuses 
+ }

@@ -1,0 +1,7 @@
+Edn_jungle = {
+	enable = { always = yes }
+	icon = GFX_Eden_geck
+	army_speed_factor_for_controller = -0.1 
+	MONTHLY_POPULATION = -0.1
+	
+	}

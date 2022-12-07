@@ -1,0 +1,25 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			EDN = {
+				every_controlled_state = { add_dynamic_modifier = { modifier = Edn_jungle } }
+			}
+		}
+	}
+	on_weekly = {
+		effect =  {
+			EDN = {
+				every_controlled_state = {
+					if = { limit = { NOT = {  has_dynamic_modifier = { modifier = Edn_jungle } } } 	
+					add_dynamic_modifier = { modifier = Edn_jungle }
+					 }
+					
+				}
+			}
+			every_state = { 
+				if = { limit = {  has_dynamic_modifier = { modifier = Edn_jungle } NOT = { is_controlled_by = EDN }  } 	
+				remove_dynamic_modifier = { modifier = Edn_jungle } }
+			}
+		}
+	}
+}	

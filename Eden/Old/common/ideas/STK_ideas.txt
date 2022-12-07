@@ -1,0 +1,66 @@
+ideas = {
+
+		country = {
+
+			onthesearch = {
+			
+				picture = knights_of_discovery
+
+				allowed = {
+				}
+				
+				removal_cost = -1
+				
+				modifier = {
+				army_speed_factor = 0.1
+				}
+
+			}
+		
+			armyofiron = {
+			
+				picture = brotherhood_drill_sergeants
+		
+				allowed = {
+				}
+		
+				removal_cost = -1
+		
+				modifier = {
+				special_forces_min = 30
+				}
+
+			}
+		
+			reconteam = {
+			
+				picture = navarro_scout_camp
+		
+				allowed = {
+				}
+		
+				removal_cost = -1
+		
+				modifier = {
+				recon_factor = 0.1
+				}
+
+			}
+			
+			eliteweaponry = {
+			
+			picture = stk_weaponry
+			
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			special_forces_attack_factor = 0.1
+			}
+			
+		}
+	}
+}

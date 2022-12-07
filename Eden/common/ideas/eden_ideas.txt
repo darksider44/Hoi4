@@ -1,0 +1,162 @@
+ideas = {
+country = {
+
+		eden_bunker = {
+
+			picture = bunker_blues
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = {
+				industry_air_damage_factor = -0.6
+				foreign_subversive_activites = -1
+				special_forces_min = 50
+				custom_modifier_tooltip = intelligence_defense_boost_dlc_weak_tt
+				hidden_modifier = {
+					intelligence_agency_defense = 3
+					crypto_strength = 3
+				}
+
+				
+				stability_factor = -0.1
+				production_speed_buildings_factor = -0.1
+				conscription = 0.075 #Eden starts with tiny state manpower, this really helps em out
+				max_dig_in = 5
+				
+			}
+
+		}
+
+		eden_gen = {
+
+			picture = oro_gene_warriors
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.05
+			}
+
+		}
+
+		eden_gen2 = {
+
+			picture = oro_gene_warriors
+
+			allowed = {}
+
+			removal_cost = -1
+
+
+			modifier = {
+				army_speed_factor = 0.05
+				monthly_population = 0.05
+			}
+
+		}
+		
+		eden_gen3 = {
+
+			picture = oro_gene_warriors
+
+			allowed = {}
+
+			removal_cost = -1
+
+
+			modifier = {
+				army_speed_factor = 0.05
+				monthly_population = 0.10
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+			}
+
+		}
+
+		eden_spore =  {
+
+			picture = eden_spore
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = { 
+				army_defence_factor = 0.10
+			}
+
+		}
+
+		
+		eden_spore2 =  {
+
+			picture = eden_spore
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = { 
+				army_defence_factor = 0.10
+				army_speed_factor = 0.05
+			}
+
+		}
+
+		eden_spore3 =  {
+
+			picture = eden_spore
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = { 
+				army_defence_factor = 0.10
+				army_speed_factor = 0.05
+				monthly_population = 0.15
+				army_core_defence_factor = 0.15
+			}
+
+		}
+
+
+		Scarlet_training = {
+			
+			picture = brotherhood_tactics_lexicon
+			allowed = {
+				
+			}
+			removal_cost = -1
+
+			modifier = {
+				special_forces_training_time_factor	= -0.2
+				political_power_factor = -0.10
+			}
+			
+		   
+		}
+
+		Impenetrable_jungle = {
+
+			picture = Eden_jungle_bonuses
+			allowed = {
+				
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+				exodus_national_appeal = -0.5
+			}
+
+		}
+
+		
+	}
+}

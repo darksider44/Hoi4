@@ -1,0 +1,119 @@
+#!event:events/nf_edn.txt
+#!localisation:localisation/EDN_event_l_english.yml
+#!gfx:interface\z_fallout_national_focuses.gfx
+
+add_namespace = ednev
+
+country_event = {
+	id = ednev.1
+	title = ednev.1.t
+	desc = ednev.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ednev.1.a
+		ai_chance = {
+			factor = 100
+		
+		}
+		add_stability = 0.10
+	}
+	
+}
+
+country_event = {
+	id = ednev.2
+	title = ednev.2.t
+	desc = ednev.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ednev.2.a
+		ai_chance = {
+			factor = 100
+		
+		}
+		add_opinion_modifier = { target = BOS modifier = medium_increase  }
+		BOS = { add_opinion_modifier = { target = EDN modifier = medium_increase  } }
+		 add_ideas = Scarlet_training
+	}
+	
+}
+
+country_event = {
+	id = ednev.3
+	title = ednev.3.t
+	desc = ednev.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ednev.3.a
+		ai_chance = {
+			factor = 100
+		
+		}
+		add_war_support = 0.1
+	}
+	
+}
+
+country_event = {
+	id = ednev.4
+	title = ednev.4.t
+	desc = ednev.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ednev.4.a
+		ai_chance = {
+			factor = 100
+		
+		}
+		
+		add_ideas = Impenetrable_jungle
+		
+	}
+	
+}
+
+
+#### Path event #####
+country_event = {
+	id = ednev.5
+	title = ednev.5.t
+	desc = ednev.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ednev.5.a
+		trigger = { THIS = {has_completed_focus = eden_plant_3 } }
+		ai_chance = {
+			factor = 33
+		
+		}
+		
+		complete_national_focus = eden_spore_1
+		
+	
+		
+	}
+	
+	option = {
+		name = ednev.5.b
+		trigger = {THIS = {has_completed_focus = eden_pregen_3 } }
+		ai_chance = {
+			factor = 33
+		
+		}
+	
+		complete_national_focus = eden_gen
+	}
+
+	
+}
+

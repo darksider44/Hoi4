@@ -1,0 +1,37 @@
+state={
+	id=672
+	name="STATE_672"
+	
+	resources={
+		metal = 12
+		circuitry = 2
+		advanced = 4
+		composites = 2
+		energy = 5
+	}
+	
+	provinces={
+	 1254  1264 1285 1309  1389 1392 1801 3041 3042 8625 8626 11301 11302 11303 11304 11305 11306
+	}
+	manpower = 13000
+	state_category=large_city
+	buildings_max_level_factor=1.000
+
+	
+history = {
+		owner = STK
+		add_core_of = STK
+		
+		victory_points = {
+		  8626 5
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			anti_air_building = 2
+			
+
+		}
+	}
+	

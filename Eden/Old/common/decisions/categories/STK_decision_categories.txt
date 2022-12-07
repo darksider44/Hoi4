@@ -1,0 +1,17 @@
+STK_border_war = {
+
+	allowed = { tag = STK }
+	
+	available = {
+		STK = { has_completed_focus = STK_Story1A }
+	}
+	priority = 50
+}
+
+STK_Leader = {
+
+	allowed = { tag = STK }
+	
+
+
+}

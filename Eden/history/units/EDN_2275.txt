@@ -1,0 +1,132 @@
+﻿division_template = {
+	name = "Militia Force"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Defenders of the GECK"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Paladin Patrol"
+
+	regiments = {
+		power_armour = { x = 0 y = 0 }
+		power_armour = { x = 0 y = 1 }
+		power_armour = { x = 1 y = 0 }
+		power_armour = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Spore Destroyers"
+		location = 11480
+		division_template = "Defenders of the GECK"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Plant Watchers"
+		location = 11492
+		division_template = "Defenders of the GECK"
+		start_experience_factor = 0.82
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Eyes of the Night"
+		location = 11578
+		division_template = "Defenders of the GECK"
+		start_experience_factor = 0.85
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Men of the Bog"
+		location = 11723
+		division_template = "Defenders of the GECK"
+		start_experience_factor = 0.85
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Fog Mouth"
+		location = 11720
+		division_template = "Defenders of the GECK"
+		start_experience_factor = 0.85
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Cretins"
+		location = 11570
+		division_template = "Defenders of the GECK"
+		start_experience_factor = 0.85
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "The Emerald Guard"
+		location = 11615
+		division_template = "Defenders of the GECK"
+		start_experience_factor = 0.82
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Eden Knights"
+		location = 11480
+		division_template = "Paladin Patrol"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Jungle Protector"
+		location = 11480
+		division_template = "Paladin Patrol"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "EDN"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+
+
+		add_equipment_production = {
+			equipment = {
+				type = power_armor_equipment_0
+				creator = "EDN"
+			}
+			requested_factories = 2
+			progress = 0.75
+			efficiency = 100
+		}
+	}
+
+
+
+
+

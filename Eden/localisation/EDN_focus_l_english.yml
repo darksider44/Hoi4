@@ -1,0 +1,49 @@
+﻿l_english: 
+ eden_1: "At The Beginning"
+ eden_1_desc: "At the beginning there was a girl, a pale little girl..."
+ eden_2: "The Brotherhood"
+ eden_2_desc: "Then there was a brotherhood..."
+ eden_3: "The Encounter"
+ eden_3_desc: "Then an encounter..."
+ eden_4: "The Last Battle"
+ eden_4_desc: "And finally a battle"
+
+
+ eden_pregen: "Investigate The Weird Plant"
+ eden_pregen_desc: "The new life created in Eden has started to influence the way our bodies work"
+
+ eden_pregen_1: "The New Stim"
+ eden_pregen_1_desc: "After a few week of research we managed to created a new stim for our troop based on the new flora of Eden"
+
+eden_pregen_21: "Invest Into Science"
+eden_pregen_21_desc: "We receved permission from the Western Brotherhood to expand our research on the plant"
+
+eden_pregen_22: "Production Boom"
+eden_pregen_22_desc: "With the creation of our new stim we gonna need more factory for production"
+
+eden_pregen_3: "A Breaktrought"
+eden_pregen_3_desc: "Last night one of the scientist had an idea. This idea proved excellent and now the stim make our troop more resilient and agressive"
+
+eden_strike: "The Green Threat"
+eden_strike_desc: "To our west lie the remnant of Altis army led by Shale. They are a threat that we need to eliminate fast"
+
+
+
+eden_spore_1_tt: "wich gift do we trust ?"
+eden_gen_tt: "wich gift do we trust ?"
+
+eden_vetiti: "Stay True To Our Mission"
+eden_vetiti_desc: "The first mission of our chapter was to prevent anyone from entering Eden. We shall stay true to that Oath"
+
+eden_chap: "A New Chapter"
+eden_chap_desc: "Our original mission is not usefull anymore, we shall open up to the world, now that we control the land and it's new flora"
+
+eden_chap_1: "Access To The Corpse"
+eden_chap_1_desc: "Eden's GECK came from the lab of the now death scientist located inside the Corpse, we shall secure a safe path to the lab"
+
+eden_chap_2: "Like Minded"
+eden_chap_2_desc: "The Alamo Chapter choose to leave the Texan Brotherhood and relinked with our brothers West, we should befriend them"
+
+
+eden_chap_3: "The Alamo Pact"
+eden_chap_3_desc: "More Threat a getting closer, we gonna need ally. The Alamo Chapter is a natural ally and our friend, we should forge a new pact"

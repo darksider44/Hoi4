@@ -1,0 +1,13 @@
+spriteTypes = {
+	################
+	# STK
+	################
+	spriteType = {
+		name = "GFX_event_Where_He_Come"
+		texturefile = "gfx/event_pictures/event_Where_He_Come.dds"
+	}
+	spriteType = {
+		name = "GFX_event_Enclave_BOS_Duality"
+		texturefile = "gfx/event_pictures/event_Enclave_BOS_Duality.dds"
+	}
+}

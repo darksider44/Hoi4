@@ -1,0 +1,162 @@
+add_namespace = sub
+add_namespace = STK_Test
+
+##Event: The hero came from
+country_event = {
+	id = sub.1
+	title = sub.1.title
+	desc = sub.1.desc
+	picture = GFX_event_Where_He_Come
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = sub.1.a
+		ai_chance = { factor = 50}
+		add_popularity= { 
+		ideology = intellectuals
+		popularity = 0.05
+		}
+		
+		add_ideas = onthesearch
+		
+	}
+	option = {
+		name = sub.1.b
+		ai_chance = { factor = 50}
+		add_popularity= { 
+		ideology = elites
+		popularity = 0.05 
+		}
+		
+		add_ideas = armyofiron
+	}
+}
+##Event: The hero was looking ...
+country_event = {
+	id = sub.2
+	title = sub.2.title
+	desc = sub.2.desc
+	picture = GFX_event_Enclave_BOS_Duality
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = sub.2.a
+		ai_chance = { factor = 50}
+		add_popularity= { 
+		ideology = elites
+		popularity = 0.05
+		}
+		add_ideas = eliteweaponry
+		
+	}
+	option = {
+		name = sub.2.b
+		ai_chance = { factor = 50}
+		add_popularity= { 
+		ideology = intellectuals
+		popularity = 0.05 
+		}
+		
+		add_ideas = reconteam
+	}
+}
+
+##Event: What we learned ...
+country_event = {
+	id = sub.3
+	title = sub.3.title
+	desc = sub.3.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = sub.3.a
+		ai_chance = { factor = 50}
+		add_popularity= { 
+		ideology = intellectuals
+		popularity = 0.05 
+		}
+	}
+	option = {
+		name = sub.3.b
+		ai_chance = { factor = 50}
+		add_popularity= { 
+		ideology = elites
+		popularity = 0.05
+		}
+	}
+}
+## Event: How did he leave
+country_event = {
+	id = sub.4
+	title = sub.4.title
+	desc = sub.4.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = sub.4.a
+		ai_chance = { factor = 50}
+		add_popularity= { 
+		ideology = intellectuals
+		popularity = 0.05 
+		}
+	}
+	option = {
+		name = sub.4.b
+		ai_chance = { factor = 50}
+		add_popularity= { 
+		ideology = elites
+		popularity = 0.05 
+		}
+	}
+}
+
+country_event = {
+	id = STK_Test.1
+	title = STK_Test.1.t
+	desc = STK_Test.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STK_Test.1.a
+		ai_chance = {
+			factor = 90
+		
+		}
+		
+		STK = {
+			transfer_state = 374
+			
+			every_owned_state = {
+			limit = {
+				compliance < 80
+				is_core_of = IRN
+				}
+			add_compliance = 80
+			}
+			
+		}
+	}
+}
+
+country_event = {
+	id = STK_Test.2
+	title = STK_Test.2.t
+	desc = STK_Test.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STK_Test.2.a
+		ai_chance = {
+			factor = 90
+		
+		}
+		
+		IRN = {
+			STK = {
+				grant_wargoals_on_core_states_of_prev = yes
+			}
+		}
+	}
+}
