@@ -1,0 +1,1665 @@
+﻿l_english: 
+
+ ACH_autonomy_free_state_DEF:0 "The Alamo Council"
+ ACH_autonomy_free_state:0 "Alamo Council"
+ ACH_autonomy_incorporated_territory_DEF:0 "The Alamo Zone"
+ ACH_autonomy_incorporated_territory:0 "Alamo Zone"
+ ACH_autonomy_protected_state_DEF:0 "Alamo Sector"
+ ACH_autonomy_protected_state:0 "Alamo Sector"
+ ACH_autonomy_unincorporated_territory_DEF:0 "The Alamo Territory"
+ ACH_autonomy_unincorporated_territory:0 "Alamo Territory"
+
+ ANO_autonomy_free_state_DEF:0 "The Pastors of Eden"
+ ANO_autonomy_free_state:0 "Republic of Eden"
+ ANO_autonomy_incorporated_territory_DEF:0 "The Pastors of Eden"
+ ANO_autonomy_incorporated_territory:0 "Zone of Eden"
+ ANO_autonomy_protected_state_DEF:"The Pastors of Eden"
+ ANO_autonomy_protected_state:0 "Parish of Eden"
+ ANO_autonomy_unincorporated_territory_DEF:0 "The Pastors of Eden"
+ ANO_autonomy_unincorporated_territory:0 "Territory of Eden"
+
+
+
+ ANT_autonomy_free_state_DEF:0 "The Antelope Reservation"
+ ANT_autonomy_free_state:0 "Antelope Reservation"
+ ANT_autonomy_incorporated_territory_DEF:0 "The Antelope Territory"
+ ANT_autonomy_incorporated_territory:0 "Antelope Territory"
+ ANT_autonomy_protected_state_DEF:0 "The Antelope Reservation"
+ ANT_autonomy_protected_state:0 "Antelope Reservation"
+ ANT_autonomy_unincorporated_territory_DEF:0 "The Antelope Territory"
+ ANT_autonomy_unincorporated_territory:0 "Antelope Territory"
+
+
+
+ ARM_autonomy_free_state_DEF:0 "The Reynosa Commanders"
+ ARM_autonomy_free_state:0 "Reynosa Command Bloc"
+ ARM_autonomy_incorporated_territory_DEF:0 "The Reynosa Administrators"
+ ARM_autonomy_incorporated_territory:0 "Reynosa Administration"
+ ARM_autonomy_protected_state_DEF:0 "The Reynosa Commanders"
+ ARM_autonomy_protected_state:0 "Reynosa Command Bloc"
+ ARM_autonomy_unincorporated_territory_DEF:0 "The Reynosa Territory"
+ ARM_autonomy_unincorporated_territory:0 "Reynosa Territory"
+
+ ARR_autonomy_free_state_DEF:0 "The Arroyo Republic"
+ ARR_autonomy_free_state:0 "Arroyo Republic"
+ ARR_autonomy_incorporated_territory_DEF:0 "The Oregon Territories"
+ ARR_autonomy_incorporated_territory:0 "Oregon Territories"
+ ARR_autonomy_protected_state_DEF:0 "The Aroyo State"
+ ARR_autonomy_protected_state:0 "Aroyo State"
+ ARR_autonomy_unincorporated_territory_DEF:0 "The Oregon Territories"
+ ARR_autonomy_unincorporated_territory:0 "Oregon Territories"
+
+
+
+ ASF_autonomy_free_state_DEF:0 "The Santa Fe Parish"
+ ASF_autonomy_free_state:0 "Santa Fe Parish"
+ ASF_autonomy_incorporated_territory_DEF:0 "The Territory of Santa Fe"
+ ASF_autonomy_incorporated_territory:0 "The Territory of Santa Fe"
+ ASF_autonomy_protected_state_DEF:"The State of Santa Fe"
+ ASF_autonomy_protected_state:0 "State of Santa Fe"
+ ASF_autonomy_unincorporated_territory_DEF:0 "The Territory of Santa Fe"
+ ASF_autonomy_unincorporated_territory:0 "Territory of Santa Fe"
+
+ ASS_autonomy_free_state_DEF:0 "The Rollerboys"
+ ASS_autonomy_free_state:0 "Rollerboys"
+ ASS_autonomy_incorporated_territory_DEF:0 "The Paris Zone" 
+ ASS_autonomy_incorporated_territory:0 "Paris Zone"
+ ASS_autonomy_protected_state_DEF:0 "The Rollerboys"
+ ASS_autonomy_protected_state:0 "Rollerboys"
+ ASS_autonomy_unincorporated_territory_DEF:0 "The Paris Territory"
+ ASS_autonomy_unincorporated_territory:0 "Paris Territory"
+
+ ATE_autonomy_free_state_DEF:0 "La Nueva Aztlan República"
+ ATE_autonomy_free_state:0 "Nueva Aztlan República"
+ ATE_autonomy_incorporated_territory_DEF:0 "The Western Mexican Administrators"
+ ATE_autonomy_incorporated_territory:0 "Western Mexican Administration"
+ ATE_autonomy_protected_state_DEF:0 "The Western Mexican State"
+ ATE_autonomy_protected_state:0 "Western Mexican State"
+ ATE_autonomy_unincorporated_territory_DEF:0 "The Western Mexican Territories"
+ ATE_autonomy_unincorporated_territory:0 "Western Mexican Territories"
+
+ BAG_autonomy_free_state_DEF:0 "The Colorado Scavenging Expedition"
+ BAG_autonomy_free_state:0 "Colorado Scavenging Expedition"
+ BAG_autonomy_incorporated_territory_DEF:0 "The Colorado Scavenging Expedition"
+ BAG_autonomy_incorporated_territory:0 "Colorado Scavenging Expedition"
+ BAG_autonomy_protected_state_DEF:0 "The Colorado Scavenging Expedition"
+ BAG_autonomy_protected_state:0 "Colorado Scavenging Expedition"
+ BAG_autonomy_unincorporated_territory_DEF:0 "The Colorado Scavenging Expedition"
+ BAG_autonomy_unincorporated_territory:0 "Colorado Scavenging Expedition"
+
+ BAM_autonomy_free_state_DEF:0 "The Bayou Manufacturers"
+ BAM_autonomy_free_state:0 "Bayou Zone"
+ BAM_autonomy_incorporated_territory_DEF:0 "The Bayou Territory"
+ BAM_autonomy_incorporated_territory:0 "Bayou Territory"
+ BAM_autonomy_protected_state_DEF:"The Bayou Manufacturers"
+ BAM_autonomy_protected_state:0 "Bayou Zone"
+ BAM_autonomy_unincorporated_territory_DEF:0 "The Bayou Manufacturers"
+ BAM_autonomy_unincorporated_territory:0 "Bayou Zone"
+
+ BAR_autonomy_free_state_DEF:0 "The Barons"
+ BAR_autonomy_free_state:0 "Barons's Free Republic"
+ BAR_autonomy_incorporated_territory_DEF:0 "The Northern California Region"
+ BAR_autonomy_incorporated_territory:0 "Northern California Region"
+ BAR_autonomy_protected_state_DEF:"The Northern California State"
+ BAR_autonomy_protected_state:0 "Northern California State"
+ BAR_autonomy_unincorporated_territory_DEF:0 "The Northern California Territory"
+ BAR_autonomy_unincorporated_territory:0 "Northern California Territory"
+
+
+
+ BDT_autonomy_free_state_DEF:0 "The Crowshaven State"
+ BDT_autonomy_free_state:0 "Crowshaven State"
+ BDT_autonomy_incorporated_territory_DEF:0 "The Crowshaven Administrators"
+ BDT_autonomy_incorporated_territory:0 "Crowshaven Administration"
+ BDT_autonomy_protected_state_DEF:0 "The Crowshaven Reservation"
+ BDT_autonomy_protected_state:0 "Crowshaven Reservation"
+ BDT_autonomy_unincorporated_territory_DEF:0 "The Crowshaven Territory"
+ BDT_autonomy_unincorporated_territory:0 "Crowshaven Territory"
+
+
+
+ BEL_autonomy_free_state_DEF:0 "The Republic of Bellingham"
+ BEL_autonomy_free_state:0 "Republic of Bellingham"
+ BEL_autonomy_incorporated_territory_DEF:0 "The Bellingham Administrators"
+ BEL_autonomy_incorporated_territory:0 "Administration of Bellingham"
+ BEL_autonomy_protected_state_DEF:"The State of Bellingham"
+ BEL_autonomy_protected_state:0 "State of Bellingham"
+ BEL_autonomy_unincorporated_territory_DEF:0 "The Bellingham of Territory"
+ BEL_autonomy_unincorporated_territory:0 "Territory of Bellingham"
+
+
+
+
+
+ BLK_autonomy_free_state_DEF:0 "The Blackfoot State"
+ BLK_autonomy_free_state:0 "Blackfoot State"
+ BLK_autonomy_incorporated_territory_DEF:0 "The Blackfoot Territory"
+ BLK_autonomy_incorporated_territory:0 "Blackfoot Territory"
+ BLK_autonomy_protected_state_DEF:0 "The Blackfoot Reservation"
+ BLK_autonomy_protected_state:0 "Blackfoot Reservation"
+ BLK_autonomy_unincorporated_territory_DEF:0 "The Blackfoot Territory"
+ BLK_autonomy_unincorporated_territory:0 "Blackfoot Territory"
+
+
+
+ BLO_autonomy_free_state_DEF:0 "The Eastern Sinaloa Zone"
+ BLO_autonomy_free_state:0 "Eastern Sinaloa Zone"
+ BLO_autonomy_incorporated_territory_DEF:0 "The Beltran-Levya Administrators"
+ BLO_autonomy_incorporated_territory:0 "Beltran Administration"
+ BLO_autonomy_protected_state_DEF:0 "The Beltran Sector"
+ BLO_autonomy_protected_state:0 "Beltran Sector"
+ BLO_autonomy_unincorporated_territory_DEF:0 "The Beltran Territory"
+ BLO_autonomy_unincorporated_territory:0 "BeltranTerritory"
+
+ BLP_autonomy_free_state_DEF:0 "The Paz State"
+ BLP_autonomy_free_state:0 "Paz State"
+ BLP_autonomy_incorporated_territory_DEF:0 "The South Baja Administrators"
+ BLP_autonomy_incorporated_territory:0 "South Baja Administration"
+ BLP_autonomy_protected_state_DEF:0 "The Paz Sector"
+ BLP_autonomy_protected_state:0 "Paz Sector"
+ BLP_autonomy_unincorporated_territory_DEF:0 "The South Baja Territory"
+ BLP_autonomy_unincorporated_territory:0 "South Baja Territory"
+
+
+
+ BON_autonomy_free_state_DEF:0 "The Boneyard Republic"
+ BON_autonomy_free_state:0 "Boneyard Republic"
+ BON_autonomy_incorporated_territory_DEF:0 "The Boneyard District"
+ BON_autonomy_incorporated_territory:0 "Boneyard District"
+ BON_autonomy_protected_state_DEF:0 "The Boneyard State"
+ BON_autonomy_protected_state:0 "Boneyard State"
+ BON_autonomy_unincorporated_territory_DEF:0 "The Boneyard Territory"
+ BON_autonomy_unincorporated_territory:0 "Boneyard Territory"
+
+
+
+ BOO_autonomy_free_state_DEF:0 "The Zone 15 Wardens"
+ BOO_autonomy_free_state:0 "Zone 15"
+ BOO_autonomy_incorporated_territory_DEF:0 "The Jacobstown Soldiers"
+ BOO_autonomy_incorporated_territory:0 "Nellis Outpost"
+ BOO_autonomy_protected_state_DEF:"The Nellis Soldiers"
+ BOO_autonomy_protected_state:0 "Nellis Zone"
+ BOO_autonomy_unincorporated_territory_DEF:0 "The Nellis Soldiers"
+ BOO_autonomy_unincorporated_territory:0 "Nellis Zone"
+
+ BOS_autonomy_free_state_DEF:0 "The New California Brotherhood"
+ BOS_autonomy_free_state:0 "New California Brotherhood"
+ BOS_autonomy_incorporated_territory_DEF:0 "The Western California Territories"
+ BOS_autonomy_incorporated_territory:0 "Western California Territories"
+ BOS_autonomy_protected_state_DEF:0 "The Maxson State"
+ BOS_autonomy_protected_state:0 "Maxson State"
+ BOS_autonomy_unincorporated_territory_DEF:0 "The Maxson Territories"
+ BOS_autonomy_unincorporated_territory:0 "Maxson Territories"
+
+
+
+ BRI_autonomy_free_state_DEF:0 "The Brigham Mining Companies"
+ BRI_autonomy_free_state:0 "Brigham Mining Assosciations"
+ BRI_autonomy_incorporated_territory_DEF:0 "The Brigham Zone"
+ BRI_autonomy_incorporated_territory:0 "Brigham Zone"
+ BRI_autonomy_protected_state_DEF:"The Brigham Mining Companies"
+ BRI_autonomy_protected_state:0 "Brigham Companies"
+ BRI_autonomy_unincorporated_territory_DEF:0 "The Brigham Territory"
+ BRI_autonomy_unincorporated_territory:0 "Brigham Territory"
+
+
+
+ BRK_autonomy_free_state_DEF:0 "The New Columbia Republic"
+ BRK_autonomy_free_state:0 "New Columbia Republic"
+ BRK_autonomy_incorporated_territory_DEF:0 "The Columbia Coast Soldiers"
+ BRK_autonomy_incorporated_territory:0 "Columbia Coast Outposts"
+ BRK_autonomy_protected_state_DEF:"The Columbia Coast"
+ BRK_autonomy_protected_state:0 "Columbia Coast"
+ BRK_autonomy_unincorporated_territory_DEF:0 "The Columbia Coast Territories"
+ BRK_autonomy_unincorporated_territory:0 "Columbia Coast Territories"
+
+
+
+ BVC_autonomy_free_state_DEF:0 "The Colonet State"
+ BVC_autonomy_free_state:0 "Colonet State"
+ BVC_autonomy_incorporated_territory_DEF:0 "The South California Administrators"
+ BVC_autonomy_incorporated_territory:0 "South California Administration"
+ BVC_autonomy_protected_state_DEF:0 "The Colonet Sector"
+ BVC_autonomy_protected_state:0 "Colonet Sector"
+ BVC_autonomy_unincorporated_territory_DEF:0 "The South California Territory"
+ BVC_autonomy_unincorporated_territory:0 "South California Territory"
+
+
+
+ CAF_autonomy_free_state_DEF:0 "The Coffee Companies"
+ CAF_autonomy_free_state:0 "República Cafeínada"
+ CAF_autonomy_incorporated_territory_DEF:0 "The Oaxaca Farmers"
+ CAF_autonomy_incorporated_territory:0 "Oaxaca Farmers"
+ CAF_autonomy_protected_state_DEF:0 "The Coffee Companies"
+ CAF_autonomy_protected_state:0 "Oaxaca Company"
+ CAF_autonomy_unincorporated_territory_DEF:0 "The Oaxaca Territory"
+ CAF_autonomy_unincorporated_territory:0 "Oaxaca Territory"
+
+ CAR_autonomy_free_state_DEF:0 "The Carthage Reservation"
+ CAR_autonomy_free_state:0 "Carthage Reservation"
+ CAR_autonomy_incorporated_territory_DEF:0 "The Carthage Zone"
+ CAR_autonomy_incorporated_territory:0 "Carthage Zone"
+ CAR_autonomy_protected_state_DEF:0 "The Carthage Reservation"
+ CAR_autonomy_protected_state:0 "Carthage Reservation"
+ CAR_autonomy_unincorporated_territory_DEF:0 "The Carthage Territory"
+ CAR_autonomy_unincorporated_territory:0 "Carthage Territory"
+
+ CBN_autonomy_free_state_DEF:0 "The Carbon Disctricts"
+ CBN_autonomy_free_state:0 "Carbon Disctricts"
+ CBN_autonomy_incorporated_territory_DEF:0 "The Carbon Prostitutes"
+ CBN_autonomy_incorporated_territory:0 "Carbon Brothel"
+ CBN_autonomy_protected_state_DEF:0 "The Carbon Territory"
+ CBN_autonomy_protected_state:0 "Carbon Territory"
+ CBN_autonomy_unincorporated_territory_DEF:0 "The Carbon Territory"
+ CBN_autonomy_unincorporated_territory:0 "Carbon Territory"
+
+ CCW_autonomy_free_state_DEF:0 "The Oregon Tribal Reservation"
+ CCW_autonomy_free_state:0 "Oregon Tribal Reservation"
+ CCW_autonomy_incorporated_territory_DEF:0 "The Oregon Tribal Administrators"
+ CCW_autonomy_incorporated_territory:0 "Oregon Tribal Administration"
+ CCW_autonomy_protected_state_DEF:"The Oregon Tribal Territories"
+ CCW_autonomy_protected_state:0 "Oregon Tribal Territories"
+ CCW_autonomy_unincorporated_territory_DEF:0 "The Oregon Tribal Administrators"
+ CCW_autonomy_unincorporated_territory:0 "Oregon Tribal Administration"
+
+
+
+ CES_autonomy_free_state_DEF:0 "The New Arizona Republic"
+ CES_autonomy_free_state:0 "New Arizona Republic"
+ CES_autonomy_incorporated_territory_DEF:0 "The Western California State"
+ CES_autonomy_incorporated_territory:0 "Eastern California State"
+ CES_autonomy_protected_state_DEF:"The Arizona Territories"
+ CES_autonomy_protected_state:0 "Arizona Territories"
+ CES_autonomy_unincorporated_territory_DEF:0 "The Arizona Administrators"
+ CES_autonomy_unincorporated_territory:0 "Arizona Administration"
+
+ CHC_autonomy_free_state_DEF:0 "The Choral Congress"
+ CHC_autonomy_free_state:0 "The Choral Congress"
+ CHC_autonomy_incorporated_territory_DEF:0 "The Watonga Correctional Zone"
+ CHC_autonomy_incorporated_territory:0 "Watonga Correctional Zone"
+ CHC_autonomy_protected_state_DEF:"The Bear's Choristers"
+ CHC_autonomy_protected_state:0 "The Bear's Choristers"
+ CHC_autonomy_unincorporated_territory_DEF:0 "The Choral Territory"
+ CHC_autonomy_unincorporated_territory:0 "The Choral Territory"
+
+ CHE_autonomy_free_state_DEF:0 "The Chemult State"
+ CHE_autonomy_free_state:0 "Chemult State"
+ CHE_autonomy_incorporated_territory_DEF:0 "The Chemult Administrators"
+ CHE_autonomy_incorporated_territory:0 "Chemult Administration"
+ CHE_autonomy_protected_state_DEF:0 "The Chemult Junction"
+ CHE_autonomy_protected_state:0 "Chemult Junction"
+ CHE_autonomy_unincorporated_territory_DEF:0 "The Chemult Territory"
+ CHE_autonomy_unincorporated_territory:0 "Chemult Territory"
+
+
+
+ CHO_autonomy_free_state_DEF:0 "The Choctaw Nation"
+ CHO_autonomy_free_state:0 "Choctaw Nation"
+ CHO_autonomy_incorporated_territory_DEF:0 "The Choctaw Zone"
+ CHO_autonomy_incorporated_territory:0 "Choctaw Zone"
+ CHO_autonomy_protected_state_DEF:"The Choctaw State"
+ CHO_autonomy_protected_state:0 "Choctaw State"
+ CHO_autonomy_unincorporated_territory_DEF:0 "The Choctaw Territory"
+ CHO_autonomy_unincorporated_territory:0 "Choctaw Territory"
+
+ CHR_autonomy_free_state_DEF:0 "The Cherokee Nation"
+ CHR_autonomy_free_state:0 "Cherokee Nation"
+ CHR_autonomy_incorporated_territory_DEF:0 "The Cherokee Zone"
+ CHR_autonomy_incorporated_territory:0 "Cherokee Zone"
+ CHR_autonomy_protected_state_DEF:"The Cherokee State"
+ CHR_autonomy_protected_state:0 "Cherokee State"
+ CHR_autonomy_unincorporated_territory_DEF:0 "The Cherokee Territory"
+ CHR_autonomy_unincorporated_territory:0 "Cherokee Territory"
+
+ CLJ_autonomy_free_state_DEF:0 "The Boomers Union"
+ CLJ_autonomy_free_state:0 "Boomers Union"
+ CLJ_autonomy_incorporated_territory_DEF:0 "The Boomer Territory"
+ CLJ_autonomy_incorporated_territory:0 "Boomer Territory"
+ CLJ_autonomy_protected_state_DEF:"The Boomer Country"
+ CLJ_autonomy_protected_state:0 "Boomer Country"
+ CLJ_autonomy_unincorporated_territory_DEF:0 "The Boomer Territory"
+ CLJ_autonomy_unincorporated_territory:0 "Boomer Territory"
+
+ CLK_autonomy_free_state_DEF:0 "The Area 24 Wardens"
+ CLK_autonomy_free_state:0 "Area 24"
+ CLK_autonomy_incorporated_territory_DEF:0 "The Area 24 Wardens"
+ CLK_autonomy_incorporated_territory:0 "Area 24"
+ CLK_autonomy_protected_state_DEF:"The Area 24 Wardens"
+ CLK_autonomy_protected_state:0 "Area 24"
+ CLK_autonomy_unincorporated_territory_DEF:0 "The Area 24 Wardens"
+ CLK_autonomy_unincorporated_territory:0 "Area 24"
+
+
+
+ CMC_autonomy_free_state_DEF:0 "The Chickasaw-Muscogee Alliance"
+ CMC_autonomy_free_state:0 "Chickasaw-Muscogee Alliance"
+ CMC_autonomy_incorporated_territory_DEF:0 "The Chickasaw-Muscogee Zone"
+ CMC_autonomy_incorporated_territory:0 "Chickasaw-Muscogee Zone"
+ CMC_autonomy_protected_state_DEF:"The Chickasaw-Muscogee Union"
+ CMC_autonomy_protected_state:0 "Chickasaw-Muscogee Union"
+ CMC_autonomy_unincorporated_territory_DEF:0 "The Chickasaw-Muscogee Territory"
+ CMC_autonomy_unincorporated_territory:0 "Chickasaw-Muscogee Territory"
+
+ COW_autonomy_free_state_DEF:0 "The Arizona Cowboys"
+ COW_autonomy_free_state:0 "Arizona Cowboys"
+ COW_autonomy_incorporated_territory_DEF:0 "The Cowboy Territory"
+ COW_autonomy_incorporated_territory:0 "Cowboy Territory"
+ COW_autonomy_protected_state_DEF:0 "The Arizona Cowboys"
+ COW_autonomy_protected_state:0 "Arizona Cowboys"
+ COW_autonomy_unincorporated_territory_DEF:0 "The Cowboy Territory"
+ COW_autonomy_unincorporated_territory:0 "Cowboy Territory"
+
+
+
+ CRZ_autonomy_free_state_DEF:0 "The Hankstate"
+ CRZ_autonomy_free_state:0 "Hankstate"
+ CRZ_autonomy_incorporated_territory_DEF:0 "The Utah Tribal Territories"
+ CRZ_autonomy_incorporated_territory:0 "Utah Tribal Territories"
+ CRZ_autonomy_protected_state_DEF:"The Price Reservation"
+ CRZ_autonomy_protected_state:0 "Price Reservation"
+ CRZ_autonomy_unincorporated_territory_DEF:0 "The Price Territory"
+ CRZ_autonomy_unincorporated_territory:0 "Price Territory"
+
+
+
+ CWB_autonomy_free_state_DEF:0 "The Armadillo Sectors"
+ CWB_autonomy_free_state:0 "Armadillo Sectors"
+ CWB_autonomy_incorporated_territory_DEF:0 "The Armardillo Zone"
+ CWB_autonomy_incorporated_territory:0 "Armardillo Zone"
+ CWB_autonomy_protected_state_DEF:"The Armardillo Territory"
+ CWB_autonomy_protected_state:0 "Armardillo Territory"
+ CWB_autonomy_unincorporated_territory_DEF:0 "The Armardillo Territory"
+ CWB_autonomy_unincorporated_territory:0 "Armardillo Territory"
+
+ CYC_autonomy_free_state_DEF:0 "The Paradise Valley"
+ CYC_autonomy_free_state:0 "Paradise Valley"
+ CYC_autonomy_incorporated_territory_DEF:0 "The Cyclop Territory"
+ CYC_autonomy_incorporated_territory:0 "Cyclop Territory"
+ CYC_autonomy_protected_state_DEF:0 "The Cyclop Reservation"
+ CYC_autonomy_protected_state:0 "Cyclop Reservation"
+ CYC_autonomy_unincorporated_territory_DEF:0 "The Cyclop Territory"
+ CYC_autonomy_unincorporated_territory:0 "Cyclop Territory"
+
+
+
+ DAY_autonomy_free_state_DEF:0 "The Dayglow Republic"
+ DAY_autonomy_free_state:0 "Dayglow Republic"
+ DAY_autonomy_incorporated_territory_DEF:0 "The Dayglow District"
+ DAY_autonomy_incorporated_territory:0 "Dayglow District"
+ DAY_autonomy_protected_state_DEF:0 "The Dayglow State"
+ DAY_autonomy_protected_state:0 "Dayglow State"
+ DAY_autonomy_unincorporated_territory_DEF:0 "The Dayglow Territory"
+ DAY_autonomy_unincorporated_territory:0 "Dayglow Territory"
+
+
+
+ DEA_autonomy_free_state_DEF:0 "The Dead Bears"
+ DEA_autonomy_free_state:0 "Dead Bears"
+ DEA_autonomy_incorporated_territory_DEF:0 "The I-95 Zone"
+ DEA_autonomy_incorporated_territory:0 "I-95 Zone"
+ DEA_autonomy_protected_state_DEF:"The I-95 Reservation"
+ DEA_autonomy_protected_state:0 "I-95 Reservation"
+ DEA_autonomy_unincorporated_territory_DEF:0 "The I-95 Territory"
+ DEA_autonomy_unincorporated_territory:0 "I-95 Territory"
+
+ DES_autonomy_free_state_DEF:0 "The Bear's Rangers"
+ DES_autonomy_free_state:0 "Bear's Rangers"
+ DES_autonomy_incorporated_territory_DEF:0 "The Nevada Administrators"
+ DES_autonomy_incorporated_territory:0 "Nevada Administration"
+ DES_autonomy_protected_state_DEF:0 "The Bear's Rangers"
+ DES_autonomy_protected_state:0 "Bear's Rangers"
+ DES_autonomy_unincorporated_territory_DEF:0 "The Nevada Territories"
+ DES_autonomy_unincorporated_territory:0 "Nevada Territories"
+
+
+
+ DIS_autonomy_free_state_DEF:0 "The Arago State"
+ DIS_autonomy_free_state:0 "Arago State"
+ DIS_autonomy_incorporated_territory_DEF:0 "The Apostles Administrators"
+ DIS_autonomy_incorporated_territory:0 "Apostles Administration"
+ DIS_autonomy_protected_state_DEF:0 "The Arago Reservation"
+ DIS_autonomy_protected_state:0 "Arago Reservation"
+ DIS_autonomy_unincorporated_territory_DEF:0 "The Apostles Territory"
+ DIS_autonomy_unincorporated_territory:0 "Apostles Territory"
+
+
+
+ DRE_autonomy_free_state_DEF:0 "The Northern Communities"
+ DRE_autonomy_free_state:0 "Northern Community"
+ DRE_autonomy_incorporated_territory_DEF:0 "The Northern Soldiers"
+ DRE_autonomy_incorporated_territory:0 "Northern Outposts"
+ DRE_autonomy_protected_state_DEF:"The Northern Territories"
+ DRE_autonomy_protected_state:0 "Northern Territories"
+ DRE_autonomy_unincorporated_territory_DEF:0 "The Northern Territories"
+ DRE_autonomy_unincorporated_territory:0 "Northern Territories"
+
+
+
+ DRY_autonomy_free_state_DEF:0 "The Colorado Miners"
+ DRY_autonomy_free_state:0 "MiningCorp"
+ DRY_autonomy_incorporated_territory_DEF:0 "The Colorado Miners"
+ DRY_autonomy_incorporated_territory:0 "Dinosaur Territory"
+ DRY_autonomy_protected_state_DEF:"The Colorado Miners"
+ DRY_autonomy_protected_state:0 "MiningCorp"
+ DRY_autonomy_unincorporated_territory_DEF:0 "The Colorado Miners"
+ DRY_autonomy_unincorporated_territory:0 "Dinosaur Territory"
+
+ DSL_autonomy_free_state_DEF:0 "The Doushou Soldiers"
+ DSL_autonomy_free_state:0 "Doushou Garrison"
+ DSL_autonomy_incorporated_territory_DEF:0 "The Doushou Territory"
+ DSL_autonomy_incorporated_territory:0 "Doushou Territory"
+ DSL_autonomy_protected_state_DEF:"The Doushou Soldiers"
+ DSL_autonomy_protected_state:0 "Doushou Garrison"
+ DSL_autonomy_unincorporated_territory_DEF:0 "The Doushou Territory"
+ DSL_autonomy_unincorporated_territory:0 "Doushou Territory"
+
+ DSP_autonomy_free_state_DEF:0 "The Shreveport Disctrics"
+ DSP_autonomy_free_state:0 "Shreveport Disctrics"
+ DSP_autonomy_incorporated_territory_DEF:0 "The Shreveport Zone"
+ DSP_autonomy_incorporated_territory:0 "Shreveport Zone"
+ DSP_autonomy_protected_state_DEF:0 "The Shreveport State"
+ DSP_autonomy_protected_state:0 "Shreveport State"
+ DSP_autonomy_unincorporated_territory_DEF:0 "The Shreveport Territory"
+ DSP_autonomy_unincorporated_territory:0 "Shreveport  Territory"
+
+ EAS_autonomy_free_state_DEF:0 "The Eastport Alcohol Companies"
+ EAS_autonomy_free_state:0 "The Liquor Republic"
+ EAS_autonomy_incorporated_territory_DEF:0 "The Eastport Alcohol Companies"
+ EAS_autonomy_incorporated_territory:0 "Eastport Breweries"
+ EAS_autonomy_protected_state_DEF:"The Eastport Alcohol Companies"
+ EAS_autonomy_protected_state:0 "The Liquor State"
+ EAS_autonomy_unincorporated_territory_DEF:0 "The Eastport Territory"
+ EAS_autonomy_unincorporated_territory:0 "Eastport Territory"
+
+
+
+ EDA_autonomy_free_state_DEF:0 "The Roswell Wardens"
+ EDA_autonomy_free_state:0 "Roswell Sector"
+ EDA_autonomy_incorporated_territory_DEF:0 "The Roswell Territory"
+ EDA_autonomy_incorporated_territory:0 "Roswell Territory"
+ EDA_autonomy_protected_state_DEF:0 "The Roswell Wardens"
+ EDA_autonomy_protected_state:0 "Roswell Survey Sectors"
+ EDA_autonomy_unincorporated_territory_DEF:0 "The Roswell Wardens"
+ EDA_autonomy_unincorporated_territory:0 "Roswell Survey Territories"
+
+ EDN_autonomy_free_state_DEF:0 "The Eden Wardens"
+ EDN_autonomy_free_state:0 "Eden Survey Sectors"
+ EDN_autonomy_incorporated_territory_DEF:0 "The Eden Zone"
+ EDN_autonomy_incorporated_territory:0 "Eden Territory"
+ EDN_autonomy_protected_state_DEF:0 "The Eden Wardens"
+ EDN_autonomy_protected_state:0 "Eden Survey Sectors"
+ EDN_autonomy_unincorporated_territory_DEF:0 "The Eden Wardens"
+ EDN_autonomy_unincorporated_territory:0 "Eden Survey Territories"
+
+ EHT_autonomy_free_state_DEF:0 "The Eighties Reservation"
+ EHT_autonomy_free_state:0 "Eighties Reservation"
+ EHT_autonomy_incorporated_territory_DEF:0 "The I-80 Zone"
+ EHT_autonomy_incorporated_territory:0 "I-80 Zone"
+ EHT_autonomy_protected_state_DEF:"The I-80 Territory"
+ EHT_autonomy_protected_state:0 "I-80 Territory"
+ EHT_autonomy_unincorporated_territory_DEF:0 "The I-80 Territory"
+ EHT_autonomy_unincorporated_territory:0 "I-80 Territory"
+
+
+
+ EXE_autonomy_free_state_DEF:0 "The Plainsrunners Assembly"
+ EXE_autonomy_free_state:0 "Plainsrunners Assembly"
+ EXE_autonomy_incorporated_territory_DEF:0 "The Plainsrunners Zone"
+ EXE_autonomy_incorporated_territory:0 "Plainsrunners Zone"
+ EXE_autonomy_protected_state_DEF:"The Plainsrunners State"
+ EXE_autonomy_protected_state:0 "Plainsrunners State"
+ EXE_autonomy_unincorporated_territory_DEF:0 "The Plainsrunners Territory"
+ EXE_autonomy_unincorporated_territory:0 "Plainsrunners Territory"
+
+ FAR_autonomy_free_state_DEF:0 "The Farfield Soldiers"
+ FAR_autonomy_free_state:0 "Farfield's Garrison"
+ FAR_autonomy_incorporated_territory_DEF:0 "The Farfield Zone"
+ FAR_autonomy_incorporated_territory:0 "Farfield Zone"
+ FAR_autonomy_protected_state_DEF:"The Farfield Soldiers"
+ FAR_autonomy_protected_state:0 "Farfield's Garrison"
+ FAR_autonomy_unincorporated_territory_DEF:0 "The Farfield Territory"
+ FAR_autonomy_unincorporated_territory:0 "Farfield Territory"
+
+
+
+ FFI_autonomy_free_state_DEF:0 "La República de Los Mochis"
+ FFI_autonomy_free_state:0 "República de Los Mochis"
+ FFI_autonomy_incorporated_territory_DEF:0 "The Sinaloa Administrators"
+ FFI_autonomy_incorporated_territory:0 "Sinaloa Administration"
+ FFI_autonomy_protected_state_DEF:0 "The Sinaloa State"
+ FFI_autonomy_protected_state:0 "Sinaloa State"
+ FFI_autonomy_unincorporated_territory_DEF:0 "The Sinaloa Territory"
+ FFI_autonomy_unincorporated_territory:0 "Sinaloa Territory"
+
+ FIE_autonomy_free_state_DEF:0 "The Area 3 Wardens"
+ FIE_autonomy_free_state:0 "Area 3"
+ FIE_autonomy_incorporated_territory_DEF:0 "The Vault Camp"
+ FIE_autonomy_incorporated_territory:0 "Vault Camp"
+ FIE_autonomy_protected_state_DEF:"The Area 3 Wardens"
+ FIE_autonomy_protected_state:0 "Area 3"
+ FIE_autonomy_unincorporated_territory_DEF:0 "The Vault Camp"
+ FIE_autonomy_unincorporated_territory:0 "Vault Camp"
+
+
+
+
+
+ FOR_autonomy_free_state_DEF:0 "The Bear's Foragers"
+ FOR_autonomy_free_state:0 "Bear's Foragers"
+ FOR_autonomy_incorporated_territory_DEF:0 "The Montrose Territory"
+ FOR_autonomy_incorporated_territory:0 "Montrose Territory"
+ FOR_autonomy_protected_state_DEF:0 "The Foragers Corps"
+ FOR_autonomy_protected_state:0 "Foragers Corps"
+ FOR_autonomy_unincorporated_territory_DEF:0 "The Montrose Territory"
+ FOR_autonomy_unincorporated_territory:0 "Montrose Territory"
+
+ FRI_autonomy_free_state_DEF:0 "Frisco Republic"
+ FRI_autonomy_free_state:0 "Frisco Republic"
+ FRI_autonomy_incorporated_territory_DEF:0 "The Frisco Territory"
+ FRI_autonomy_incorporated_territory:0 "Frisco Territory"
+ FRI_autonomy_protected_state_DEF:"The Frisco State"
+ FRI_autonomy_protected_state:0 "Frisco State"
+ FRI_autonomy_unincorporated_territory_DEF:0 "The Frisco Territory"
+ FRI_autonomy_unincorporated_territory:0 "Frisco Territory"
+
+
+
+ GAM_autonomy_free_state_DEF:0 "The Alexandria Districts"
+ GAM_autonomy_free_state:0 "Alexandria Districts"
+ GAM_autonomy_incorporated_territory_DEF:0 "The Alexandria Zone"
+ GAM_autonomy_incorporated_territory:0 "Alexandria Zone"
+ GAM_autonomy_protected_state_DEF:0 "The Alexandria State"
+ GAM_autonomy_protected_state:0 "Alexandria State"
+ GAM_autonomy_unincorporated_territory_DEF:0 "The Alexandria Territory"
+ GAM_autonomy_unincorporated_territory:0 "Alexandria Territory"
+
+ GDH_autonomy_free_state_DEF:0 "La República de Gente"
+ GDH_autonomy_free_state:0 "República de Gente"
+ GDH_autonomy_incorporated_territory_DEF:0 "The Sonora Territory"
+ GDH_autonomy_incorporated_territory:0 "Sonora Territory"
+ GDH_autonomy_protected_state_DEF:0 "The Sonora State"
+ GDH_autonomy_protected_state:0 "Sonora State"
+ GDH_autonomy_unincorporated_territory_DEF:0 "The Sonora Territory"
+ GDH_autonomy_unincorporated_territory:0 "Sonora Territory"
+
+ GLW_autonomy_free_state_DEF:0 "The Boulder Wardens"
+ GLW_autonomy_free_state:0 "Boulder Area"
+ GLW_autonomy_incorporated_territory_DEF:0 "The Boulder Soldiers"
+ GLW_autonomy_incorporated_territory:0 "Boulder Territory"
+ GLW_autonomy_protected_state_DEF:"The Boulder Soldiers"
+ GLW_autonomy_protected_state:0 "Boulder Camp"
+ GLW_autonomy_unincorporated_territory_DEF:0 "The Boulder Soldiers"
+ GLW_autonomy_unincorporated_territory:0 "Boulder Territory"
+
+ GRA_autonomy_free_state_DEF:0 "The City 318"
+ GRA_autonomy_free_state:0 "City 318"
+ GRA_autonomy_incorporated_territory_DEF:0 "The Territory 318" 
+ GRA_autonomy_incorporated_territory:0 "Territory 318"
+ GRA_autonomy_protected_state_DEF:0 "The Sector 318"
+ GRA_autonomy_protected_state:0 "Sector 318"
+ GRA_autonomy_unincorporated_territory_DEF:0 "The Territory 318"
+ GRA_autonomy_unincorporated_territory:0 "Territory 318"
+
+
+
+ GRH_autonomy_free_state_DEF:0 "República de Honduras"
+ GRH_autonomy_free_state:0 "República de Honduras"
+ GRH_autonomy_incorporated_territory_DEF:0 "The Honduras Administrators"
+ GRH_autonomy_incorporated_territory:0 "Honduras Administration"
+ GRH_autonomy_protected_state_DEF:0 "Los Guardias de Honduras"
+ GRH_autonomy_protected_state:0 "Guardias de Honduras"
+ GRH_autonomy_unincorporated_territory_DEF:0 "The Honduras Territory"
+ GRH_autonomy_unincorporated_territory:0 "Honduras Territory"
+
+ HAI_autonomy_free_state_DEF:0 "The Haida Traders"
+ HAI_autonomy_free_state:0 "Haida Trade Hub"
+ HAI_autonomy_incorporated_territory_DEF:0 "The Graham Soldiers"
+ HAI_autonomy_incorporated_territory:0 "Graham Outposts"
+ HAI_autonomy_protected_state_DEF:"The Graham Reservation"
+ HAI_autonomy_protected_state:0 "Graham Reservation"
+ HAI_autonomy_unincorporated_territory_DEF:0 "The Graham Territory"
+ HAI_autonomy_unincorporated_territory:0 "Graham Territory"
+
+ HAM_autonomy_free_state_DEF:0 "The Hammond Glass Companies"
+ HAM_autonomy_free_state:0 "Republic of Glass"
+ HAM_autonomy_incorporated_territory_DEF:0 "The Hammond Glasswares"
+ HAM_autonomy_incorporated_territory:0 "Hammond Glasswares"
+ HAM_autonomy_protected_state_DEF:"The Hammond Glass Companies"
+ HAM_autonomy_protected_state:0 "Hammond Glass Corporation"
+ HAM_autonomy_unincorporated_territory_DEF:0 "The Hammond Glass Companies"
+ HAM_autonomy_unincorporated_territory:0 "Hammond Territory"
+
+ HAN_autonomy_free_state_DEF:0 "The NCR Colorado Commanders"
+ HAN_autonomy_free_state:0 "Colorado Command Bloc"
+ HAN_autonomy_incorporated_territory_DEF:0 "The Colorado Administrators"
+ HAN_autonomy_incorporated_territory:0 "Colorado Administration"
+ HAN_autonomy_protected_state_DEF:"The NCR Denver Commanders"
+ HAN_autonomy_protected_state:0 "Denver Command Bloc"
+ HAN_autonomy_unincorporated_territory_DEF:0 "The Colorado Territories"
+ HAN_autonomy_unincorporated_territory:0 "Colorado Territories"
+
+ HEA_autonomy_free_state_DEF:0 "The Bear's Gate"
+ HEA_autonomy_free_state:0 "Bear's Gate"
+ HEA_autonomy_incorporated_territory_DEF:0 "The Idaho Soldiers"
+ HEA_autonomy_incorporated_territory:0 "Idaho Outposts Zone"
+ HEA_autonomy_protected_state_DEF:"The Idaho Expedition"
+ HEA_autonomy_protected_state:0 "Idaho Expedition"
+ HEA_autonomy_unincorporated_territory_DEF:0 "The Idaho Soldiers"
+ HEA_autonomy_unincorporated_territory:0 "Idaho Territories"
+
+
+
+ HGH_autonomy_free_state_DEF:0 "The High Sanctuary"
+ HGH_autonomy_free_state:0 "High Sanctuary"
+ HGH_autonomy_incorporated_territory_DEF:0 "The Nicea Zone"
+ HGH_autonomy_incorporated_territory:0 "Nicea Zone"
+ HGH_autonomy_protected_state_DEF:"The NCR Nicean Commanders"
+ HGH_autonomy_protected_state:0 "Nicea Command Sector"
+ HGH_autonomy_unincorporated_territory_DEF:0 "The Nicea Territory"
+ HGH_autonomy_unincorporated_territory:0 "Nicea Territory"
+
+
+
+ HRO_autonomy_free_state_DEF:0 "Houston Republic"
+ HRO_autonomy_free_state:0 "Houston Republic"
+ HRO_autonomy_incorporated_territory_DEF:0 "The Houston Rockets"
+ HRO_autonomy_incorporated_territory:0 "Houston Zone"
+ HRO_autonomy_protected_state_DEF:0 "The Houston State"
+ HRO_autonomy_protected_state:0 "Houston State"
+ HRO_autonomy_unincorporated_territory_DEF:0 "The Houston Territory"
+ HRO_autonomy_unincorporated_territory:0 "Houston Territory"
+
+ HUA_autonomy_free_state_DEF:0 "The Hualapai State"
+ HUA_autonomy_free_state:0 "Hualapai State"
+ HUA_autonomy_incorporated_territory_DEF:0 "The Hualapai Territory"
+ HUA_autonomy_incorporated_territory:0 "Hualapai Territory"
+ HUA_autonomy_protected_state_DEF:0 "The Hualapai Reservation"
+ HUA_autonomy_protected_state:0 "Hualapai Reservation"
+ HUA_autonomy_unincorporated_territory_DEF:0 "The Hualapai Territory"
+ HUA_autonomy_unincorporated_territory:0 "Hualapai Territory"
+
+
+
+ HXL_autonomy_free_state_DEF:0 "The Hexie Soldiers"
+ HXL_autonomy_free_state:0 "Hexie Garrison"
+ HXL_autonomy_incorporated_territory_DEF:0 "The Hexie Territory"
+ HXL_autonomy_incorporated_territory:0 "Hexie Territory"
+ HXL_autonomy_protected_state_DEF:"The Hexie Soldiers"
+ HXL_autonomy_protected_state:0 "Hexie Garrison"
+ HXL_autonomy_unincorporated_territory_DEF:0 "The Hexie Territory"
+ HXL_autonomy_unincorporated_territory:0 "Hexie Territory"
+
+ IMO_autonomy_free_state_DEF:0 "The Texan Workers"
+ IMO_autonomy_free_state:0 "Texan Arsenal Zone"
+ IMO_autonomy_incorporated_territory_DEF:0 "The Texan Workers"
+ IMO_autonomy_incorporated_territory:0 "Texan Forges Zone"
+ IMO_autonomy_protected_state_DEF:0 "The Texan Workers"
+ IMO_autonomy_protected_state:0 "Texan Arsenal Sector"
+ IMO_autonomy_unincorporated_territory_DEF:0 "The Texan Workers"
+ IMO_autonomy_unincorporated_territory:0 "Texan Arsenal Territory"
+
+ INR_autonomy_free_state_DEF:0 "The Circle Hub"
+ INR_autonomy_free_state:0 "Circle Hub"
+ INR_autonomy_incorporated_territory_DEF:0 "The Circle Station"
+ INR_autonomy_incorporated_territory:0 "Circle Station"
+ INR_autonomy_protected_state_DEF:"The Circle Station"
+ INR_autonomy_protected_state:0 "Circle Station"
+ INR_autonomy_unincorporated_territory_DEF:0 "The Circle Station"
+ INR_autonomy_unincorporated_territory:0 "Circle Station"
+
+ IRN_autonomy_free_state_DEF:0 "The Sterling State"
+ IRN_autonomy_free_state:0 "Sterling State"
+ IRN_autonomy_incorporated_territory_DEF:0 "The Sterling Territory"
+ IRN_autonomy_incorporated_territory:0 "Sterling Territory"
+ IRN_autonomy_protected_state_DEF:"The Iron Squadrons"
+ IRN_autonomy_protected_state:0 "Iron Squadrons"
+ IRN_autonomy_unincorporated_territory_DEF:0 "The Sterling Territory"
+ IRN_autonomy_unincorporated_territory:0 "Sterling Territory"
+
+ ITZ_autonomy_free_state_DEF:0 "La Nueva Itzan República"
+ ITZ_autonomy_free_state:0 "Nueva Itzan República"
+ ITZ_autonomy_incorporated_territory_DEF:0 "The Eastern Mexican Administrators"
+ ITZ_autonomy_incorporated_territory:0 "Eastern Mexican Administration"
+ ITZ_autonomy_protected_state_DEF:0 "The Eastern Mexican State"
+ ITZ_autonomy_protected_state:0 "Eastern Mexican State"
+ ITZ_autonomy_unincorporated_territory_DEF:0 "The Eastern Mexico Territories"
+ ITZ_autonomy_unincorporated_territory:0 "Eastern Mexican Territories"
+
+ JAC_autonomy_free_state_DEF:0 "The Jackals Reservation"
+ JAC_autonomy_free_state:0 "Jackals Reservation"
+ JAC_autonomy_incorporated_territory_DEF:0 "The Hawthorne Territory"
+ JAC_autonomy_incorporated_territory:0 "Hawthorne Territory"
+ JAC_autonomy_protected_state_DEF:0 "The Jackals Reservation"
+ JAC_autonomy_protected_state:0 "Jackals Reservation"
+ JAC_autonomy_unincorporated_territory_DEF:0 "The Hawthorne Territory"
+ JAC_autonomy_unincorporated_territory:0 "Hawthorne Territory"
+
+
+
+ JCT_autonomy_free_state_DEF:0 "The Jacbostown Free Mutants"
+ JCT_autonomy_free_state:0 "Jacbostown Free Zone"
+ JCT_autonomy_incorporated_territory_DEF:0 "The Jacobstown Soldiers"
+ JCT_autonomy_incorporated_territory:0 "Jacobstown Outpost"
+ JCT_autonomy_protected_state_DEF:"The Jacobstate Mutants"
+ JCT_autonomy_protected_state:0 "Jacobstate"
+ JCT_autonomy_unincorporated_territory_DEF:0 "The Jacobstown Mutants"
+ JCT_autonomy_unincorporated_territory:0 "Jacobstown Sector"
+
+
+
+ KAM_autonomy_free_state_DEF:0 "The Kamlo Communities"
+ KAM_autonomy_free_state:0 "Kamlo Community"
+ KAM_autonomy_incorporated_territory_DEF:0 "The Kamlo Soldiers"
+ KAM_autonomy_incorporated_territory:0 "Kamlo Outposts"
+ KAM_autonomy_protected_state_DEF:"The Kamlo Territories"
+ KAM_autonomy_protected_state:0 "Kamlo Territories"
+ KAM_autonomy_unincorporated_territory_DEF:0 "The Kamlo Territories"
+ KAM_autonomy_unincorporated_territory:0 "Kamlo Territories"
+
+
+
+ KHA_autonomy_free_state_DEF:0 "The Regis Khans"
+ KHA_autonomy_free_state:0 "Regis's Khans"
+ KHA_autonomy_incorporated_territory_DEF:0 "The Northern Mojave Territories"
+ KHA_autonomy_incorporated_territory:0 "Northern Mojave Territories"
+ KHA_autonomy_protected_state_DEF:"The Khans"
+ KHA_autonomy_protected_state:0 "Khans Reservation"
+ KHA_autonomy_unincorporated_territory_DEF:0 "The Khans"
+ KHA_autonomy_unincorporated_territory:0 "Khans Territory"
+
+
+
+ KLA_autonomy_free_state_DEF:0 "The Klamath State"
+ KLA_autonomy_free_state:0 "Klamath State"
+ KLA_autonomy_incorporated_territory_DEF:0 "The Klamath Territory"
+ KLA_autonomy_incorporated_territory:0 "Klamath Territory"
+ KLA_autonomy_protected_state_DEF:0 "The Klamath State"
+ KLA_autonomy_protected_state:0 "Klamath State"
+ KLA_autonomy_unincorporated_territory_DEF:0 "The Klamath Territory"
+ KLA_autonomy_unincorporated_territory:0 "Klamath Territory"
+
+ LAC_autonomy_free_state_DEF:0 "The New Mexico State"
+ LAC_autonomy_free_state:0 "New Mexico State"
+ LAC_autonomy_incorporated_territory_DEF:0 "The New Mexico Territory"
+ LAC_autonomy_incorporated_territory:0 "New Mexico Territory"
+ LAC_autonomy_protected_state_DEF:0 "The New Mexico Sector"
+ LAC_autonomy_protected_state:0 "New Mexico Sector"
+ LAC_autonomy_unincorporated_territory_DEF:0 "The New Mexico Territory"
+ LAC_autonomy_unincorporated_territory:0 "New Mexico Territory"
+
+ LGS_autonomy_free_state_DEF:0 "The Chihuahua Republic"
+ LGS_autonomy_free_state:0 "Chihuahua Republic"
+ LGS_autonomy_incorporated_territory_DEF:0 "The Chihuahua Administrators"
+ LGS_autonomy_incorporated_territory:0 "Chihuahua Administration"
+ LGS_autonomy_protected_state_DEF:0 "The Chihuahua Farmers"
+ LGS_autonomy_protected_state:0 "Chihuahua State"
+ LGS_autonomy_unincorporated_territory_DEF:0 "The Chihuahua Farmers"
+ LGS_autonomy_unincorporated_territory:0 "Chihuahua Territory"
+
+ LNS_autonomy_free_state_DEF:0 "The Lonestar State"
+ LNS_autonomy_free_state:0 "Lonestar State"
+ LNS_autonomy_incorporated_territory_DEF:0 "The Lonestar Zone"
+ LNS_autonomy_incorporated_territory:0 "Lonestar Zone"
+ LNS_autonomy_protected_state_DEF:0 "The I-20 Territory"
+ LNS_autonomy_protected_state:0 "I-20 Territory"
+ LNS_autonomy_unincorporated_territory_DEF:0 "The Lonestar Districts"
+ LNS_autonomy_unincorporated_territory:0 "Lonestar Districts"
+
+ LON_autonomy_free_state_DEF:0 "The Jackson One"
+ LON_autonomy_free_state:0 "Jackson State"
+ LON_autonomy_incorporated_territory_DEF:0 "The Jackson One"
+ LON_autonomy_incorporated_territory:0 "Jackson Zone"
+ LON_autonomy_protected_state_DEF:"The Jackson One"
+ LON_autonomy_protected_state:0 "Jackson Reservation"
+ LON_autonomy_unincorporated_territory_DEF:0 "The Jackson One"
+ LON_autonomy_unincorporated_territory:0 "Jackson Territory"
+
+
+
+ LOS_autonomy_free_state_DEF:0 "The Los Disctricts"
+ LOS_autonomy_free_state:0 "Los Disctricts"
+ LOS_autonomy_incorporated_territory_DEF:0 "The Los Territory"
+ LOS_autonomy_incorporated_territory:0 "Los Territory"
+ LOS_autonomy_protected_state_DEF:0 "The Los Territory"
+ LOS_autonomy_protected_state:0 "Los Territory"
+ LOS_autonomy_unincorporated_territory_DEF:0 "The Los Territory"
+ LOS_autonomy_unincorporated_territory:0 "Los Territory"
+
+ LUB_autonomy_free_state_DEF:0 "The Lubbock State"
+ LUB_autonomy_free_state:0 "Lubbock State"
+ LUB_autonomy_incorporated_territory_DEF:0 "The Lubbock Zone"
+ LUB_autonomy_incorporated_territory:0 "Lubbock Zone"
+ LUB_autonomy_protected_state_DEF:"Lubbock Sectors"
+ LUB_autonomy_protected_state:0 "Lubbock Sectors"
+ LUB_autonomy_unincorporated_territory_DEF:0 "The Lubbock Territory"
+ LUB_autonomy_unincorporated_territory:0 "Lubbock Territory"
+
+ LUM_autonomy_free_state_DEF:0 "The Luminous Units"
+ LUM_autonomy_free_state:0 "Luminous Units"
+ LUM_autonomy_incorporated_territory_DEF:0 "The Luminous Territory"
+ LUM_autonomy_incorporated_territory:0 "Luminous Territory"
+ LUM_autonomy_protected_state_DEF:"The Luminous Units"
+ LUM_autonomy_protected_state:0 "Luminous Units"
+ LUM_autonomy_unincorporated_territory_DEF:0 "The Luminous Territory"
+ LUM_autonomy_unincorporated_territory:0 "Luminous Territory"
+
+ MDT_autonomy_free_state_DEF:0 "Sherman Soldiers"
+ MDT_autonomy_free_state:0 "Sherman Territory"
+ MDT_autonomy_incorporated_territory_DEF:0 "The Sherman Administrators"
+ MDT_autonomy_incorporated_territory:0 "Sherman Administration"
+ MDT_autonomy_protected_state_DEF:"The Sherman Soldiers"
+ MDT_autonomy_protected_state:0 "Sherman's Garrison"
+ MDT_autonomy_unincorporated_territory_DEF:0 "The Sherman Soldiers"
+ MDT_autonomy_unincorporated_territory:0 "Sherman Camp"
+
+
+
+ MES_autonomy_free_state_DEF:0 "The Mescalero State"
+ MES_autonomy_free_state:0 "Mescalero State"
+ MES_autonomy_incorporated_territory_DEF:0 "The Mescalero Territory"
+ MES_autonomy_incorporated_territory:0 "Mescalero Territory"
+ MES_autonomy_protected_state_DEF:0 "The Mescalero Reservation"
+ MES_autonomy_protected_state:0 "Mescalero Reservation"
+ MES_autonomy_unincorporated_territory_DEF:0 "The Mescalero Territory"
+ MES_autonomy_unincorporated_territory:0 "Mescalero Territory"
+
+ MLT_autonomy_free_state_DEF:0 "The Crowlands Territories"
+ MLT_autonomy_free_state:0 "Crowlands Territories"
+ MLT_autonomy_incorporated_territory_DEF:0 "The Natural Mireluck Reserve"
+ MLT_autonomy_incorporated_territory:0 "Natural Mireluck Reserve"
+ MLT_autonomy_protected_state_DEF:0 "The Coral Reservation"
+ MLT_autonomy_protected_state:0 "Coral Reservation"
+ MLT_autonomy_unincorporated_territory_DEF:0 "The Natural Mireluck Reserve"
+ MLT_autonomy_unincorporated_territory:0 "Natural Mireluck Reserve"
+
+
+
+
+
+ MOS_autonomy_free_state_DEF:0 "The Mountain Springs"
+ MOS_autonomy_free_state:0 "Mountain Springs"
+ MOS_autonomy_incorporated_territory_DEF:0 "The Californian Route 127"
+ MOS_autonomy_incorporated_territory:0 "Californian Route 127"
+ MOS_autonomy_protected_state_DEF:0 "The Mountain Springs"
+ MOS_autonomy_protected_state:0 "Mountain Springs"
+ MOS_autonomy_unincorporated_territory_DEF:0 "The Californian Route 127"
+ MOS_autonomy_unincorporated_territory:0 "Californian Route 127"
+
+
+
+
+
+ MUR_autonomy_free_state_DEF:0 "The Murtaugh Ecclesiarchs"
+ MUR_autonomy_free_state:0 "Murtaugh Ecclesia"
+ MUR_autonomy_incorporated_territory_DEF:0 "The Murtaugh Zone"
+ MUR_autonomy_incorporated_territory:0 "Murtaugh Zone"
+ MUR_autonomy_protected_state_DEF:"The Murtaugh Town"
+ MUR_autonomy_protected_state:0 "Murtaugh Town"
+ MUR_autonomy_unincorporated_territory_DEF:0 "The Murtaugh Territory"
+ MUR_autonomy_unincorporated_territory:0 "Murtaugh Territory"
+
+
+
+ MXC_autonomy_free_state_DEF:0 "The Aradesh Expedition"
+ MXC_autonomy_free_state:0 "Aradesh Expedition"
+ MXC_autonomy_incorporated_territory_DEF:0 "The Aradesh Territory"
+ MXC_autonomy_incorporated_territory:0 "Aradesh Territory"
+ MXC_autonomy_protected_state_DEF:"The Aradesh Paladins"
+ MXC_autonomy_protected_state:0 "Aradesh Chapter"
+ MXC_autonomy_unincorporated_territory_DEF:0 "The Aradesh Territory"
+ MXC_autonomy_unincorporated_territory:0 "Aradesh Territory"
+
+ NAV_autonomy_free_state_DEF:0 "The New Navajo Republic"
+ NAV_autonomy_free_state:0 "New Navajo Republic"
+ NAV_autonomy_incorporated_territory_DEF:0 "The Najavo Administrators"
+ NAV_autonomy_incorporated_territory:0 "Najavo Administration"
+ NAV_autonomy_protected_state_DEF:0 "The Navajo State"
+ NAV_autonomy_protected_state:0 "Navajo State"
+ NAV_autonomy_unincorporated_territory_DEF:0 "The Najavo Territory"
+ NAV_autonomy_unincorporated_territory:0 "Najavo Territory"
+
+
+
+ NCN_autonomy_free_state_DEF:0 "The New Utah Republic"
+ NCN_autonomy_free_state:0 "New Utah Republic"
+ NCN_autonomy_incorporated_territory_DEF:0 "The Mormon Zone"
+ NCN_autonomy_incorporated_territory:0 "Mormon Zone"
+ NCN_autonomy_protected_state_DEF:"The Mormon Administrators"
+ NCN_autonomy_protected_state:0 "Mormon Administration"
+ NCN_autonomy_unincorporated_territory_DEF:0 "The Mormon Territories"
+ NCN_autonomy_unincorporated_territory:0 "Mormon Territories"
+
+
+
+
+
+ NEW_autonomy_free_state_DEF:0 "The Reno Republic"
+ NEW_autonomy_incorporated_territory_DEF:0 "The Reno Districts"
+ NEW_autonomy_incorporated_territory:0 "Reno Districts"
+ NEW_autonomy_protected_state_DEF:0 "The Reno State"
+ NEW_autonomy_protected_state:0 "Reno State"
+ NEW_autonomy_unincorporated_territory_DEF:0 "The Reno Territory"
+ NEW_autonomy_unincorporated_territory:0 "Reno Territory"
+
+ NOE_autonomy_free_state_DEF:0 "The Noemen Reservation"
+ NOE_autonomy_free_state:0 "Noemen Reservation"
+ NOE_autonomy_incorporated_territory_DEF:0 "The Noemen Zone"
+ NOE_autonomy_incorporated_territory:0 "Noemen Zone"
+ NOE_autonomy_protected_state_DEF:"The Noemen Reservation"
+ NOE_autonomy_protected_state:0 "Noemen Reservation"
+ NOE_autonomy_unincorporated_territory_DEF:0 "The Noemen Territory"
+ NOE_autonomy_unincorporated_territory:0 "Noemen Territory"
+
+
+
+ NPE_autonomy_free_state_DEF:0 "The North Pole Expedition"
+ NPE_autonomy_free_state:0 "North Pole Expedition"
+ NPE_autonomy_incorporated_territory_DEF:0 "The North Pole Zone"
+ NPE_autonomy_incorporated_territory:0 "North Pole Zone"
+ NPE_autonomy_protected_state_DEF:"The North Pole Expedition"
+ NPE_autonomy_protected_state:0 "North Pole Expedition"
+ NPE_autonomy_unincorporated_territory_DEF:0 "The North Pole Territory"
+ NPE_autonomy_unincorporated_territory:0 "North Pole Territory"
+
+ OLY_autonomy_free_state_DEF:0 "The Olympus Reserve"
+ OLY_autonomy_free_state:0 "Olympus Reserve"
+ OLY_autonomy_incorporated_territory_DEF:0 "The Olympus Foresters"
+ OLY_autonomy_incorporated_territory:0 "Olympus Park"
+ OLY_autonomy_protected_state_DEF:"The Olympus Reserve"
+ OLY_autonomy_protected_state:0 "Olympus Reserve"
+ OLY_autonomy_unincorporated_territory_DEF:0 "The Olympus Territory"
+ OLY_autonomy_unincorporated_territory:0 "Olympus Territory"
+
+
+
+ ORO_autonomy_free_state_DEF:0 "The Ouroboros Refugees"
+ ORO_autonomy_free_state:0 "Ouroboros Refuge"
+ ORO_autonomy_incorporated_territory_DEF:0 "The Western Colorado Territories"
+ ORO_autonomy_incorporated_territory:0 "West Colorado Territories"
+ ORO_autonomy_protected_state_DEF:"The Ouroboros Refugees"
+ ORO_autonomy_protected_state:0 "Ouroboros Refuge"
+ ORO_autonomy_unincorporated_territory_DEF:0 "The Ouroboros Territory"
+ ORO_autonomy_unincorporated_territory:0 "Ouroboros Territory"
+
+ PAL_autonomy_free_state_DEF:0 "The Palefolk Reservation"
+ PAL_autonomy_free_state:0 "Carlin State"
+ PAL_autonomy_incorporated_territory_DEF:0 "The Palefolk Territory"
+ PAL_autonomy_incorporated_territory:0 "Palefolk Territory"
+ PAL_autonomy_protected_state_DEF:0 "The Palefolk Reservation"
+ PAL_autonomy_protected_state:0 "Palefolk Reservation"
+ PAL_autonomy_unincorporated_territory_DEF:0 "The Palefolk Territory"
+ PAL_autonomy_unincorporated_territory:0 "Palefolk Territory"
+
+
+
+ PAR_autonomy_free_state_DEF:0 "The Mesa Reservation"
+ PAR_autonomy_free_state:0 "Mesa Reservation"
+ PAR_autonomy_incorporated_territory_DEF:0 "The Mesa Zone"
+ PAR_autonomy_incorporated_territory:0 "Mesa Zone"
+ PAR_autonomy_protected_state_DEF:"The Mesa Sector"
+ PAR_autonomy_protected_state:0 "Mesa Sector"
+ PAR_autonomy_unincorporated_territory_DEF:0 "The Mesa Territory"
+ PAR_autonomy_unincorporated_territory:0 "The Mesa Territory"
+
+ PEC_autonomy_free_state_DEF:0 "The Pecos Ranchers"
+ PEC_autonomy_free_state:0 "Pecos Republic"
+ PEC_autonomy_incorporated_territory_DEF:0 "The Pecos Territory"
+ PEC_autonomy_incorporated_territory:0 "Pecos Territory"
+ PEC_autonomy_protected_state_DEF:0 "The Pecos Ranchers"
+ PEC_autonomy_protected_state:0 "Pecos State"
+ PEC_autonomy_unincorporated_territory_DEF:0 "The Pecos Territory"
+ PEC_autonomy_unincorporated_territory:0 "Pecos Territory"
+
+ PER_autonomy_free_state_DEF:0 "The McAllen Commanders"
+ PER_autonomy_free_state:0 "McAllen"
+ PER_autonomy_incorporated_territory_DEF:0 "The McAllen Administrators"
+ PER_autonomy_incorporated_territory:0 "McAllen Zone"
+ PER_autonomy_protected_state_DEF:0 "The McAllen Commanders"
+ PER_autonomy_protected_state:0 "McAllen Sector"
+ PER_autonomy_unincorporated_territory_DEF:0 "The McAllen Commanders"
+ PER_autonomy_unincorporated_territory:0 "McAllen Territory"
+
+ PET_autonomy_free_state_DEF:0 "Petro Chico workers"
+ PET_autonomy_free_state:0 "Petro Chico Company"
+ PET_autonomy_incorporated_territory_DEF:0 "The Petro Chico Administrators"
+ PET_autonomy_incorporated_territory:0 "Petro Chico Administration"
+ PET_autonomy_protected_state_DEF:0 "The Petro Chico workers"
+ PET_autonomy_protected_state:0 "Petro Chico Reservation"
+ PET_autonomy_unincorporated_territory_DEF:0 "The Petro Chico Territory"
+ PET_autonomy_unincorporated_territory:0 "Petro Chico Territory"
+
+
+
+ PMR_autonomy_free_state_DEF:0 "The Junkport Traders"
+ PMR_autonomy_free_state:0 "Junkport State"
+ PMR_autonomy_incorporated_territory_DEF:0 "The Junkport Traders"
+ PMR_autonomy_incorporated_territory:0 "Junkport Districts"
+ PMR_autonomy_protected_state_DEF:"The Junkport Traders"
+ PMR_autonomy_protected_state:0 "Junkport Hub"
+ PMR_autonomy_unincorporated_territory_DEF:0 "The Junkport Traders"
+ PMR_autonomy_unincorporated_territory:0 "Junkport Territory"
+
+
+
+ PNT_autonomy_free_state_DEF:0 "The Cipher Corps"
+ PNT_autonomy_free_state:0 "Cipher Corps"
+ PNT_autonomy_incorporated_territory_DEF:0 "The Mesa Sector"
+ PNT_autonomy_incorporated_territory:0 "Mesa Sector"
+ PNT_autonomy_protected_state_DEF:0 "The Cipher Reservation"
+ PNT_autonomy_protected_state:0 "Cipher Reservation"
+ PNT_autonomy_unincorporated_territory_DEF:0 "The Mesa Territory"
+ PNT_autonomy_unincorporated_territory:0 "Mesa Territory"
+
+ PSH_autonomy_free_state_DEF:0 "The Utah Protectron Commanders"
+ PSH_autonomy_free_state:0 "Utah Protectron Hub"
+ PSH_autonomy_incorporated_territory_DEF:0 "Utah Command Bloc"
+ PSH_autonomy_incorporated_territory:0 "Utah Command Bloc"
+ PSH_autonomy_protected_state_DEF:"The NCR Utah Commanders"
+ PSH_autonomy_protected_state:0 "Utah Command Bloc"
+ PSH_autonomy_unincorporated_territory_DEF:0 "Utah Command Bloc"
+ PSH_autonomy_unincorporated_territory:0 "Utah Command Bloc"
+
+
+
+
+
+ RBD_autonomy_free_state_DEF:0 "The Chihuahua Ranchers"
+ RBD_autonomy_free_state:0 "Chihuahua Ranchers"
+ RBD_autonomy_incorporated_territory_DEF:0 "The Baudelio Administrators"
+ RBD_autonomy_incorporated_territory:0 "Baudelio Administration"
+ RBD_autonomy_protected_state_DEF:0 "The Baudelio State"
+ RBD_autonomy_protected_state:0 "Baudelio State"
+ RBD_autonomy_unincorporated_territory_DEF:0 "The Baudelio Territory"
+ RBD_autonomy_unincorporated_territory:0 "Baudelio Territory"
+
+ RBT_autonomy_free_state_DEF:0 "The Salem State"
+ RBT_autonomy_free_state:0 "Salem State"
+ RBT_autonomy_incorporated_territory_DEF:0 "The Salem Administrators"
+ RBT_autonomy_incorporated_territory:0 "Salem Administration"
+ RBT_autonomy_protected_state_DEF:"The Salem Reservation"
+ RBT_autonomy_protected_state:0 "Salem Reservation"
+ RBT_autonomy_unincorporated_territory_DEF:0 "The Salem Territory"
+ RBT_autonomy_unincorporated_territory:0 "Salem Territory"
+
+
+
+ RES_autonomy_free_state_DEF:0 "Los Alamos"
+ RES_autonomy_free_state:0 "Los Alamos"
+ RES_autonomy_incorporated_territory_DEF:0 "Los Alamos Sectors"
+ RES_autonomy_incorporated_territory:0 "Los Alamos Sectors"
+ RES_autonomy_protected_state_DEF:0 "Los Alamos Territories"
+ RES_autonomy_protected_state:0 "Los Alamos Territories"
+ RES_autonomy_unincorporated_territory_DEF:0 "Los Alamos Sectors"
+ RES_autonomy_unincorporated_territory:0 "Los Alamos Sectors"
+
+
+
+ RIP_autonomy_free_state_DEF:0 "The Crescent State"
+ RIP_autonomy_free_state:0 "Crescent State"
+ RIP_autonomy_incorporated_territory_DEF:0 "The Riperult Territory"
+ RIP_autonomy_incorporated_territory:0 "Riperult Territory"
+ RIP_autonomy_protected_state_DEF:0 "The Riperult Sector"
+ RIP_autonomy_protected_state:0 "Riperult Sector"
+ RIP_autonomy_unincorporated_territory_DEF:0 "The Riperult Territory"
+ RIP_autonomy_unincorporated_territory:0 "Riperult Territory"
+
+
+
+ ROB_autonomy_free_state_DEF:0 "The Robot Squads"
+ ROB_autonomy_free_state:0 "Colorado Robot Squads"
+ ROB_autonomy_incorporated_territory_DEF:0 "The Robot Depot"
+ ROB_autonomy_incorporated_territory:0 "Robot Depot"
+ ROB_autonomy_protected_state_DEF:"The Robot Valley"
+ ROB_autonomy_protected_state:0 "Robot Valley"
+ ROB_autonomy_unincorporated_territory_DEF:0 "The Robot Territory"
+ ROB_autonomy_unincorporated_territory:0 "Robot Territory"
+
+ ROT_autonomy_free_state_DEF:0 "The NCR's Cleaners"
+ ROT_autonomy_free_state:0 "Cleaners State"
+ ROT_autonomy_incorporated_territory_DEF:0 "The NCR's Cleaners"
+ ROT_autonomy_incorporated_territory:0 "Cleaners Sector"
+ ROT_autonomy_protected_state_DEF:"The NCR's Cleaners"
+ ROT_autonomy_protected_state:0 "NCR's Cleaners"
+ ROT_autonomy_unincorporated_territory_DEF:0 "The NCR's Cleaners"
+ ROT_autonomy_unincorporated_territory:0 "Cleaners Territory"
+
+ RRG_autonomy_free_state_DEF:0 "The New Gloria Republic"
+ RRG_autonomy_free_state:0 "New Gloria Republic"
+ RRG_autonomy_incorporated_territory_DEF:0 "The Gloria Administrators"
+ RRG_autonomy_incorporated_territory:0 "Northern Mexico Administration"
+ RRG_autonomy_protected_state_DEF:0 "The State of Rio Grande"
+ RRG_autonomy_protected_state:0 "State of Rio Grande"
+ RRG_autonomy_unincorporated_territory_DEF:0 "The Gloria Territory"
+ RRG_autonomy_unincorporated_territory:0 "Gloria Territory"
+
+
+
+ RUB_autonomy_free_state_DEF:0 "The Ruby State"
+ RUB_autonomy_free_state:0 "Ruby State"
+ RUB_autonomy_incorporated_territory_DEF:0 "The Ruby Administrators"
+ RUB_autonomy_incorporated_territory:0 "Ruby Administration"
+ RUB_autonomy_protected_state_DEF:0 "The Ruby Sector"
+ RUB_autonomy_protected_state:0 "Ruby Sector"
+ RUB_autonomy_unincorporated_territory_DEF:0 "The Ruby Territory"
+ RUB_autonomy_unincorporated_territory:0 "Ruby Territory"
+
+
+
+ SCA_autonomy_free_state_DEF:0 "The Oklahoman Prospectors"
+ SCA_autonomy_free_state:0 "The Prospectors Corporation"
+ SCA_autonomy_incorporated_territory_DEF:0 "The Oklahoman Prospectors"
+ SCA_autonomy_incorporated_territory:0 "Oklahoma Prospectors Zone"
+ SCA_autonomy_protected_state_DEF:"The Oklahoman Prospectors"
+ SCA_autonomy_protected_state:0 "Oklahoma Prospectors Company"
+ SCA_autonomy_unincorporated_territory_DEF:0 "The Oklahoman Prospectors"
+ SCA_autonomy_unincorporated_territory:0 "Oklahoma Prospectors Territory"
+
+ SCO_autonomy_free_state_DEF:0 "The Bastion"
+ SCO_autonomy_free_state:0 "The Bastion"
+ SCO_autonomy_incorporated_territory_DEF:0 "The South Colorado Territories"
+ SCO_autonomy_incorporated_territory:0 "South Colorado Territories"
+ SCO_autonomy_protected_state_DEF:"The Scorpion Sector"
+ SCO_autonomy_protected_state:0 "Scorpion Sector"
+ SCO_autonomy_unincorporated_territory_DEF:0 "The Scorpion Territory"
+ SCO_autonomy_unincorporated_territory:0 "Scorpion Territory"
+
+ SHA_autonomy_free_state_DEF:0 "The Stockton Territory"
+ SHA_autonomy_free_state:0 "Stockton Territory"
+ SHA_autonomy_incorporated_territory_DEF:0 "The Stockton Zone"
+ SHA_autonomy_incorporated_territory:0 "Stockton Zone"
+ SHA_autonomy_protected_state_DEF:0 "The Stockton Soldiers"
+ SHA_autonomy_protected_state:0 "Stockton's Garrison"
+ SHA_autonomy_unincorporated_territory_DEF:0 "The Stockton Soldiers"
+ SHA_autonomy_unincorporated_territory:0 "Stockton's Garrison"
+
+ SHI_autonomy_free_state_DEF:0 "The Shi Corps"
+ SHI_autonomy_free_state:0 "Shi Corps"
+ SHI_autonomy_incorporated_territory_DEF:0 "San Francisco"
+ SHI_autonomy_incorporated_territory:0 "San Francisco"
+ SHI_autonomy_protected_state_DEF:0 "The Shi Sector"
+ SHI_autonomy_protected_state:0 "Shi Sector"
+ SHI_autonomy_unincorporated_territory_DEF:0 "The Shi Territory"
+ SHI_autonomy_unincorporated_territory:0 "Shi Territory"
+
+
+
+ SHO_autonomy_free_state_DEF:0 "The Shoshone State"
+ SHO_autonomy_free_state:0 "Shoshone State"
+ SHO_autonomy_incorporated_territory_DEF:0 "The Shoshone Administrators"
+ SHO_autonomy_incorporated_territory:0 "Shoshone Administration"
+ SHO_autonomy_protected_state_DEF:"The Shoshone Reservation"
+ SHO_autonomy_protected_state:0 "Shoshone Reservation"
+ SHO_autonomy_unincorporated_territory_DEF:0 "The Shoshone Territory"
+ SHO_autonomy_unincorporated_territory:0 "Shoshone Territory"
+
+
+
+ SIN_autonomy_free_state_DEF:0 "The Northern Sinaloa Zone"
+ SIN_autonomy_free_state:0 "Northern Sinaloa Zone"
+ SIN_autonomy_incorporated_territory_DEF:0 "The Northern Sinaloa Administrators"
+ SIN_autonomy_incorporated_territory:0 "Northern Sinaloa Administration"
+ SIN_autonomy_protected_state_DEF:0 "The Sinaloa Sector"
+ SIN_autonomy_protected_state:0 "Sinaloa Sector"
+ SIN_autonomy_unincorporated_territory_DEF:0 "The Northern Sinaloa Territory"
+ SIN_autonomy_unincorporated_territory:0 "Northern Sinaloa Territory"
+
+ SKY_autonomy_free_state_DEF:0 "The Nevada Wardens"
+ SKY_autonomy_free_state:0 "Nevada Survey Sectors"
+ SKY_autonomy_incorporated_territory_DEF:0 "The Sector 51"
+ SKY_autonomy_incorporated_territory:0 "Sector 51"
+ SKY_autonomy_protected_state_DEF:0 "The Nevada Wardens"
+ SKY_autonomy_protected_state:0 "Nevada Survey Sectors"
+ SKY_autonomy_unincorporated_territory_DEF:0 "The Nevada Wardens"
+ SKY_autonomy_unincorporated_territory:0 "Nevada Survey Territories"
+
+
+
+ SLE_autonomy_free_state_DEF:0 "The Grand Canyon Sector"
+ SLE_autonomy_free_state_DEF:0 "The Grand Canyon Sector"
+ SLE_autonomy_free_state:0 "Grand Canyon Sector"
+ SLE_autonomy_free_state:0 "Grand Canyon Sector"
+ SLE_autonomy_incorporated_territory_DEF:0 "The Area 002 Wardens"
+ SLE_autonomy_incorporated_territory_DEF:0 "The Area 002 Wardens"
+ SLE_autonomy_incorporated_territory:0 "Area 002"
+ SLE_autonomy_incorporated_territory:0 "Area 002"
+ SLE_autonomy_protected_state_DEF:"The Area 002 Wardens"
+ SLE_autonomy_protected_state_DEF:"The Area 002 Wardens"
+ SLE_autonomy_protected_state:0 "Area 002"
+ SLE_autonomy_protected_state:0 "Area 002"
+ SLE_autonomy_unincorporated_territory_DEF:0 "The Area 002 Wardens"
+ SLE_autonomy_unincorporated_territory_DEF:0 "The Area 002 Wardens"
+ SLE_autonomy_unincorporated_territory:0 "Area 24"
+
+ SLE_autonomy_unincorporated_territory:0 "Area 24"
+
+ SOR_autonomy_free_state_DEF:0 "The Zion State"
+ SOR_autonomy_free_state:0 "Zion State"
+ SOR_autonomy_incorporated_territory_DEF:0 "The Zion Park"
+ SOR_autonomy_incorporated_territory:0 "Zion Park"
+ SOR_autonomy_protected_state_DEF:"The Zion Reservation"
+ SOR_autonomy_protected_state:0 "Zion Reservation"
+ SOR_autonomy_unincorporated_territory_DEF:0 "The Zion Territory"
+ SOR_autonomy_unincorporated_territory:0 "Zion Territory"
+
+
+
+ SUF_autonomy_free_state_DEF:0 "The Summers Alliance"
+ SUF_autonomy_free_state:0 "Summers Alliance"
+ SUF_autonomy_incorporated_territory_DEF:0 "The Fort Summers"
+ SUF_autonomy_incorporated_territory:0 "Fort Summers"
+ SUF_autonomy_protected_state_DEF:"The Summers Alliance"
+ SUF_autonomy_protected_state:0 "Summers Alliance"
+ SUF_autonomy_unincorporated_territory_DEF:0 "The Summers Territory"
+ SUF_autonomy_unincorporated_territory:0 "Summers Territory"
+
+ SUN_autonomy_free_state_DEF:0 "The Sundogs Reservation"
+ SUN_autonomy_free_state:0 "Sundogs Reservation"
+ SUN_autonomy_incorporated_territory_DEF:0 "The South Colorado Territories"
+ SUN_autonomy_incorporated_territory:0 "The South Colorado Territories"
+ SUN_autonomy_protected_state_DEF:"The Sundogs Reservation"
+ SUN_autonomy_protected_state:0 "Sundogs Reservation"
+ SUN_autonomy_unincorporated_territory_DEF:0 "The South Colorado Territories"
+ SUN_autonomy_unincorporated_territory:0 "South Colorado Territory"
+
+ SYN_autonomy_free_state_DEF:0 "The Sylix State"
+ SYN_autonomy_free_state:0 "Sylix State"
+ SYN_autonomy_incorporated_territory_DEF:0 "The Sylix Administrators"
+ SYN_autonomy_incorporated_territory:0 "Sylix Administration"
+ SYN_autonomy_protected_state_DEF:"The Sylix Reservation"
+ SYN_autonomy_protected_state:0 "Sylix Reservation"
+ SYN_autonomy_unincorporated_territory_DEF:0 "The Sylix Territory"
+ SYN_autonomy_unincorporated_territory:0 "Sylix Territory"
+
+ TAA_autonomy_free_state_DEF:0 "The South Texans Families"
+ TAA_autonomy_free_state:0 "South Texan Union"
+ TAA_autonomy_incorporated_territory_DEF:0 "The South Texan Zone"
+ TAA_autonomy_incorporated_territory:0 "South Texan Zone"
+ TAA_autonomy_protected_state_DEF:0 "The Southern Texan State"
+ TAA_autonomy_protected_state:0 "South Texan State"
+ TAA_autonomy_unincorporated_territory_DEF:0 "The South Texan Territory"
+ TAA_autonomy_unincorporated_territory:0 "South Texan Territory"
+
+ TAR_autonomy_free_state_DEF:0 "The New Nephi State"
+ TAR_autonomy_free_state:0 "New Nephi State"
+ TAR_autonomy_incorporated_territory_DEF:0 "The Nephi Zone"
+ TAR_autonomy_incorporated_territory:0 "Nephi Zone"
+ TAR_autonomy_protected_state_DEF:"The Nephi Reservation"
+ TAR_autonomy_protected_state:0 "Nephi Reservation"
+ TAR_autonomy_unincorporated_territory_DEF:0 "The Nephi Territory"
+ TAR_autonomy_unincorporated_territory:0 "Nephi Territory"
+
+
+
+ TBH_autonomy_free_state_DEF:0 "New Texas Paladins"
+ TBH_autonomy_free_state:0 "New Texas Brotherhood"
+ TBH_autonomy_incorporated_territory_DEF:0 "The Central Texan Zone"
+ TBH_autonomy_incorporated_territory:0 "Central Texan Zone"
+ TBH_autonomy_protected_state_DEF:0 "NCR Texan Commanders"
+ TBH_autonomy_protected_state:0 "Texas Command Bloc"
+ TBH_autonomy_unincorporated_territory_DEF:0 "The NCR Texan Commanders"
+ TBH_autonomy_unincorporated_territory:0 "Texas Command Bloc"
+
+ TCA_autonomy_free_state_DEF:0 "NCR Abel's Commanders"
+ TCA_autonomy_free_state:0 "Abel Command Sectors"
+ TCA_autonomy_incorporated_territory_DEF:0 "The Portland Districts"
+ TCA_autonomy_incorporated_territory:0 "Portland Districts"
+ TCA_autonomy_protected_state_DEF:"NCR Portland Commanders"
+ TCA_autonomy_protected_state:0 "Portland Command Sectors"
+ TCA_autonomy_unincorporated_territory_DEF:0 "The Portland Territory"
+ TCA_autonomy_unincorporated_territory:0 "Portland Territory"
+
+
+
+ TDT_autonomy_free_state_DEF:0 "El Chiapas Estado"
+ TDT_autonomy_free_state:0 "Chiapas Estado"
+ TDT_autonomy_incorporated_territory_DEF:0 "The Tzotzil Administrators"
+ TDT_autonomy_incorporated_territory:0 "Tzotzil Administration"
+ TDT_autonomy_protected_state_DEF:0 "The Tzotzil Reservation"
+ TDT_autonomy_protected_state:0 "Tzotzil Reservation"
+ TDT_autonomy_unincorporated_territory_DEF:0 "The Tzotzil Territory"
+ TDT_autonomy_unincorporated_territory:0 "Tzotzil Territory"
+
+ TEX_autonomy_free_state_DEF:0 "The Free State of Texas"
+ TEX_autonomy_free_state:0 "Free State of Texas"
+ TEX_autonomy_incorporated_territory_DEF:0 "The Texas Administrators"
+ TEX_autonomy_incorporated_territory:0 "Texas Administration"
+ TEX_autonomy_protected_state_DEF:"The State of Texas"
+ TEX_autonomy_protected_state:0 "State of Texas"
+ TEX_autonomy_unincorporated_territory_DEF:0 "The Territory of Texas"
+ TEX_autonomy_unincorporated_territory:0 "Territory of Texas"
+
+ TIM_autonomy_free_state_DEF:0 "The Bear's Lumberjacks"
+ TIM_autonomy_free_state:0 "Bear's Lumberjacks"
+ TIM_autonomy_incorporated_territory_DEF:0 "The Walla Walla Administrators"
+ TIM_autonomy_incorporated_territory:0 "Walla Walla Administration"
+ TIM_autonomy_protected_state_DEF:"The Lumberjacks"
+ TIM_autonomy_protected_state:0 "Lumberjack Company"
+ TIM_autonomy_unincorporated_territory_DEF:0 "The Lumberjacks"
+ TIM_autonomy_unincorporated_territory:0 "Lumberjack Territory"
+
+
+
+ TLA_autonomy_free_state_DEF:0 "The NCR Supreme Commanders"
+ TLA_autonomy_free_state:0 "Mexico Supreme Command"
+ TLA_autonomy_incorporated_territory_DEF:0 "The Central Mexican Administrators"
+ TLA_autonomy_incorporated_territory:0 "Central Mexican Administration"
+ TLA_autonomy_protected_state_DEF:0 "The NCR Supreme Commanders"
+ TLA_autonomy_protected_state:0 "Mexico Supreme Command"
+ TLA_autonomy_unincorporated_territory_DEF:0 "The NCR Supreme Commanders"
+ TLA_autonomy_unincorporated_territory:0 "Mexico Supreme Command"
+
+ TLL_autonomy_free_state_DEF:0 "The Grand Lodge of Texas"
+ TLL_autonomy_free_state:0 "Grand Lodge of Texas"
+ TLL_autonomy_incorporated_territory_DEF:0 "The Masonic Zone"
+ TLL_autonomy_incorporated_territory:0 "Masonic Zone"
+ TLL_autonomy_protected_state_DEF:0 "The Masonic State of Texas"
+ TLL_autonomy_protected_state:0 "Masonic State of Texas"
+ TLL_autonomy_unincorporated_territory_DEF:0 "The Masonic Territory"
+ TLL_autonomy_unincorporated_territory:0 "Masonic Territory"
+
+ TLP_autonomy_free_state_DEF:0 "The NCR Oklahoman Commanders"
+ TLP_autonomy_free_state:0 "Oklahoma Command Bloc"
+ TLP_autonomy_incorporated_territory_DEF:0 "The Oklahoma Zone"
+ TLP_autonomy_incorporated_territory:0 "Oklahoma Zone"
+ TLP_autonomy_protected_state_DEF:"The NCR Oklahoman Commanders"
+ TLP_autonomy_protected_state:0 "Oklahoma Command Bloc"
+ TLP_autonomy_unincorporated_territory_DEF:0 "The Oklahoma Territories"
+ TLP_autonomy_unincorporated_territory:0 "Oklahoma Territories"
+
+ TNK_autonomy_free_state_DEF:0 "The Office of Science"
+ TNK_autonomy_free_state:0 "The Office of Science"
+ TNK_autonomy_incorporated_territory_DEF:0 "The OSI Scientifics"
+ TNK_autonomy_incorporated_territory:0 "OSI Special Zone"
+ TNK_autonomy_protected_state_DEF:"The OSI Scientifics"
+ TNK_autonomy_protected_state:0 "The Office of Science"
+ TNK_autonomy_unincorporated_territory_DEF:0 "The OSI Scientifics"
+ TNK_autonomy_unincorporated_territory:0 "OSI Territories"
+
+ TOB_autonomy_free_state_DEF:0 "The OSI Archaeologists"
+ TOB_autonomy_free_state:0 "Dinosaur Refuge"
+ TOB_autonomy_incorporated_territory_DEF:0 "The OSI Archaeologists"
+ TOB_autonomy_incorporated_territory:0 "Dinosaur Territory"
+ TOB_autonomy_protected_state_DEF:"The OSI Archaeologists"
+ TOB_autonomy_protected_state:0 "Dinosaur Research Area"
+ TOB_autonomy_unincorporated_territory_DEF:0 "The OSI Archaeologists"
+ TOB_autonomy_unincorporated_territory:0 "Dinosaur Territory"
+
+ TOC_autonomy_free_state_DEF:0 "The Spokane Ghouls"
+ TOC_autonomy_free_state:0 "The New Country"
+ TOC_autonomy_incorporated_territory_DEF:0 "The Spokane Ghouls"
+ TOC_autonomy_incorporated_territory:0 "Spokane Ghoul Sector"
+ TOC_autonomy_protected_state_DEF:"The Spokane Ghouls"
+ TOC_autonomy_protected_state:0 "New Spokane State"
+ TOC_autonomy_unincorporated_territory_DEF:0 "The Spokane Ghouls"
+ TOC_autonomy_unincorporated_territory:0 "Spokane Ghoul Territory"
+
+
+
+ TON_autonomy_free_state_DEF:0 "The Tohono Republic"
+ TON_autonomy_free_state:0 "Tohono Republic"
+ TON_autonomy_incorporated_territory_DEF:0 "The Tohono Territory"
+ TON_autonomy_incorporated_territory:0 "Tohono Territory"
+ TON_autonomy_protected_state_DEF:0 "The Tohono State"
+ TON_autonomy_protected_state:0 "Tohono State"
+ TON_autonomy_unincorporated_territory_DEF:0 "The Tohono Territory"
+ TON_autonomy_unincorporated_territory:0 "Tohono Territory"
+
+
+
+ TPM_autonomy_free_state_DEF:0 "Louisiana"
+ TPM_autonomy_free_state:0 "Louisiana"
+ TPM_autonomy_incorporated_territory_DEF:0 "The Louisiana Zone"
+ TPM_autonomy_incorporated_territory:0 "Louisiana Zone"
+ TPM_autonomy_protected_state_DEF:0 "The Lousiana State"
+ TPM_autonomy_protected_state:0 "Lousiana State"
+ TPM_autonomy_unincorporated_territory_DEF:0 "The Louisiana Territories"
+ TPM_autonomy_unincorporated_territory:0 "Louisiana Territories"
+
+ TRL_autonomy_free_state_DEF:0 "The Bonesnarl's Mutants"
+ TRL_autonomy_free_state:0 "Bonesnarl's Free Territory"
+ TRL_autonomy_incorporated_territory_DEF:0 "The Oregon Mutant Administrators"
+ TRL_autonomy_incorporated_territory:0 "Oregon Mutant Administration"
+ TRL_autonomy_protected_state_DEF:"The Bonesnarl's Mutants"
+ TRL_autonomy_protected_state:0 "Bonesnarl's Mutant State"
+ TRL_autonomy_unincorporated_territory_DEF:0 "The Oregon Mutant Territory"
+ TRL_autonomy_unincorporated_territory:0 "Oregon Mutant Territory"
+
+
+
+ TSI_autonomy_free_state_DEF:0 "The Western New Mexico State"
+ TSI_autonomy_free_state:0 "Western New Mexico State"
+ TSI_autonomy_incorporated_territory_DEF:0 "The Western New Mexico Territory"
+ TSI_autonomy_incorporated_territory:0 "Western New Mexico Territory"
+ TSI_autonomy_protected_state_DEF:0 "The Ten-Signs Reservation"
+ TSI_autonomy_protected_state:0 "Ten-Signs Reservation"
+ TSI_autonomy_unincorporated_territory_DEF:0 "The Ten-Signs Territory"
+ TSI_autonomy_unincorporated_territory:0 "Ten-Signs Territory"
+
+
+
+ TTM_autonomy_free_state_DEF:0 "The OSI Scientifics"
+ TTM_autonomy_free_state:0 "OSI Research Sector"
+ TTM_autonomy_incorporated_territory_DEF:0 "The OSI Scientifics"
+ TTM_autonomy_incorporated_territory:0 "OSI Territory"
+ TTM_autonomy_protected_state_DEF:"The OSI Scientifics"
+ TTM_autonomy_protected_state:0 "OSI Research Sector"
+ TTM_autonomy_unincorporated_territory_DEF:0 "The OSI Scientifics"
+ TTM_autonomy_unincorporated_territory:0 "OSI Territory"
+
+ TUB_autonomy_free_state_DEF:0 "The Tubeheads"
+ TUB_autonomy_free_state:0 "Tubeheads Territory"
+ TUB_autonomy_incorporated_territory_DEF:0 "The KXII Zone"
+ TUB_autonomy_incorporated_territory:0 "KXII Zone"
+ TUB_autonomy_protected_state_DEF:0 "The Soldiers of the  KXII"
+ TUB_autonomy_protected_state:0 "Garrison  KXII"
+ TUB_autonomy_unincorporated_territory_DEF:0 "The KXII Territory"
+ TUB_autonomy_unincorporated_territory:0 "Garrison  KXII"
+
+ TVR_autonomy_free_state_DEF:0 "La Vice-República"
+ TVR_autonomy_free_state:0 "La Vice-República"
+ TVR_autonomy_incorporated_territory_DEF:0 "The Nayarit Administrators"
+ TVR_autonomy_incorporated_territory:0 "Nayarit Administration"
+ TVR_autonomy_protected_state_DEF:0 "The Nayarit Merchants"
+ TVR_autonomy_protected_state:0 "The Nayarit Hub"
+ TVR_autonomy_unincorporated_territory_DEF:0 "The Nayarit Merchants"
+ TVR_autonomy_unincorporated_territory:0 "Nayarit Territory"
+
+ TWI_autonomy_free_state_DEF:0 "The Twisted Hairs Reservation"
+ TWI_autonomy_free_state:0 "Twisted Hairs Reservation"
+ TWI_autonomy_incorporated_territory_DEF:0 "The Twisted Hairs Territory"
+ TWI_autonomy_incorporated_territory:0 "Twisted Hairs Territory"
+ TWI_autonomy_protected_state_DEF:0 "The Eastern Colorado Territories"
+ TWI_autonomy_protected_state:0 "Eastern Colorado Territories"
+ TWI_autonomy_unincorporated_territory_DEF:0 "The Twisted Hairs Territory"
+ TWI_autonomy_unincorporated_territory:0 "Twisted Hairs Territory"
+
+
+
+ TWO_autonomy_free_state_DEF:0 "The Two-Sun Racers"
+ TWO_autonomy_free_state:0 "Two-Sun Reservation"
+ TWO_autonomy_incorporated_territory_DEF:0 "The Two-Sun Racers"
+ TWO_autonomy_incorporated_territory:0 "Two-Sun Territory"
+ TWO_autonomy_protected_state_DEF:0 "The Two-Sun Racers"
+ TWO_autonomy_protected_state:0 "Two-Sun Reservation"
+ TWO_autonomy_unincorporated_territory_DEF:0 "The Two-Sun Racers"
+ TWO_autonomy_unincorporated_territory:0 "Two-Sun Territory"
+
+
+
+ UFO_autonomy_free_state_DEF:0 "The Zetans Reservation"
+ UFO_autonomy_free_state:0 "Zetans Reservation"
+ UFO_autonomy_incorporated_territory_DEF:0 "The Zetans Survey Territories"
+ UFO_autonomy_incorporated_territory:0 "Zetans Survey Territories"
+ UFO_autonomy_protected_state_DEF:"The Zetans Survey Sectors"
+ UFO_autonomy_protected_state:0 "Zetans Survey Sectors"
+ UFO_autonomy_unincorporated_territory_DEF:0 "The Zetans Survey Territories"
+ UFO_autonomy_unincorporated_territory:0 "Zetans Survey Territories"
+
+ UIN_autonomy_free_state_DEF:0 "The Utes"
+ UIN_autonomy_free_state:0 "Uintland"
+ UIN_autonomy_incorporated_territory_DEF:0 "The Utes"
+ UIN_autonomy_incorporated_territory:0 "Uintah Zone"
+ UIN_autonomy_protected_state_DEF:"The Utes"
+ UIN_autonomy_protected_state:0 "Uintah Reservation"
+ UIN_autonomy_unincorporated_territory_DEF:0 "The Utes"
+ UIN_autonomy_unincorporated_territory:0 "Uintah Territory"
+
+
+
+ UMB_autonomy_free_state_DEF:0 "The Umbra Reservation"
+ UMB_autonomy_free_state:0 "Umbra Reservation"
+ UMB_autonomy_incorporated_territory_DEF:0 "The Umbra Territory"
+ UMB_autonomy_incorporated_territory:0 "Umbra Territory"
+ UMB_autonomy_protected_state_DEF:0 "The Umbra Reservation"
+ UMB_autonomy_protected_state:0 "Umbra Reservation"
+ UMB_autonomy_unincorporated_territory_DEF:0 "The Umbra Territory"
+ UMB_autonomy_unincorporated_territory:0 "Umbra Territory"
+
+
+
+ UOA_autonomy_free_state_DEF:0 "The Union of Austin"
+ UOA_autonomy_free_state:0 "Union of Austin"
+ UOA_autonomy_incorporated_territory_DEF:0 "The Austin Zone"
+ UOA_autonomy_incorporated_territory:0 "Austin Zone"
+ UOA_autonomy_protected_state_DEF:0 "State of Austin"
+ UOA_autonomy_protected_state:0 "State of Austin"
+ UOA_autonomy_unincorporated_territory_DEF:0 "The Territory of Austin"
+ UOA_autonomy_unincorporated_territory:0 "Territory of Austin"
+
+ UTO_autonomy_free_state_DEF:0 "The Utobitha Free Mutants"
+ UTO_autonomy_free_state:0 "Utobitha Free Zone"
+ UTO_autonomy_incorporated_territory_DEF:0 "The Black Mountain Zone"
+ UTO_autonomy_incorporated_territory:0 "Black Mountain Zone"
+ UTO_autonomy_protected_state_DEF:"The Black Mountain Sector"
+ UTO_autonomy_protected_state:0 "Black Mountain Sector"
+ UTO_autonomy_unincorporated_territory_DEF:0 "The Black Mountain Territory"
+ UTO_autonomy_unincorporated_territory:0 "Black Mountain Territory"
+
+ VEG_autonomy_free_state_DEF:0 "The New Vegas Republic"
+ VEG_autonomy_free_state:0 "New Vegas Republic"
+ VEG_autonomy_incorporated_territory_DEF:0 "The New Vegas Territory"
+ VEG_autonomy_incorporated_territory:0 "New Vegas Territory"
+ VEG_autonomy_protected_state_DEF:0 "The New Vegas State"
+ VEG_autonomy_protected_state:0 "New Vegas State"
+ VEG_autonomy_unincorporated_territory_DEF:0 "The New Vegas Territory"
+ VEG_autonomy_unincorporated_territory:0 "New Vegas Territory"
+
+ VIC_autonomy_free_state_DEF:0 "Vancouver Island"
+ VIC_autonomy_free_state:0 "Vancouver Island"
+ VIC_autonomy_incorporated_territory_DEF:0 "The Vancouver Island Soldiers"
+ VIC_autonomy_incorporated_territory:0 "Vancouver Island Outposts"
+ VIC_autonomy_protected_state_DEF:"The Vancouver Island State"
+ VIC_autonomy_protected_state:0 "Vancouver Island State"
+ VIC_autonomy_unincorporated_territory_DEF:0 "The Vancouver Island Territory"
+ VIC_autonomy_unincorporated_territory:0 "Vancouver Island Territory"
+
+ VIP_autonomy_free_state_DEF:0 "The Vipers Reservation"
+ VIP_autonomy_free_state:0 "Vipers Reservation"
+ VIP_autonomy_incorporated_territory_DEF:0 "The Vipers Territory"
+ VIP_autonomy_incorporated_territory:0 "Vipers Territory"
+ VIP_autonomy_protected_state_DEF:0 "The Vipers Reservation"
+ VIP_autonomy_protected_state:0 "Viper Reservation"
+ VIP_autonomy_unincorporated_territory_DEF:0 "The Vipers Territory"
+ VIP_autonomy_unincorporated_territory:0 "Vipers Territory"
+
+
+
+ VLT_autonomy_free_state_DEF:0 "The Vault Republic"
+ VLT_autonomy_free_state:0 "Vault Republic"
+ VLT_autonomy_incorporated_territory_DEF:0 "The Area 8 Wardens"
+ VLT_autonomy_incorporated_territory:0 "Area 8"
+ VLT_autonomy_protected_state_DEF:0 "The Vault State"
+ VLT_autonomy_protected_state:0 "Vault State"
+ VLT_autonomy_unincorporated_territory_DEF:0 "The Vault Territory"
+ VLT_autonomy_unincorporated_territory:0 "Vault Territory"
+
+
+
+
+
+ WBH_autonomy_free_state_DEF:0 "NCR Washington Commanders"
+ WBH_autonomy_free_state:0 "Washington Command Bloc"
+ WBH_autonomy_incorporated_territory_DEF:0 "The Washington Administrators"
+ WBH_autonomy_incorporated_territory:0 "Washington Administration"
+ WBH_autonomy_protected_state_DEF:"The NCR Seattle Commanders"
+ WBH_autonomy_protected_state:0 "Seattle Command Bloc"
+ WBH_autonomy_unincorporated_territory_DEF:0 "The Washington Territories"
+ WBH_autonomy_unincorporated_territory:0 "Washington Territories"
+
+
+
+ WEN_autonomy_free_state_DEF:0 "The Wendover Republic"
+ WEN_autonomy_free_state:0 "Wendover Republic"
+ WEN_autonomy_incorporated_territory_DEF:0 "The Wendover Zone"
+ WEN_autonomy_incorporated_territory:0 "Wendover Zone"
+ WEN_autonomy_protected_state_DEF:"The Wendover State"
+ WEN_autonomy_protected_state:0 "Wendover State"
+ WEN_autonomy_unincorporated_territory_DEF:0 "The Wendover Territory"
+ WEN_autonomy_unincorporated_territory:0 "Wendover Territory"
+
+
+
+ WHD_autonomy_free_state_DEF:0 "The Gentledogs"
+ WHD_autonomy_free_state:0 "Gentledogs"
+ WHD_autonomy_incorporated_territory_DEF:0 "The Fort Collins Soldiers"
+ WHD_autonomy_incorporated_territory:0 "Fort Collins"
+ WHD_autonomy_protected_state_DEF:"The Fort Collins Soldiers"
+ WHD_autonomy_protected_state:0 "Fort Collins"
+ WHD_autonomy_unincorporated_territory_DEF:0 "The Fort Collins Soldiers"
+ WHD_autonomy_unincorporated_territory:0 "Rocky Mountains Reservation"
+
+ WHI_autonomy_free_state_DEF:0 "The Whistler Communities"
+ WHI_autonomy_free_state:0 "Whistler Community"
+ WHI_autonomy_incorporated_territory_DEF:0 "The White Moutains Soldiers"
+ WHI_autonomy_incorporated_territory:0 "White Moutains Outposts"
+ WHI_autonomy_protected_state_DEF:"The Whistler Territories"
+ WHI_autonomy_protected_state:0 "Whistler Territories"
+ WHI_autonomy_unincorporated_territory_DEF:0 "The White Moutains Territories"
+ WHI_autonomy_unincorporated_territory:0 "White Moutains Territories"
+
+
+
+ WHT_autonomy_free_state_DEF:0 "The Lincoln State"
+ WHT_autonomy_free_state:0 "Lincoln State"
+ WHT_autonomy_incorporated_territory_DEF:0 "The Lincoln Zone"
+ WHT_autonomy_incorporated_territory:0 "Lincoln Zone"
+ WHT_autonomy_protected_state_DEF:"The Lincoln Reservation"
+ WHT_autonomy_protected_state:0 "Lincoln  Reservation"
+ WHT_autonomy_unincorporated_territory_DEF:0 "The Lincoln Territory"
+ WHT_autonomy_unincorporated_territory:0 "Lincoln Territory"
+
+
+
+ YAK_autonomy_free_state_DEF:0 "The Yakama State"
+ YAK_autonomy_free_state:0 "Yakama State"
+ YAK_autonomy_incorporated_territory_DEF:0 "The Yakama Administrators"
+ YAK_autonomy_incorporated_territory:0 "Yakama Administration"
+ YAK_autonomy_protected_state_DEF:"The Yakama Reservation"
+ YAK_autonomy_protected_state:0 "Yakama Reservation"
+ YAK_autonomy_unincorporated_territory_DEF:0 "The Yakama Territory"
+ YAK_autonomy_unincorporated_territory:0 "Yakama Territory"
+
+
+
+ YKZ_autonomy_free_state_DEF:0 "The Yakuza Republic"
+ YKZ_autonomy_free_state:0 "Yakuza Republic"
+ YKZ_autonomy_incorporated_territory_DEF:0 "The Carson Districts"
+ YKZ_autonomy_incorporated_territory:0 "Carson Disctricts"
+ YKZ_autonomy_protected_state_DEF:0 "The Carson State"
+ YKZ_autonomy_protected_state:0 "Carson State"
+ YKZ_autonomy_unincorporated_territory_DEF:0 "The Carson Territory"
+ YKZ_autonomy_unincorporated_territory:0 "Carson Territory"
+
+
+
+ YMP_autonomy_free_state_DEF:0 "The NCRCF Wardens"
+ YMP_autonomy_free_state:0 "NCRCF Area"
+ YMP_autonomy_incorporated_territory_DEF:0 "The Rocky Mountains Reservation"
+ YMP_autonomy_incorporated_territory:0 "Rocky Mountains Reservation"
+ YMP_autonomy_protected_state_DEF:"The Rocky Mountains Territory"
+ YMP_autonomy_protected_state:0 "Rocky Mountains Territory"
+ YMP_autonomy_unincorporated_territory_DEF:0 "The Rocky Mountains Reservation"
+ YMP_autonomy_unincorporated_territory:0 "Rocky Mountains Reservation"
+
+#NEW RENO
+NEW_autonomy_free_state:0 "Reno Republic"

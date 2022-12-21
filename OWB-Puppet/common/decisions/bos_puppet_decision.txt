@@ -1,0 +1,77 @@
+bos_overlord_decisions = {
+	bos_test = {
+		
+		available = {
+			# ROB = {
+			# 	is_puppet_of  = ROOT
+			# }
+			# HAN = {
+			# 	is_puppet_of  = ROOT
+			# }	
+			# IRN = {
+			# 	is_puppet_of  = ROOT
+			# }	
+			# WHD = {
+			# 	is_puppet_of  = ROOT
+			# }	
+			# BAG = {
+			# 	is_puppet_of  = ROOT
+			# }	
+
+			all_of_scopes = {
+				array = GLOBAL.test_puppet
+				is_puppet_of  = ROOT
+			}
+		}
+
+		visible = {
+		
+			# count_triggers = {
+            #     amount = 1
+			# 	IRN = {
+			# 		is_puppet_of  = ROOT
+			# 	}
+			# 	ROB = {
+			# 		is_puppet_of  = ROOT
+			# 	}
+			# 	HAN = {
+			# 		is_puppet_of  = ROOT
+			# 	}
+			# 	WHD = {
+			# 		is_puppet_of  = ROOT
+			# 	}
+			# 	BAG = {
+			# 		is_puppet_of  = ROOT
+			# 	}
+			# }
+
+			any_of_scopes = {
+				array = GLOBAL.test_puppet
+				is_puppet_of  = ROOT
+			}
+		}
+		
+		complete_effect = {
+			HAN = {
+				set_cosmetic_tag = HAC
+				annex_country = {
+					target = IRN
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ROB
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = WHD
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = BAG
+					transfer_troops = yes
+				}
+			}
+		}
+
+	}
+}

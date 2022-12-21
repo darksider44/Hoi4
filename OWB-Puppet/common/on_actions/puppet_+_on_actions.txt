@@ -1,0 +1,11 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			add_to_array = { GLOBAL.test_puppet = ROB }
+			add_to_array = { GLOBAL.test_puppet = HAN }
+			add_to_array = { GLOBAL.test_puppet = IRN }
+			add_to_array = { GLOBAL.test_puppet = WHD }
+			add_to_array = { GLOBAL.test_puppet = BAG }
+		}
+	}
+}

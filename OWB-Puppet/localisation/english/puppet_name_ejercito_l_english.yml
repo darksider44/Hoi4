@@ -1,0 +1,169 @@
+﻿l_english: 
+
+ ACH_ARM_autonomy_arm_puppet_DEF:0 "Alamo Protectorate"
+ ACH_ARM_autonomy_arm_puppet:0 "Alamo Protectorate"
+
+ ASF_ARM_autonomy_arm_puppet_DEF:0 "Protectorate of Santa Fe"
+ ASF_ARM_autonomy_arm_puppet:0 "Protectorate of Santa Fe"
+
+ BAR_ARM_autonomy_arm_puppet_DEF:0 "Sacramento Protectorate"
+ BAR_ARM_autonomy_arm_puppet:0 "Sacramento Protectorate"
+
+ BLK_ARM_autonomy_arm_puppet_DEF:0 "Blackfoot Protectorate"
+ BLK_ARM_autonomy_arm_puppet:0 "Blackfoot Protectorate"
+
+ BLO_ARM_autonomy_arm_puppet_DEF:0 "Eastern Sinaloa State"
+ BLO_ARM_autonomy_arm_puppet:0 "Eastern Sinaloa State"
+
+ BLP_ARM_autonomy_arm_puppet_DEF:0 "South Baja"
+ BLP_ARM_autonomy_arm_puppet:0 "South Baja"
+
+ BON_ARM_autonomy_arm_puppet_DEF:0 "Los Angeles Protectorate"
+ BON_ARM_autonomy_arm_puppet:0 "Los Angeles Protectorate"
+
+ BOS_ARM_autonomy_arm_puppet_DEF:0 "San Maxson Protectorate"
+ BOS_ARM_autonomy_arm_puppet:0 "San Maxson Protectorate"
+
+ BVC_ARM_autonomy_arm_puppet_DEF:0 "Baja California"
+ BVC_ARM_autonomy_arm_puppet:0 "Baja California"
+
+ CAF_ARM_autonomy_arm_puppet_DEF:0 "Oaxaca State"
+ CAF_ARM_autonomy_arm_puppet:0 "Oaxaca State"
+
+ CBN_ARM_autonomy_arm_puppet_DEF:0 "Carbon Protectorate"
+ CBN_ARM_autonomy_arm_puppet:0 "Carbon Protectorate"
+
+ CES_ARM_autonomy_arm_puppet_DEF:0 "Arizona Protectorate"
+ CES_ARM_autonomy_arm_puppet:0 "Arizona Protectorate"
+
+ COW_ARM_autonomy_arm_puppet_DEF:0 "Ejército Vaqueros"
+ COW_ARM_autonomy_arm_puppet:0 "Ejército Vaqueros"
+
+ DAY_ARM_autonomy_arm_puppet_DEF:0 "San Diego Protectorate"
+ DAY_ARM_autonomy_arm_puppet:0 "San Diego Protectorate"
+
+ EDA_ARM_autonomy_arm_puppet_DEF:0 "Santa Muerte Society"
+ EDA_ARM_autonomy_arm_puppet:0 "Santa Muerte Society"
+
+ EDN_ARM_autonomy_arm_puppet_DEF:0 "Eden Protectorate"
+ EDN_ARM_autonomy_arm_puppet:0 "Eden Protectorate"
+
+ EXE_ARM_autonomy_arm_puppet_DEF:0 "Plainsrunners Protectorate"
+ EXE_ARM_autonomy_arm_puppet:0 "Plainsrunners Protectorate"
+
+ FFI_ARM_autonomy_arm_puppet_DEF:0 "Luchadores Mexicanos"
+ FFI_ARM_autonomy_arm_puppet:0 "Luchadores Mexicanos"
+
+ GDH_ARM_autonomy_arm_puppet_DEF:0 "Sonora State"
+ GDH_ARM_autonomy_arm_puppet:0 "Sonora State"
+
+ GRH_ARM_autonomy_arm_puppet_DEF:0 "Honduras Protectorate"
+ GRH_ARM_autonomy_arm_puppet:0 "Honduras Protectorate"
+
+ HUA_ARM_autonomy_arm_puppet_DEF:0 "Hualapai Protectorate"
+ HUA_ARM_autonomy_arm_puppet:0 "Hualapai Protectorate"
+
+ IMO_ARM_autonomy_arm_puppet_DEF:0 "Texan Arsenal"
+ IMO_ARM_autonomy_arm_puppet:0 "Texan Arsenal"
+
+ ITZ_ARM_autonomy_arm_puppet_DEF:0 "Southeast Mexico"
+ ITZ_ARM_autonomy_arm_puppet:0 "Southeast Mexico"
+
+ KHA_ARM_autonomy_arm_puppet_DEF:0 "Khan Protectorate"
+ KHA_ARM_autonomy_arm_puppet:0 "Khan Protectorate"
+
+ LAC_ARM_autonomy_arm_puppet_DEF:0 "Nuevo México"
+ LAC_ARM_autonomy_arm_puppet:0 "Nuevo México"
+
+ LGS_ARM_autonomy_arm_puppet_DEF:0 "Chihuahua State"
+ LGS_ARM_autonomy_arm_puppet:0 "Chihuahua State"
+
+ LOS_ARM_autonomy_arm_puppet_DEF:0 "Los Protectorate"
+ LOS_ARM_autonomy_arm_puppet:0 "Los Protectorate"
+
+ MES_ARM_autonomy_arm_puppet_DEF:0 "Mescalero Protectorate"
+ MES_ARM_autonomy_arm_puppet:0 "Mescalero Protectorate"
+
+ MOJ_ARM_autonomy_arm_puppet_DEF:0 "Nuevo Helios"
+ MOJ_ARM_autonomy_arm_puppet:0 "Nuevo Helios"
+
+ MOS_ARM_autonomy_arm_puppet_DEF:0 "Montaña Springs"
+ MOS_ARM_autonomy_arm_puppet:0 "Montaña Springs"
+
+ MOT_ARM_autonomy_arm_puppet_DEF:0 "Mojave Protectorate"
+ MOT_ARM_autonomy_arm_puppet:0 "Mojave Protectorate"
+
+ MRA_ARM_autonomy_arm_puppet_DEF:0 "Nipton Protectorate"
+ MRA_ARM_autonomy_arm_puppet:0 "Nipton Protectorate"
+
+ NAV_ARM_autonomy_arm_puppet_DEF:0 "Navajo Protectorate"
+ NAV_ARM_autonomy_arm_puppet:0 "Navajo Protectorate"
+
+ NCR_ARM_autonomy_arm_puppet_DEF:0 "Nueva California"
+ NCR_ARM_autonomy_arm_puppet:0 "Nueva California"
+
+ PEC_ARM_autonomy_arm_puppet_DEF:0 "Pecos State"
+ PEC_ARM_autonomy_arm_puppet:0 "Pecos State"
+
+ PER_ARM_autonomy_arm_puppet_DEF:0 "McAllen Protectorate"
+ PER_ARM_autonomy_arm_puppet:0 "McAllen Protectorate"
+
+ PHR_ARM_autonomy_arm_puppet_DEF:0 "Phoenix Protectorate"
+ PHR_ARM_autonomy_arm_puppet:0 "Phoenix Protectorate"
+
+ RAP_ARM_autonomy_arm_puppet_DEF:0 "Los Algodones Protectorate"
+ RAP_ARM_autonomy_arm_puppet:0 "Los Algodones Protectorate"
+
+ RBD_ARM_autonomy_arm_puppet_DEF:0 "North Chihuahua State"
+ RBD_ARM_autonomy_arm_puppet:0 "North Chihuahua State"
+
+ RES_ARM_autonomy_arm_puppet_DEF:0 "Los Alamos"
+ RES_ARM_autonomy_arm_puppet:0 "Los Alamos"
+
+ SHA_ARM_autonomy_arm_puppet_DEF:0 "Stockton Protectorate"
+ SHA_ARM_autonomy_arm_puppet:0 "Stockton Protectorate"
+
+ SHI_ARM_autonomy_arm_puppet_DEF:0 "San Francisco"
+ SHI_ARM_autonomy_arm_puppet:0 "San Francisco"
+
+ SLE_ARM_autonomy_arm_puppet_DEF:0 "Grand Cañon"
+ SLE_ARM_autonomy_arm_puppet:0 "Grand Cañon"
+
+ SOR_ARM_autonomy_arm_puppet_DEF:0 "Zion Protectorate"
+ SOR_ARM_autonomy_arm_puppet:0 "Zion Protectorate"
+
+ SUF_ARM_autonomy_arm_puppet_DEF:0 "Summers Protectorate"
+ SUF_ARM_autonomy_arm_puppet:0 "Summers Protectorate"
+
+ TAA_ARM_autonomy_arm_puppet_DEF:0 "South Texan Protectorate"
+ TAA_ARM_autonomy_arm_puppet:0 "South Texan Protectorate"
+
+ TDT_ARM_autonomy_arm_puppet_DEF:0 "Chiapas State"
+ TDT_ARM_autonomy_arm_puppet:0 "Chiapas State"
+
+ TLA_ARM_autonomy_arm_puppet_DEF:0 "Supreme Daddy"
+ TLA_ARM_autonomy_arm_puppet:0 "Supreme Daddy"
+
+ TON_ARM_autonomy_arm_puppet_DEF:0 "Tohono Protectorate"
+ TON_ARM_autonomy_arm_puppet:0 "Tohono Protectorate"
+
+ TSI_ARM_autonomy_arm_puppet_DEF:0 "Arizonian Border"
+ TSI_ARM_autonomy_arm_puppet:0 "Arizonian Border"
+
+ TWI_ARM_autonomy_arm_puppet_DEF:0 "Twisted Hairs Protectorate"
+ TWI_ARM_autonomy_arm_puppet:0 "Twisted Hairs Protectorate"
+
+ TWO_ARM_autonomy_arm_puppet_DEF:0 "Dos Helios Protectorate"
+ TWO_ARM_autonomy_arm_puppet:0 "Dos Helios Protectorate"
+
+ UMB_ARM_autonomy_arm_puppet_DEF:0 "Umbra Protectorate"
+ UMB_ARM_autonomy_arm_puppet:0 "Umbra Protectorate"
+
+ UOA_ARM_autonomy_arm_puppet_DEF:0 "Protectorate of Austin"
+ UOA_ARM_autonomy_arm_puppet:0 "Protectorate of Austin"
+
+ VEG_ARM_autonomy_arm_puppet_DEF:0 "Nuevo Vegas"
+ VEG_ARM_autonomy_arm_puppet:0 "Nuevo Vegas"
+
+ WAP_ARM_autonomy_arm_puppet_DEF:0 "Apache Protectorate"
+ WAP_ARM_autonomy_arm_puppet:0 "Apache Protectorate"

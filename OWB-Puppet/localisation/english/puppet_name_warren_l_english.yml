@@ -1,0 +1,342 @@
+﻿l_english: 
+
+
+ ANO_TRL_autonomy_slave_den_DEF:0 "Eden Den"
+ ANO_TRL_autonomy_slave_den:0 "Eden Den"
+ ANO_TRL_autonomy_slave_warren_DEF:0 "Eden Warren"
+ ANO_TRL_autonomy_slave_warren:0 "Eden Warren"
+
+ ANT_TRL_autonomy_slave_den_DEF:0 "Antelope Den"
+ ANT_TRL_autonomy_slave_den:0 "Antelope Den"
+ ANT_TRL_autonomy_slave_warren_DEF:0 "Antelope Warren"
+ ANT_TRL_autonomy_slave_warren:0 "Antelope Warren"
+
+ BAR_TRL_autonomy_slave_den_DEF:0 "Sacramento Den"
+ BAR_TRL_autonomy_slave_den:0 "Sacramento Den"
+ BAR_TRL_autonomy_slave_warren_DEF:0 "Sacramento Warren"
+ BAR_TRL_autonomy_slave_warren:0 "Sacramento Warren"
+
+ BEL_TRL_autonomy_slave_den_DEF:0 "Bellingham Den"
+ BEL_TRL_autonomy_slave_den:0 "Bellingham Den"
+ BEL_TRL_autonomy_slave_warren_DEF:0 "Bellingham Warren"
+ BEL_TRL_autonomy_slave_warren:0 "Bellingham Warren"
+
+ BJS_TRL_autonomy_slave_den_DEF:0 "Baja Den"
+ BJS_TRL_autonomy_slave_den:0 "Baja Den"
+ BJS_TRL_autonomy_slave_warren_DEF:0 "Baja Warren"
+ BJS_TRL_autonomy_slave_warren:0 "Baja Warren"
+
+ BLP_TRL_autonomy_slave_den_DEF:0 "Paz Den"
+ BLP_TRL_autonomy_slave_den:0 "Paz Den"
+ BLP_TRL_autonomy_slave_warren_DEF:0 "Paz Warren"
+ BLP_TRL_autonomy_slave_warren:0 "Paz Warren"
+
+ BON_TRL_autonomy_slave_den_DEF:0 "Boneyard Den"
+ BON_TRL_autonomy_slave_den:0 "Boneyard Den"
+ BON_TRL_autonomy_slave_warren_DEF:0 "Boneyard Warren"
+ BON_TRL_autonomy_slave_warren:0 "Boneyard Warren"
+
+ BOS_TRL_autonomy_slave_den_DEF:0 "Steel Den"
+ BOS_TRL_autonomy_slave_den:0 "Steel Den"
+ BOS_TRL_autonomy_slave_warren_DEF:0 "Steel Plague"
+ BOS_TRL_autonomy_slave_warren:0 "Steel Plague"
+
+ BRI_TRL_autonomy_slave_den_DEF:0 "Brigham Den"
+ BRI_TRL_autonomy_slave_den:0 "Brigham Den"
+ BRI_TRL_autonomy_slave_warren_DEF:0 "Brigham Warren"
+ BRI_TRL_autonomy_slave_warren:0 "Brigham Warren"
+
+ BRK_TRL_autonomy_slave_den_DEF:0 "Troll Coast"
+ BRK_TRL_autonomy_slave_den:0 "Troll Coast"
+ BRK_TRL_autonomy_slave_warren_DEF:0 "Troll Pirates"
+ BRK_TRL_autonomy_slave_warren:0 "Troll Pirates"
+
+ BVC_TRL_autonomy_slave_den_DEF:0 "Valle Den"
+ BVC_TRL_autonomy_slave_den:0 "Valle Den"
+ BVC_TRL_autonomy_slave_warren_DEF:0 "Valle Warren"
+ BVC_TRL_autonomy_slave_warren:0 "Valle Warren"
+
+ CLK_TRL_autonomy_slave_den_DEF:0 "Timekeepers Den"
+ CLK_TRL_autonomy_slave_den:0 "Timekeepers Den"
+ CLK_TRL_autonomy_slave_warren_DEF:0 "Timekeepers Warren"
+ CLK_TRL_autonomy_slave_warren:0 "Timekeepers Warren"
+
+ CRZ_TRL_autonomy_slave_den_DEF:0 "Crazy Horns Den"
+ CRZ_TRL_autonomy_slave_den:0 "Crazy Horns Den"
+ CRZ_TRL_autonomy_slave_warren_DEF:0 "Crazy Horns Warren"
+ CRZ_TRL_autonomy_slave_warren:0 "Crazy Horns Warren"
+
+ CYC_TRL_autonomy_slave_den_DEF:0 "Cyclops Den"
+ CYC_TRL_autonomy_slave_den:0 "Cyclops Den"
+ CYC_TRL_autonomy_slave_warren_DEF:0 "Cyclops Warren"
+ CYC_TRL_autonomy_slave_warren:0 "Cyclops Warren"
+
+ DAY_TRL_autonomy_slave_den_DEF:0 "Dayglow Den"
+ DAY_TRL_autonomy_slave_den:0 "Dayglow Den"
+ DAY_TRL_autonomy_slave_warren_DEF:0 "Dayglow Warren"
+ DAY_TRL_autonomy_slave_warren:0 "Dayglow Warren"
+
+ DEA_TRL_autonomy_slave_den_DEF:0 "Dead Horses Den"
+ DEA_TRL_autonomy_slave_den:0 "Dead Horses Den"
+ DEA_TRL_autonomy_slave_warren_DEF:0 "Dead Horses Warren"
+ DEA_TRL_autonomy_slave_warren:0 "Dead Horses Warren"
+
+ DES_TRL_autonomy_slave_den_DEF:0 "Desert Trolls"
+ DES_TRL_autonomy_slave_den:0 "Desert Trolls"
+ DES_TRL_autonomy_slave_warren_DEF:0 "Desert Trolls"
+ DES_TRL_autonomy_slave_warren:0 "Desert Trolls"
+
+ DRE_TRL_autonomy_slave_den_DEF:0 "Northern Den"
+ DRE_TRL_autonomy_slave_den:0 "Northern Den"
+ DRE_TRL_autonomy_slave_warren_DEF:0 "Northern Warren"
+ DRE_TRL_autonomy_slave_warren:0 "Northern Warren"
+
+ EAS_TRL_autonomy_slave_den_DEF:0 "Liquor Den"
+ EAS_TRL_autonomy_slave_den:0 "Liquor Den"
+ EAS_TRL_autonomy_slave_warren_DEF:0 "Liquor Warren"
+ EAS_TRL_autonomy_slave_warren:0 "Liquor Warren"
+
+ EHT_TRL_autonomy_slave_den_DEF:0 "Eighties Den"
+ EHT_TRL_autonomy_slave_den:0 "Eighties Den"
+ EHT_TRL_autonomy_slave_warren_DEF:0 "Eighties Warren"
+ EHT_TRL_autonomy_slave_warren:0 "Eighties Warren"
+
+ FAR_TRL_autonomy_slave_den_DEF:0 "Farfield Den"
+ FAR_TRL_autonomy_slave_den:0 "Farfield Den"
+ FAR_TRL_autonomy_slave_warren_DEF:0 "Farfield Warren"
+ FAR_TRL_autonomy_slave_warren:0 "Farfield Warren"
+
+ FIE_TRL_autonomy_slave_den_DEF:0 "Fiends Den"
+ FIE_TRL_autonomy_slave_den:0 "Fiends Den"
+ FIE_TRL_autonomy_slave_warren_DEF:0 "Fiends Warren"
+ FIE_TRL_autonomy_slave_warren:0 "Fiends Warren"
+
+ FRI_TRL_autonomy_slave_den_DEF:0 "Frisco Den"
+ FRI_TRL_autonomy_slave_den:0 "Frisco Den"
+ FRI_TRL_autonomy_slave_warren_DEF:0 "Frisco Warren"
+ FRI_TRL_autonomy_slave_warren:0 "Frisco Warren"
+
+ GRA_TRL_autonomy_slave_den_DEF:0 "Grabber Den"
+ GRA_TRL_autonomy_slave_den:0 "Grabber Den"
+ GRA_TRL_autonomy_slave_warren_DEF:0 "Grabber Warren"
+ GRA_TRL_autonomy_slave_warren:0 "Grabber Warren"
+
+ HAI_TRL_autonomy_slave_den_DEF:0 "Haida Den"
+ HAI_TRL_autonomy_slave_den:0 "Haida Den"
+ HAI_TRL_autonomy_slave_warren_DEF:0 "Haida Warren"
+ HAI_TRL_autonomy_slave_warren:0 "Haida Warren"
+
+ HAM_TRL_autonomy_slave_den_DEF:0 "Glass Den"
+ HAM_TRL_autonomy_slave_den:0 "Glass Den"
+ HAM_TRL_autonomy_slave_warren_DEF:0 "Glass Warren"
+ HAM_TRL_autonomy_slave_warren:0 "Glass Warren"
+
+ HEA_TRL_autonomy_slave_den_DEF:0 "Steam's Den"
+ HEA_TRL_autonomy_slave_den:0 "Steam's Den"
+ HEA_TRL_autonomy_slave_warren_DEF:0 "Steam's Warren"
+ HEA_TRL_autonomy_slave_warren:0 "Steam's Warren"
+
+ HGH_TRL_autonomy_slave_den_DEF:0 "Baptisers Den"
+ HGH_TRL_autonomy_slave_den:0 "Baptisers Den"
+ HGH_TRL_autonomy_slave_warren_DEF:0 "Baptisers Warren"
+ HGH_TRL_autonomy_slave_warren:0 "Baptisers Warren"
+
+ JAC_TRL_autonomy_slave_den_DEF:0 "Jackals Den"
+ JAC_TRL_autonomy_slave_den:0 "Jackals Den"
+ JAC_TRL_autonomy_slave_warren_DEF:0 "Jackals Warren"
+ JAC_TRL_autonomy_slave_warren:0 "Jackals Warren"
+
+ KAM_TRL_autonomy_slave_den_DEF:0 "Kamlo Den"
+ KAM_TRL_autonomy_slave_den:0 "Kamlo Den"
+ KAM_TRL_autonomy_slave_warren_DEF:0 "Kamlo Warren"
+ KAM_TRL_autonomy_slave_warren:0 "Kamlo Warren"
+
+ KHA_TRL_autonomy_slave_den_DEF:0 "Khans Den"
+ KHA_TRL_autonomy_slave_den:0 "Khans Den"
+ KHA_TRL_autonomy_slave_warren_DEF:0 "Khans Warren"
+ KHA_TRL_autonomy_slave_warren:0 "Khans Warren"
+
+ LON_TRL_autonomy_slave_den_DEF:0 "Lonetree Den"
+ LON_TRL_autonomy_slave_den:0 "Lonetree Den"
+ LON_TRL_autonomy_slave_warren_DEF:0 "Lonetree Warren"
+ LON_TRL_autonomy_slave_warren:0 "Lonetree Warren"
+
+ MOJ_TRL_autonomy_slave_den_DEF:0 "Helios Den"
+ MOJ_TRL_autonomy_slave_den:0 "Helios Den"
+ MOJ_TRL_autonomy_slave_warren_DEF:0 "Helios Warren"
+ MOJ_TRL_autonomy_slave_warren:0 "Helios Warren"
+
+ MOS_TRL_autonomy_slave_den_DEF:0 "Mountain Den"
+ MOS_TRL_autonomy_slave_den:0 "Mountain Den"
+ MOS_TRL_autonomy_slave_warren_DEF:0 "Mountain Warren"
+ MOS_TRL_autonomy_slave_warren:0 "Mountain Warren"
+
+ MOT_TRL_autonomy_slave_den_DEF:0 "Mojave Den"
+ MOT_TRL_autonomy_slave_den:0 "Mojave Den"
+ MOT_TRL_autonomy_slave_warren_DEF:0 "Mojave Warren"
+ MOT_TRL_autonomy_slave_warren:0 "Mojave Warren"
+
+ MRA_TRL_autonomy_slave_den_DEF:0 "Nipton Den"
+ MRA_TRL_autonomy_slave_den:0 "Nipton Den"
+ MRA_TRL_autonomy_slave_warren_DEF:0 "Nipton Warren"
+ MRA_TRL_autonomy_slave_warren:0 "Nipton Warren"
+
+ MUR_TRL_autonomy_slave_den_DEF:0 "Murtaugh Den"
+ MUR_TRL_autonomy_slave_den:0 "Murtaugh Den"
+ MUR_TRL_autonomy_slave_warren_DEF:0 "Murtaugh Warren"
+ MUR_TRL_autonomy_slave_warren:0 "Murtaugh Warren"
+
+ NCN_TRL_autonomy_slave_den_DEF:0 "Mormon Den"
+ NCN_TRL_autonomy_slave_den:0 "Mormon Den"
+ NCN_TRL_autonomy_slave_warren_DEF:0 "Mormon Warren"
+ NCN_TRL_autonomy_slave_warren:0 "Mormon Warren"
+
+ NCR_TRL_autonomy_slave_den_DEF:0 "California Den"
+ NCR_TRL_autonomy_slave_den:0 "California Den"
+ NCR_TRL_autonomy_slave_warren_DEF:0 "California Warren"
+ NCR_TRL_autonomy_slave_warren:0 "California Warren"
+
+ NEW_TRL_autonomy_slave_den_DEF:0 "Thradd Den"
+ NEW_TRL_autonomy_slave_den:0 "Thradd Den"
+ NEW_TRL_autonomy_slave_warren_DEF:0 "Thradd Warren"
+ NEW_TRL_autonomy_slave_warren:0 "Thradd Warren"
+
+ NOE_TRL_autonomy_slave_den_DEF:0 "Noemen Den"
+ NOE_TRL_autonomy_slave_den:0 "Noemen Den"
+ NOE_TRL_autonomy_slave_warren_DEF:0 "Noemen Warren"
+ NOE_TRL_autonomy_slave_warren:0 "Noemen Warren"
+
+ OLY_TRL_autonomy_slave_den_DEF:0 "Olympus Den"
+ OLY_TRL_autonomy_slave_den:0 "Olympus Den"
+ OLY_TRL_autonomy_slave_warren_DEF:0 "Olympus Warren"
+ OLY_TRL_autonomy_slave_warren:0 "Olympus Warren"
+
+ PAL_TRL_autonomy_slave_den_DEF:0 "Pale Den"
+ PAL_TRL_autonomy_slave_den:0 "Pale Den"
+ PAL_TRL_autonomy_slave_warren_DEF:0 "Pale Warren"
+ PAL_TRL_autonomy_slave_warren:0 "Pale Warren"
+
+ PMR_TRL_autonomy_slave_den_DEF:0 "Junk Den"
+ PMR_TRL_autonomy_slave_den:0 "Junk Den"
+ PMR_TRL_autonomy_slave_warren_DEF:0 "Junk Warren"
+ PMR_TRL_autonomy_slave_warren:0 "Junk Warren"
+
+ PSH_TRL_autonomy_slave_den_DEF:0 "Protectron Den"
+ PSH_TRL_autonomy_slave_den:0 "Protectron Den"
+ PSH_TRL_autonomy_slave_warren_DEF:0 "Protectron Warren"
+ PSH_TRL_autonomy_slave_warren:0 "Protectron Warren"
+
+ RAP_TRL_autonomy_slave_den_DEF:0 "Rapids Den"
+ RAP_TRL_autonomy_slave_den:0 "Rapids Den"
+ RAP_TRL_autonomy_slave_warren_DEF:0 "Rapids Warren"
+ RAP_TRL_autonomy_slave_warren:0 "Rapids Warren"
+
+ RIP_TRL_autonomy_slave_den_DEF:0 "Riperult Den"
+ RIP_TRL_autonomy_slave_den:0 "Riperult Den"
+ RIP_TRL_autonomy_slave_warren_DEF:0 "Riperult Warren"
+ RIP_TRL_autonomy_slave_warren:0 "Riperult Warren"
+
+ RUB_TRL_autonomy_slave_den_DEF:0 "Ruby Den"
+ RUB_TRL_autonomy_slave_den:0 "Ruby Den"
+ RUB_TRL_autonomy_slave_warren_DEF:0 "Ruby Warren"
+ RUB_TRL_autonomy_slave_warren:0 "Ruby Warren"
+
+ SHI_TRL_autonomy_slave_den_DEF:0 "Shi Den"
+ SHI_TRL_autonomy_slave_den:0 "Shi Den"
+ SHI_TRL_autonomy_slave_warren_DEF:0 "Shi Warren"
+ SHI_TRL_autonomy_slave_warren:0 "Shi Warren"
+
+ SHO_TRL_autonomy_slave_den_DEF:0 "Shoshone Den"
+ SHO_TRL_autonomy_slave_den:0 "Shoshone Den"
+ SHO_TRL_autonomy_slave_warren_DEF:0 "Shoshone Warren"
+ SHO_TRL_autonomy_slave_warren:0 "Shoshone Warren"
+
+ SKY_TRL_autonomy_slave_den_DEF:0 "Sky Trolls"
+ SKY_TRL_autonomy_slave_den:0 "Sky Trolls"
+ SKY_TRL_autonomy_slave_warren_DEF:0 "Sky Trolls"
+ SKY_TRL_autonomy_slave_warren:0 "Sky Trolls"
+
+ SLE_TRL_autonomy_slave_den_DEF:0 "Canyon Den"
+ SLE_TRL_autonomy_slave_den:0 "Canyon Den"
+ SLE_TRL_autonomy_slave_warren_DEF:0 "Sleepers Warren"
+ SLE_TRL_autonomy_slave_warren:0 "Sleepers Warren"
+
+ SOR_TRL_autonomy_slave_den_DEF:0 "Sorrows Den"
+ SOR_TRL_autonomy_slave_den:0 "Sorrows Den"
+ SOR_TRL_autonomy_slave_warren_DEF:0 "Sorrows Warren"
+ SOR_TRL_autonomy_slave_warren:0 "Sorrows Warren"
+
+ SYN_TRL_autonomy_slave_den_DEF:0 "Sylix Den"
+ SYN_TRL_autonomy_slave_den:0 "Sylix Den"
+ SYN_TRL_autonomy_slave_warren_DEF:0 "Sylix Warren"
+ SYN_TRL_autonomy_slave_warren:0 "Sylix Warren"
+
+ TAR_TRL_autonomy_slave_den_DEF:0 "Tar Walkers Den"
+ TAR_TRL_autonomy_slave_den:0 "Tar Walkers Den"
+ TAR_TRL_autonomy_slave_warren_DEF:0 "Tar Walkers Warren"
+ TAR_TRL_autonomy_slave_warren:0 "Tar Walkers Warren"
+
+ TCA_TRL_autonomy_slave_den_DEF:0 "Portland Den"
+ TCA_TRL_autonomy_slave_den:0 "Portland Den"
+ TCA_TRL_autonomy_slave_warren_DEF:0 "Portland Warren"
+ TCA_TRL_autonomy_slave_warren:0 "Portland Warren"
+
+ TIM_TRL_autonomy_slave_den_DEF:0 "Lumberjacks Den"
+ TIM_TRL_autonomy_slave_den:0 "Lumberjacks Den"
+ TIM_TRL_autonomy_slave_warren_DEF:0 "Lumberjacks Warren"
+ TIM_TRL_autonomy_slave_warren:0 "Lumberjacks Warren"
+
+ UIN_TRL_autonomy_slave_den_DEF:0 "Eagle Rock Den"
+ UIN_TRL_autonomy_slave_den:0 "Eagle Rock Den"
+ UIN_TRL_autonomy_slave_warren_DEF:0 "Eagle Rock Warren"
+ UIN_TRL_autonomy_slave_warren:0 "Eagle Rock Warren"
+
+ UMB_TRL_autonomy_slave_den_DEF:0 "Umbra Den"
+ UMB_TRL_autonomy_slave_den:0 "Umbra Den"
+ UMB_TRL_autonomy_slave_warren_DEF:0 "Umbra Warren"
+ UMB_TRL_autonomy_slave_warren:0 "Umbra Warren"
+
+ VEG_TRL_autonomy_slave_den_DEF:0 "Vegas Den"
+ VEG_TRL_autonomy_slave_den:0 "Vegas Den"
+ VEG_TRL_autonomy_slave_warren_DEF:0 "Vegas Warren"
+ VEG_TRL_autonomy_slave_warren:0 "Vegas Warren"
+
+ VIC_TRL_autonomy_slave_den_DEF:0 "Victoria Den"
+ VIC_TRL_autonomy_slave_den:0 "Victoria Den"
+ VIC_TRL_autonomy_slave_warren_DEF:0 "Victoria Warren"
+ VIC_TRL_autonomy_slave_warren:0 "Victoria Warren"
+
+ VIP_TRL_autonomy_slave_den_DEF:0 "Vipers Den"
+ VIP_TRL_autonomy_slave_den:0 "Vipers Den"
+ VIP_TRL_autonomy_slave_warren_DEF:0 "Vipers Warren"
+ VIP_TRL_autonomy_slave_warren:0 "Vipers Warren"
+
+ VLT_TRL_autonomy_slave_den_DEF:0 "Vault Den"
+ VLT_TRL_autonomy_slave_den:0 "Vault Den"
+ VLT_TRL_autonomy_slave_warren_DEF:0 "Vault Warren"
+ VLT_TRL_autonomy_slave_warren:0 "Vault Warren"
+
+ WEN_TRL_autonomy_slave_den_DEF:0 "Wendover Den"
+ WEN_TRL_autonomy_slave_den:0 "Wendover Den"
+ WEN_TRL_autonomy_slave_warren_DEF:0 "Wendover Warren"
+ WEN_TRL_autonomy_slave_warren:0 "Wendover Warren"
+
+ WHI_TRL_autonomy_slave_den_DEF:0 "Whistler Den"
+ WHI_TRL_autonomy_slave_den:0 "Whistler Den"
+ WHI_TRL_autonomy_slave_warren_DEF:0 "Whistler Warren"
+ WHI_TRL_autonomy_slave_warren:0 "Whistler Warren"
+
+ WHT_TRL_autonomy_slave_den_DEF:0 "White Legs Den"
+ WHT_TRL_autonomy_slave_den:0 "White Legs Den"
+ WHT_TRL_autonomy_slave_warren_DEF:0 "White Legs Warren"
+ WHT_TRL_autonomy_slave_warren:0 "White Legs Warren"
+
+ YAK_TRL_autonomy_slave_den_DEF:0 "Yakama Den"
+ YAK_TRL_autonomy_slave_den:0 "Yakama Den"
+ YAK_TRL_autonomy_slave_warren_DEF:0 "Yakama Warren"
+ YAK_TRL_autonomy_slave_warren:0 "Yakama Warren"
+
+ YKZ_TRL_autonomy_slave_den_DEF:0 "Yakuza Den"
+ YKZ_TRL_autonomy_slave_den:0 "Yakuza Den"
+ YKZ_TRL_autonomy_slave_warren_DEF:0 "Yakuza Warren"
+ YKZ_TRL_autonomy_slave_warren:0 "Yakuza Warren"

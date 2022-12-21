@@ -1,0 +1,17 @@
+bos_overlord_decisions = {
+	icon = GFX_decision_category_po_overlord
+	available = {
+		num_subjects > 0
+		hidden_trigger = {
+			is_brotherhood_nation_allowed_block = yes
+		}			
+	}
+	visible = {
+		num_subjects > 0
+		hidden_trigger = {
+			is_brotherhood_nation_allowed_block = yes
+		}
+		
+	}
+	priority = 240
+}

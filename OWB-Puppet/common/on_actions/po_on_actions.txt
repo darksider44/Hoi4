@@ -1,0 +1,3868 @@
+on_actions = {
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = color_changed
+				}
+				clr_country_flag = color_changed
+				drop_cosmetic_tag = yes
+			}
+			if = {
+				limit = {
+					OR = {
+						has_focus_tree = ncr_puppet_nf
+						has_focus_tree = ces_puppet_nf
+						has_focus_tree = trl_puppet_nf
+						has_focus_tree = vlt_puppet_nf
+						has_focus_tree = bos_puppet_nf
+						has_focus_tree = rrg_puppet_nf
+					}
+				}
+				if = {
+					limit = {
+						is_raider_nation = yes
+					}
+					load_focus_tree = raider_generic
+				}
+				else_if = {
+					limit = {
+						is_tribal_nation = yes
+					}
+					load_focus_tree = gentribal
+				}
+				else = {
+					load_focus_tree = settler_generic
+				}
+
+			}
+			if = {
+				limit = {
+					OR = {
+						has_country_leader = {
+							name = "NCR Territorial Administration"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "NCR Barons"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "NCR Expeditionary Government"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "NCR Military Government"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "Administratio Imperii"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "The Will of The First"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "The Overseer"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "Ranger Command"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "The Hall of Initiates"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "House Rules"
+							ruling_only = yes
+						}
+						has_country_leader = {
+							name = "The Hall of the Damned"
+							ruling_only = yes
+						}
+					}
+				}
+				kill_country_leader = yes
+			}
+		}
+	}
+	on_puppet = {
+		effect = {
+			ROOT = {
+				add_opinion_modifier = {
+					target = FROM
+					modifier = po_recently_puppeted
+				}
+				add_opinion_modifier = {
+					target = FROM
+					modifier = po_recently_puppeted_trade
+				}
+				add_opinion_modifier = {
+					target = FROM
+					modifier = po_puppeted_us
+				}
+				reverse_add_opinion_modifier = {
+					target = FROM
+					modifier = po_opinion_of_puppet
+				}
+				if = {
+					limit = {
+						NOT = {
+							original_tag = NEW
+							original_tag = VEG
+							original_tag = BOS
+							original_tag = MOJ
+							original_tag = DES
+							original_tag = VLT
+							original_tag = NCN
+							original_tag = FFI
+							original_tag = TLA
+							original_tag = CAF
+							original_tag = RRG
+							original_tag = ARM
+							original_tag = ATE
+							original_tag = ITZ
+							original_tag = ZAP
+							original_tag = MAX
+							original_tag = MOC
+							#
+							original_tag = TAA
+							original_tag = LAC
+							original_tag = HAN
+							original_tag = TTM
+							original_tag = NAV
+							original_tag = LNS
+							original_tag = SHA
+							original_tag = IMO
+							original_tag = UOA
+							original_tag = CHO
+							original_tag = CMC
+							original_tag = CHR
+							original_tag = TLP
+							original_tag = TBH
+							original_tag = MXC
+						}
+					}
+					if = {
+						limit = {
+							OR = {
+							is_subject_of = NCR
+							OVERLORD = {
+								is_in_faction_with = NCR
+							}
+							}
+						}
+						load_focus_tree = ncr_puppet_nf
+					}
+					else_if = {
+						limit = {
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+						load_focus_tree = ces_puppet_nf
+					}
+					else_if = {
+						limit = {
+							is_subject_of = TRL
+						}
+						load_focus_tree = trl_puppet_nf
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VLT
+						}
+						load_focus_tree = vlt_puppet_nf
+					}
+					else_if = {
+						limit = {
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+								is_subject_of = ACH
+								is_subject_of = TCA
+								is_subject_of = MNC
+								is_subject_of = BSF
+								OVERLORD = {
+									is_brotherhood_nation_allowed_block = yes
+								}
+							}
+						}
+						load_focus_tree = bos_puppet_nf
+					}
+					else_if = {
+						limit = {
+							is_subject_of = TRL
+						}
+						load_focus_tree = trl_puppet_nf
+					}
+					else_if = {
+						limit = {
+							is_subject_of = RRG
+						}
+						load_focus_tree = rrg_puppet_nf
+					}
+					else = {}
+				}
+			#NCR puppet stuff
+				if = {
+					limit = {
+						is_subject_of = NCR
+					}
+					create_country_leader = {
+						name = "NCR Territorial Administration"
+						desc = "ncr_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_NCR
+						expire = "3000.1.1"
+						ideology = constitutional_republic
+						traits = { po_loyal_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SCR
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SCR_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BLK
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = BLK_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BSU
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = BSU_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FLA
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = FLA_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = HUA
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = HUA_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = JIC
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = JIC_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MES
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = MES_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOJ
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = MOJ_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MRA
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = MRA_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PHR
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = PHR_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RSR
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = RSR_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SUF
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SUF_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SUF
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SUF_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SUF
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SUF_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TSI
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = TSI_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WAP
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = WAP_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RAP
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = RAP_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BOS
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = BOS_NCR
+					set_country_flag = color_changed
+				}
+
+				#NCR 'Remnant' Ideas
+
+				if = {
+					limit = {
+							has_idea = ncr_puppet_shock
+					}
+					swap_ideas = {
+						add_idea = ncr_puppet_shock_trooper_remnant
+						remove_idea = ncr_puppet_shock
+					}
+				}
+
+				if = {
+					limit = {
+							has_idea = ncr_puppet_raider_duty
+					}
+					swap_ideas = {
+						add_idea = ncr_puppet_raider_duty_remnant
+						remove_idea = ncr_puppet_raider_duty
+					}
+				}
+
+				if = {
+					limit = {
+							has_idea = ncr_puppet_idea_tribal_expanding
+					}
+					swap_ideas = {
+						add_idea = ncr_puppet_idea_tribal_expansion_remnant
+						remove_idea = ncr_puppet_idea_tribal_expanding
+					}
+				}
+
+				if = {
+					limit = {
+							has_idea = ncr_puppet_idea_encouragement
+					}
+					swap_ideas = {
+						add_idea = ncr_puppet_idea_encouragement_remnant
+						remove_idea = ncr_puppet_idea_encouragement
+					}
+				}
+
+				if = {
+					limit = {
+							has_idea = ncr_puppet_idea_highwaymen_experts
+					}
+					swap_ideas = {
+						add_idea = ncr_puppet_idea_highwaymen_experts_remnant
+						remove_idea = ncr_puppet_idea_highwaymen_experts
+					}
+				}
+
+				if = {
+					limit = {
+							has_idea = ncr_puppet_idea_ncr_draft_2
+					}
+					swap_ideas = {
+						add_idea = ncr_puppet_idea_ncr_draft_2_remnant
+						remove_idea = ncr_puppet_idea_ncr_draft_2
+					}
+				}
+
+
+			#BOS puppet stuff
+				if = {
+					limit = {
+						OR = {
+							is_subject_of = BOS
+							is_subject_of = MOJ
+							is_subject_of = TBH
+							is_subject_of = MXC
+						}
+					}
+					create_country_leader = {
+						name = "The Hall of Initiates"
+						desc = "bos_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_BOS
+						expire = "3000.1.1"
+						ideology = ideocracy
+						traits = { po_defensive_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = UMB
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = UMB_BOS
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ARR
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = ARR_BOS
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SHI
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = SHI_BOS
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BON
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = BON_BOS
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NCR
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = NCR_BOS
+					set_country_flag = color_changed
+				}
+			#Legion puppet stuff
+				if = {
+					limit = {
+						OR = {
+							is_subject_of = CES
+							is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+						}
+						has_government = elites
+					}
+					create_country_leader = {
+						name = "Administratio Imperii"
+						desc = "ces_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_CES
+						expire = "3000.1.1"
+						ideology = militarist_oligarchy
+						traits = { po_aggressive_puppet }
+					}
+					else_if = {
+						limit = {
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+							has_government = ruler
+						}
+						create_country_leader = {
+							name = "Administratio Imperii"
+							desc = "ces_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_CES
+							expire = "3000.1.1"
+							ideology = oligarchy
+							traits = { po_aggressive_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+							has_government = intellectuals
+						}
+						create_country_leader = {
+							name = "Administratio Imperii"
+							desc = "ces_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_CES
+							expire = "3000.1.1"
+							ideology = technocracy
+							traits = { po_aggressive_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BON
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = BON_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = DES
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = DES_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOJ
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = MOJ_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NCR
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = NCR_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NAV
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = NAV_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TON
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = TON_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = LGS
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = LGS_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = GDH
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = GDH_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TLO
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = TLO_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WHD
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = WHD_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = IRN
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = IRN_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SCO
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = SCO_CES
+					set_country_flag = color_changed
+				}
+			#NCN puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = EHT
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = EHT_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SOR
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = SOR_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WHT
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = WHT_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = IRE
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = IRE_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MUR
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = MUR_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = LON
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = LON_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = UIN
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = UIN_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CRZ
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = CRZ_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = DEA
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = DEA_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = HGH
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = HGH_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TAR
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = TAR_NCN
+					set_country_flag = color_changed
+				}
+			#HEA puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = MUR
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = MUR_HEA
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = IRE
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = IRE_HEA
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PHA
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = PHA_HEA
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TOC
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = TOC_HEA
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = LON
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = LON_HEA
+					set_country_flag = color_changed
+				}
+			#TRL puppet stuff
+				if = {
+					limit = {
+						is_subject_of = TRL
+						has_government = people
+					}
+					create_country_leader = {
+						name = "The Will of The First"
+						desc = "trl_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_TRL
+						expire = "3000.1.1"
+						ideology = tribal_council
+						traits = { po_aggressive_puppet }
+					}
+					else_if = {
+						limit = {
+							is_subject_of = TRL
+							has_government = elites
+						}
+						create_country_leader = {
+							name = "The Will of The First"
+							desc = "trl_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_TRL
+							expire = "3000.1.1"
+							ideology = tribalism
+							traits = { po_aggressive_puppet }
+						}
+					}
+					if = {
+						limit = {
+							is_subject_of = TRL
+							has_government = intellectuals
+						}
+						create_country_leader = {
+							name = "The Will of The First"
+							desc = "trl_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_TRL
+							expire = "3000.1.1"
+							ideology = ideocracy
+							traits = { po_aggressive_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WBH
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = WBH_TRL
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = KLA
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = KLA_TRL
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CHE
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = CHE_TRL
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BDT
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = BDT_TRL
+					set_country_flag = color_changed
+				}
+				# if = {
+				# 	limit = {
+				# 		AND = {
+				# 			TAG = MIR
+				# 			is_subject_of = TRL
+				# 		}
+				# 	}
+				# 	set_cosmetic_tag = MIR_TRL
+				# 	set_country_flag = color_changed
+				# }
+				if = {
+					limit = {
+						AND = {
+							TAG = RBT
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = RBT_TRL
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MDT
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = MDT_TRL
+					set_country_flag = color_changed
+				}
+				# if = {
+				# 	limit = {
+				# 		AND = {
+				# 			TAG = BPT
+				# 			is_subject_of = TRL
+				# 		}
+				# 	}
+				# 	set_cosmetic_tag = BPT_TRL
+				# 	set_country_flag = color_changed
+				# }
+				if = {
+					limit = {
+						AND = {
+							TAG = WBH
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = WBH_TRL
+					set_country_flag = color_changed
+				}
+			#VLT puppet stuff
+				if = {
+					limit = {
+						is_subject_of = VLT
+						has_government = people
+					}
+					create_country_leader = {
+						name = "The Overseer"
+						desc = "vlt_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_VLT
+						expire = "3000.1.1"
+						ideology = commune
+						traits = { po_loyal_puppet }
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VLT
+							has_government = elites
+						}
+						create_country_leader = {
+							name = "The Overseer"
+							desc = "vlt_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VLT
+							expire = "3000.1.1"
+							ideology = militarist_technocracy
+							traits = { po_loyal_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VLT
+							has_government = intellectuals
+						}
+						create_country_leader = {
+							name = "The Overseer"
+							desc = "vlt_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VLT
+							expire = "3000.1.1"
+							ideology = ideocracy
+							traits = { po_loyal_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VLT
+							has_government = ruler
+						}
+						create_country_leader = {
+							name = "The Overseer"
+							desc = "vlt_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VLT
+							expire = "3000.1.1"
+							ideology = benevolent_dictatorship
+							traits = { po_loyal_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = VEG
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = VEG_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NCN
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = NCN_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FIE
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = FIE_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BOO
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = BOO_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ARR
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = ARR_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PAL
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = PAL_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CYC
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = CYC_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SHO
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = SHO_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RIP
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = RIP_VLT
+					set_country_flag = color_changed
+				}
+			#VEG puppet stuff
+				if = {
+					limit = {
+						is_subject_of = VEG
+						has_government = people
+					}
+					create_country_leader = {
+						name = "House Rules"
+						desc = "veg_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_VEG
+						expire = "3000.1.1"
+						ideology = unlimited_democracy
+						traits = { po_defensive_puppet }
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VEG
+							has_government = elites
+						}
+						create_country_leader = {
+							name = "House Rules"
+							desc = "veg_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VEG
+							expire = "3000.1.1"
+							ideology = militarist_oligarchy
+							traits = { po_defensive_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VEG
+							has_government = ruler
+						}
+						create_country_leader = {
+							name = "House Rules"
+							desc = "veg_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VEG
+							expire = "3000.1.1"
+							ideology = benevolent_dictatorship
+							traits = { po_defensive_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FIE
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = FIE_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = KHA
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = KHA_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = DAM
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = DAM_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOJ
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = MOJ_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MRA
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = MRA_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOS
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = MOS_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOS
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = MOS_VEG
+					set_country_flag = color_changed
+				}
+			#WBH puppet stuff
+				if = {
+					limit = {
+						is_subject_of = WBH
+					}
+					create_country_leader = {
+						name = "The Hall of the Damned"
+						desc = "wbh_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_WBH
+						expire = "3000.1.1"
+						ideology = militarist_technocracy
+						traits = { po_defensive_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TRL
+							is_subject_of = WBH
+						}
+					}
+					set_cosmetic_tag = TRL_WBH
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TCA
+							is_subject_of = WBH
+						}
+					}
+					set_cosmetic_tag = TCA_WBH
+					set_country_flag = color_changed
+				}
+				# if = {
+				# 	limit = {
+				# 		AND = {
+				# 			TAG = ISN
+				# 			is_subject_of = WBH
+				# 		}
+				# 	}
+				# 	set_cosmetic_tag = ISN_WBH
+				# 	set_country_flag = color_changed
+				# }
+				if = {
+					limit = {
+						AND = {
+							TAG = HAI
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = HAI_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PMR
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = PMR_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TOC
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = TOC_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WHI
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = WHI_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = KAM
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = KAM_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = DRE
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = DRE_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = VIC
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = VIC_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WBH
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = WBH_BRK
+					set_country_flag = color_changed
+				}
+			#DES puppet stuff
+				if = {
+					limit = {
+						is_subject_of = DES
+						has_government = ruler
+					}
+					create_country_leader = {
+						name = "Ranger Command"
+						desc = "des_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_DES
+						expire = "3000.1.1"
+						ideology = benevolent_dictatorship
+						traits = { po_loyal_puppet }
+					}
+					else_if = {
+						limit = {
+							is_subject_of = DES
+							has_government = people
+						}
+						create_country_leader = {
+							name = "Ranger Command"
+							desc = "des_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_DES
+							expire = "3000.1.1"
+							ideology = peoples_militia
+							traits = { po_loyal_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							is_subject_of = DES
+							has_government = intellectuals
+						}
+						create_country_leader = {
+							name = "Ranger Command"
+							desc = "des_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_DES
+							expire = "3000.1.1"
+							ideology = technocracy
+							traits = { po_loyal_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SKY
+							is_subject_of = DES
+						}
+					}
+					set_cosmetic_tag = SKY_DES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RIP
+							is_subject_of = DES
+						}
+					}
+					set_cosmetic_tag = RIP_DES
+					set_country_flag = color_changed
+				}
+			#Enclave puppet stuff
+				if = {
+					limit = {
+						OVERLORD = {
+							has_country_flag = enclave_nation
+						}
+					}
+					create_country_leader = {
+						name = "Department of Reclamation"
+						desc = "enc_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_ENC
+						expire = "3000.1.1"
+						ideology = militarist_oligarchy
+						traits = { po_loyal_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ARR
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = ARR_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BON
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = BON_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BOS
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = BOS_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CHE
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = CHE_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CYC
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = CYC_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = KLA
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = KLA_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NCR
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = NCR_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PAL
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = PAL_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SHO
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = SHO_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = UMB
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = UMB_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = YKZ
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = YKZ_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = VLT
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = VLT_ENC
+					set_country_flag = color_changed
+				}
+			#MOJ puppet stuff
+				if = {
+					limit = {
+						is_subject_of = MOJ
+					}
+					create_country_leader = {
+						name = "The Hall of Initiates"
+						desc = "bos_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_MOJ
+						expire = "3000.1.1"
+						ideology = ideocracy
+						traits = { po_defensive_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FIE
+							is_subject_of = MOJ
+						}
+					}
+					set_cosmetic_tag = FIE_MOJ
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MRA
+							is_subject_of = MOJ
+						}
+					}
+					set_cosmetic_tag = MRA_MOJ
+					set_country_flag = color_changed
+				}
+			#ATE puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = TDT
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = TDT_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = GRH
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = GRH_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CAF
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = CAF_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PET
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = PET_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ARM
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = ARM_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RRG
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = RRG_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TVR
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = TVR_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FFI
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = FFI_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BLO
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = BLO_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SIN
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = SIN_ATE
+					set_country_flag = color_changed
+				}
+			#ARM puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = PET
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = PET_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RRG
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = RRG_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ATE
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = ATE_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FFI
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = FFI_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BLO
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = BLO_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SIN
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = SIN_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TVR
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = TVR_ARM
+					set_country_flag = color_changed
+				}
+			#RRG puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = ARM
+							is_subject_of = RRG
+						}
+					}
+					set_cosmetic_tag = ARM_RRG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PEC
+							is_subject_of = RRG
+						}
+					}
+					set_cosmetic_tag = PEC_RRG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RBD
+							is_subject_of = RRG
+						}
+					}
+					set_cosmetic_tag = RBD_RRG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = LGS
+							is_subject_of = RRG
+						}
+					}
+					set_cosmetic_tag = LGS_RRG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SIN
+							is_subject_of = FFI
+						}
+					}
+					set_cosmetic_tag = SIN_FFI
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TLO
+							is_subject_of = FFI
+						}
+					}
+					set_cosmetic_tag = TLO_FFI
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = GDH
+							is_subject_of = FFI
+						}
+					}
+					set_cosmetic_tag = LGS_FFI
+					set_country_flag = color_changed
+				}
+			}
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			ROOT = {
+				add_opinion_modifier = {
+					target = FROM
+					modifier = po_recently_puppeted
+				}
+				add_opinion_modifier = {
+					target = FROM
+					modifier = po_recently_puppeted_trade
+				}
+				add_opinion_modifier = {
+					target = FROM
+					modifier = po_puppeted_us
+				}
+				reverse_add_opinion_modifier = {
+					target = FROM
+					modifier = po_opinion_of_puppet
+				}
+				if = {
+					limit = {
+						NOT = {
+							original_tag = NEW
+							original_tag = VEG
+							original_tag = BOS
+							original_tag = MOJ
+							original_tag = DES
+							original_tag = VLT
+							original_tag = NCN
+							original_tag = FFI
+							original_tag = TLA
+							original_tag = CAF
+							original_tag = RRG
+							original_tag = ARM
+							original_tag = ATE
+							original_tag = ITZ
+							original_tag = ZAP
+							original_tag = MAX
+							original_tag = MOC
+							#
+							original_tag = TAA
+							original_tag = LAC
+							original_tag = HAN
+							original_tag = TTM
+							original_tag = NAV
+							original_tag = LNS
+							original_tag = SHA
+							original_tag = IMO
+							original_tag = UOA
+							original_tag = CHO
+							original_tag = CMC
+							original_tag = CHR
+							original_tag = TLP
+							original_tag = TBH
+							original_tag = MXC
+						}
+					}
+					if = {
+						limit = {
+							OR = {
+							is_subject_of = NCR
+							OVERLORD = {
+								is_in_faction_with = NCR
+							}
+							}
+						}
+						load_focus_tree = ncr_puppet_nf
+					}
+					else_if = {
+						limit = {
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+						load_focus_tree = ces_puppet_nf
+					}
+					else_if = {
+						limit = {
+							is_subject_of = TRL
+						}
+						load_focus_tree = trl_puppet_nf
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VLT
+						}
+						load_focus_tree = vlt_puppet_nf
+					}
+					else_if = {
+						limit = {
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+								is_subject_of = ACH
+								is_subject_of = TCA
+								is_subject_of = MNC
+								is_subject_of = BSF
+								OVERLORD = {
+									is_brotherhood_nation_allowed_block = yes
+								}
+							}
+						}
+						load_focus_tree = bos_puppet_nf
+					}
+					else_if = {
+						limit = {
+							is_subject_of = TRL
+						}
+						load_focus_tree = trl_puppet_nf
+					}
+					else_if = {
+						limit = {
+							is_subject_of = RRG
+						}
+						load_focus_tree = rrg_puppet_nf
+					}
+					else = {}
+				}
+			#NCR puppet stuff
+				if = {
+					limit = {
+						is_subject_of = NCR
+					}
+					create_country_leader = {
+						name = "NCR Territorial Administration"
+						desc = "ncr_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_NCR
+						expire = "3000.1.1"
+						ideology = constitutional_republic
+						traits = { po_loyal_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SCR
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SCR_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BLK
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = BLK_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BSU
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = BSU_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FLA
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = FLA_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = HUA
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = HUA_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = JIC
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = JIC_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MES
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = MES_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOJ
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = MOJ_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MRA
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = MRA_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PHR
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = PHR_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RSR
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = RSR_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SUF
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SUF_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SUF
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SUF_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SUF
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = SUF_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TSI
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = TSI_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WAP
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = WAP_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RAP
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = RAP_NCR
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BOS
+							is_subject_of = NCR
+						}
+					}
+					set_cosmetic_tag = BOS_NCR
+					set_country_flag = color_changed
+				}
+			#BOS puppet stuff
+				if = {
+					limit = {
+						OR = {
+							is_subject_of = BOS
+							is_subject_of = MOJ
+							is_subject_of = TBH
+							is_subject_of = MXC
+							OVERLORD = {
+								is_brotherhood_nation_allowed_block = yes
+							}
+						}
+					}
+					create_country_leader = {
+						name = "The Hall of Initiates"
+						desc = "bos_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_BOS
+						expire = "3000.1.1"
+						ideology = ideocracy
+						traits = { po_defensive_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = UMB
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = UMB_BOS
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ARR
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = ARR_BOS
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SHI
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = SHI_BOS
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BON
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = BON_BOS
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NCR
+							OR = {
+								is_subject_of = BOS
+								is_subject_of = MOJ
+								is_subject_of = TBH
+								is_subject_of = MXC
+							}
+						}
+					}
+					set_cosmetic_tag = NCR_BOS
+					set_country_flag = color_changed
+				}
+			#Legion puppet stuff
+				if = {
+					limit = {
+						OR = {
+							is_subject_of = CES
+							is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+						}
+						has_government = elites
+					}
+					create_country_leader = {
+						name = "Administratio Imperii"
+						desc = "ces_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_CES
+						expire = "3000.1.1"
+						ideology = militarist_oligarchy
+						traits = { po_aggressive_puppet }
+					}
+					else_if = {
+						limit = {
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+							has_government = ruler
+						}
+						create_country_leader = {
+							name = "Administratio Imperii"
+							desc = "ces_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_CES
+							expire = "3000.1.1"
+							ideology = oligarchy
+							traits = { po_aggressive_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+							has_government = intellectuals
+						}
+						create_country_leader = {
+							name = "Administratio Imperii"
+							desc = "ces_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_CES
+							expire = "3000.1.1"
+							ideology = technocracy
+							traits = { po_aggressive_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BON
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = BON_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = DES
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = DES_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOJ
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = MOJ_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NCR
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = NCR_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NAV
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = NAV_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TON
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = TON_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = LGS
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = LGS_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = GDH
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = GDH_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TLO
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = TLO_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WHD
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = WHD_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = IRN
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = IRN_CES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SCO
+							OR = {
+								is_subject_of = CES
+								is_subject_of = LAC
+								OVERLORD = {
+									is_in_faction_with = CES
+								}
+							}
+						}
+					}
+					set_cosmetic_tag = SCO_CES
+					set_country_flag = color_changed
+				}
+			#NCN puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = EHT
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = EHT_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SOR
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = SOR_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WHT
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = WHT_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = IRE
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = IRE_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MUR
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = MUR_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = LON
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = LON_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = UIN
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = UIN_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CRZ
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = CRZ_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = DEA
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = DEA_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = HGH
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = HGH_NCN
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TAR
+							is_subject_of = NCN
+						}
+					}
+					set_cosmetic_tag = TAR_NCN
+					set_country_flag = color_changed
+				}
+			#HEA puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = MUR
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = MUR_HEA
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = IRE
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = IRE_HEA
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PHA
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = PHA_HEA
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TOC
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = TOC_HEA
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = LON
+							is_subject_of = HEA
+						}
+					}
+					set_cosmetic_tag = LON_HEA
+					set_country_flag = color_changed
+				}
+			#TRL puppet stuff
+				if = {
+					limit = {
+						is_subject_of = TRL
+						has_government = people
+					}
+					create_country_leader = {
+						name = "The Will of The First"
+						desc = "trl_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_TRL
+						expire = "3000.1.1"
+						ideology = tribal_council
+						traits = { po_aggressive_puppet }
+					}
+					else_if = {
+						limit = {
+							is_subject_of = TRL
+							has_government = elites
+						}
+						create_country_leader = {
+							name = "The Will of The First"
+							desc = "trl_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_TRL
+							expire = "3000.1.1"
+							ideology = tribalism
+							traits = { po_aggressive_puppet }
+						}
+					}
+					if = {
+						limit = {
+							is_subject_of = TRL
+							has_government = intellectuals
+						}
+						create_country_leader = {
+							name = "The Will of The First"
+							desc = "trl_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_TRL
+							expire = "3000.1.1"
+							ideology = ideocracy
+							traits = { po_aggressive_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WBH
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = WBH_TRL
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = KLA
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = KLA_TRL
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CHE
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = CHE_TRL
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BDT
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = BDT_TRL
+					set_country_flag = color_changed
+				}
+				# if = {
+				# 	limit = {
+				# 		AND = {
+				# 			TAG = MIR
+				# 			is_subject_of = TRL
+				# 		}
+				# 	}
+				# 	set_cosmetic_tag = MIR_TRL
+				# 	set_country_flag = color_changed
+				# }
+				if = {
+					limit = {
+						AND = {
+							TAG = RBT
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = RBT_TRL
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MDT
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = MDT_TRL
+					set_country_flag = color_changed
+				}
+				# if = {
+				# 	limit = {
+				# 		AND = {
+				# 			TAG = BPT
+				# 			is_subject_of = TRL
+				# 		}
+				# 	}
+				# 	set_cosmetic_tag = BPT_TRL
+				# 	set_country_flag = color_changed
+				# }
+				if = {
+					limit = {
+						AND = {
+							TAG = WBH
+							is_subject_of = TRL
+						}
+					}
+					set_cosmetic_tag = WBH_TRL
+					set_country_flag = color_changed
+				}
+			#VLT puppet stuff
+				if = {
+					limit = {
+						is_subject_of = VLT
+						has_government = people
+					}
+					create_country_leader = {
+						name = "The Overseer"
+						desc = "vlt_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_VLT
+						expire = "3000.1.1"
+						ideology = commune
+						traits = { po_loyal_puppet }
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VLT
+							has_government = elites
+						}
+						create_country_leader = {
+							name = "The Overseer"
+							desc = "vlt_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VLT
+							expire = "3000.1.1"
+							ideology = militarist_technocracy
+							traits = { po_loyal_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VLT
+							has_government = intellectuals
+						}
+						create_country_leader = {
+							name = "The Overseer"
+							desc = "vlt_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VLT
+							expire = "3000.1.1"
+							ideology = ideocracy
+							traits = { po_loyal_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VLT
+							has_government = ruler
+						}
+						create_country_leader = {
+							name = "The Overseer"
+							desc = "vlt_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VLT
+							expire = "3000.1.1"
+							ideology = benevolent_dictatorship
+							traits = { po_loyal_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = VEG
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = VEG_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NCN
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = NCN_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FIE
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = FIE_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BOO
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = BOO_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ARR
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = ARR_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PAL
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = PAL_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CYC
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = CYC_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SHO
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = SHO_VLT
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RIP
+							is_subject_of = VLT
+						}
+					}
+					set_cosmetic_tag = RIP_VLT
+					set_country_flag = color_changed
+				}
+			#VEG puppet stuff
+				if = {
+					limit = {
+						is_subject_of = VEG
+						has_government = people
+					}
+					create_country_leader = {
+						name = "House Rules"
+						desc = "veg_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_VEG
+						expire = "3000.1.1"
+						ideology = unlimited_democracy
+						traits = { po_defensive_puppet }
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VEG
+							has_government = elites
+						}
+						create_country_leader = {
+							name = "House Rules"
+							desc = "veg_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VEG
+							expire = "3000.1.1"
+							ideology = militarist_oligarchy
+							traits = { po_defensive_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							is_subject_of = VEG
+							has_government = ruler
+						}
+						create_country_leader = {
+							name = "House Rules"
+							desc = "veg_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_VEG
+							expire = "3000.1.1"
+							ideology = benevolent_dictatorship
+							traits = { po_defensive_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FIE
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = FIE_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = KHA
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = KHA_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = DAM
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = DAM_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOJ
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = MOJ_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MRA
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = MRA_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOS
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = MOS_VEG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MOS
+							is_subject_of = VEG
+						}
+					}
+					set_cosmetic_tag = MOS_VEG
+					set_country_flag = color_changed
+				}
+			#WBH puppet stuff
+				if = {
+					limit = {
+						is_subject_of = WBH
+					}
+					create_country_leader = {
+						name = "The Hall of the Damned"
+						desc = "wbh_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_WBH
+						expire = "3000.1.1"
+						ideology = militarist_technocracy
+						traits = { po_defensive_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TRL
+							is_subject_of = WBH
+						}
+					}
+					set_cosmetic_tag = TRL_WBH
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TCA
+							is_subject_of = WBH
+						}
+					}
+					set_cosmetic_tag = TCA_WBH
+					set_country_flag = color_changed
+				}
+				# if = {
+				# 	limit = {
+				# 		AND = {
+				# 			TAG = ISN
+				# 			is_subject_of = WBH
+				# 		}
+				# 	}
+				# 	set_cosmetic_tag = ISN_WBH
+				# 	set_country_flag = color_changed
+				# }
+				if = {
+					limit = {
+						AND = {
+							TAG = HAI
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = HAI_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PMR
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = PMR_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TOC
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = TOC_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WHI
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = WHI_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = KAM
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = KAM_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = DRE
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = DRE_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = VIC
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = VIC_BRK
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = WBH
+							is_subject_of = BRK
+						}
+					}
+					set_cosmetic_tag = WBH_BRK
+					set_country_flag = color_changed
+				}
+			#DES puppet stuff
+				if = {
+					limit = {
+						is_subject_of = DES
+						has_government = ruler
+					}
+					create_country_leader = {
+						name = "Ranger Command"
+						desc = "des_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_DES
+						expire = "3000.1.1"
+						ideology = benevolent_dictatorship
+						traits = { po_loyal_puppet }
+					}
+					else_if = {
+						limit = {
+							is_subject_of = DES
+							has_government = people
+						}
+						create_country_leader = {
+							name = "Ranger Command"
+							desc = "des_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_DES
+							expire = "3000.1.1"
+							ideology = peoples_militia
+							traits = { po_loyal_puppet }
+						}
+					}
+					else_if = {
+						limit = {
+							is_subject_of = DES
+							has_government = intellectuals
+						}
+						create_country_leader = {
+							name = "Ranger Command"
+							desc = "des_puppet_leader_desc"
+							picture = GFX_Portrait_Puppet_Leader_DES
+							expire = "3000.1.1"
+							ideology = technocracy
+							traits = { po_loyal_puppet }
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SKY
+							is_subject_of = DES
+						}
+					}
+					set_cosmetic_tag = SKY_DES
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RIP
+							is_subject_of = DES
+						}
+					}
+					set_cosmetic_tag = RIP_DES
+					set_country_flag = color_changed
+				}
+			#Enclave puppet stuff
+				if = {
+					limit = {
+						OVERLORD = {
+							has_country_flag = enclave_nation
+						}
+					}
+					create_country_leader = {
+						name = "Department of Reclamation"
+						desc = "enc_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_ENC
+						expire = "3000.1.1"
+						ideology = militarist_oligarchy
+						traits = { po_loyal_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ARR
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = ARR_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BON
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = BON_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BOS
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = BOS_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CHE
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = CHE_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CYC
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = CYC_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = KLA
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = KLA_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = NCR
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = NCR_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PAL
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = PAL_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SHO
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = SHO_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = UMB
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = UMB_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = YKZ
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = YKZ_ENC
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = VLT
+							OVERLORD = {
+								has_country_flag = enclave_nation
+							}
+						}
+					}
+					set_cosmetic_tag = VLT_ENC
+					set_country_flag = color_changed
+				}
+			#MOJ puppet stuff
+				if = {
+					limit = {
+						is_subject_of = MOJ
+					}
+					create_country_leader = {
+						name = "The Hall of Initiates"
+						desc = "bos_puppet_leader_desc"
+						picture = GFX_Portrait_Puppet_Leader_MOJ
+						expire = "3000.1.1"
+						ideology = ideocracy
+						traits = { po_defensive_puppet }
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FIE
+							is_subject_of = MOJ
+						}
+					}
+					set_cosmetic_tag = FIE_MOJ
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = MRA
+							is_subject_of = MOJ
+						}
+					}
+					set_cosmetic_tag = MRA_MOJ
+					set_country_flag = color_changed
+				}
+			#ATE puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = TDT
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = TDT_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = GRH
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = GRH_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = CAF
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = CAF_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PET
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = PET_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ARM
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = ARM_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RRG
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = RRG_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TVR
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = TVR_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FFI
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = FFI_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BLO
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = BLO_ATE
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SIN
+							is_subject_of = ATE
+						}
+					}
+					set_cosmetic_tag = SIN_ATE
+					set_country_flag = color_changed
+				}
+			#ARM puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = PET
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = PET_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RRG
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = RRG_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = ATE
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = ATE_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = FFI
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = FFI_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = BLO
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = BLO_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SIN
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = SIN_ARM
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TVR
+							is_subject_of = ARM
+						}
+					}
+					set_cosmetic_tag = TVR_ARM
+					set_country_flag = color_changed
+				}
+			#RRG puppet stuff
+				if = {
+					limit = {
+						AND = {
+							TAG = ARM
+							is_subject_of = RRG
+						}
+					}
+					set_cosmetic_tag = ARM_RRG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = PEC
+							is_subject_of = RRG
+						}
+					}
+					set_cosmetic_tag = PEC_RRG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = RBD
+							is_subject_of = RRG
+						}
+					}
+					set_cosmetic_tag = RBD_RRG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = LGS
+							is_subject_of = RRG
+						}
+					}
+					set_cosmetic_tag = LGS_RRG
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = SIN
+							is_subject_of = FFI
+						}
+					}
+					set_cosmetic_tag = SIN_FFI
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = TLO
+							is_subject_of = FFI
+						}
+					}
+					set_cosmetic_tag = TLO_FFI
+					set_country_flag = color_changed
+				}
+				if = {
+					limit = {
+						AND = {
+							TAG = GDH
+							is_subject_of = FFI
+						}
+					}
+					set_cosmetic_tag = LGS_FFI
+					set_country_flag = color_changed
+				}
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					is_puppet = yes
+				}
+				OVERLORD = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = po_opinion_of_puppet
+					}
+				}
+			}
+		}
+	}
+}

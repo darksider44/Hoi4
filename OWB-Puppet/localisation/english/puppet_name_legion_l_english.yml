@@ -1,0 +1,1289 @@
+﻿l_english: 
+
+ ACH_autonomy_client_tribe_DEF:0 "The Alamo Warband"
+ ACH_autonomy_client_tribe:0 "Alamo Warband"
+ ACH_autonomy_tributary_DEF:0 "The Alamo Tributarius"
+ ACH_autonomy_tributary:0 "Alamo Tributarius" 
+
+ ANO_autonomy_client_tribe_DEF:0 "The Anointed Cohortem "
+ ANO_autonomy_client_tribe:0 "Anointed Cohortem "
+ ANO_autonomy_tributary_DEF:0 "The Anointed Tributarius"
+ ANO_autonomy_tributary:0 "Anointed Tributarius"
+
+ ARM_autonomy_client_tribe_DEF:0 "Tamaulipas Cohortem "
+ ARM_autonomy_client_tribe:0 "Tamaulipas Cohortem "
+ ARM_autonomy_tributary_DEF:0 "The Tamaulipas Tributarius"
+ ARM_autonomy_tributary:0 "Tamaulipas Tributarius"
+
+ ARR_autonomy_client_tribe_DEF:0 "The Arroyo Cohortem" 
+ ARR_autonomy_client_tribe:0 "Arroyo Cohortem"
+ ARR_autonomy_tributary_DEF:0 "The Arroyo Tributarius"
+ ARR_autonomy_tributary:0 "Arroyo Tributarius" 
+
+ ARZ_autonomy_client_tribe_DEF:0 "Arizona Cohortem "
+ ARZ_autonomy_client_tribe:0 "Arizona Cohortem "
+ ARZ_autonomy_tributary_DEF:0 "The Arizona Tributarius"
+ ARZ_autonomy_tributary:0 "Arizona Tributarius"
+
+ ASF_autonomy_client_tribe_DEF:0 "The Santa Fe Cohortem "
+ ASF_autonomy_client_tribe:0 "Santa Fe Cohortem "
+ ASF_autonomy_tributary_DEF:0 "The Santa Fe Tributarius"
+ ASF_autonomy_tributary:0 "Santa Fe Tributarius"
+
+ ASS_autonomy_client_tribe_DEF:0 "The Roller Cohortem "
+ ASS_autonomy_client_tribe:0 "Roller Cohortem "
+ ASS_autonomy_tributary_DEF:0 "The Roller Tributarius"
+ ASS_autonomy_tributary:0 "Roller Tributarius"
+
+ ATE_autonomy_client_tribe_DEF:0 "The Aztlan Cohortem "
+ ATE_autonomy_client_tribe:0 "Aztlan Cohortem "
+ ATE_autonomy_tributary_DEF:0 "The Aztlan Tributarius"
+ ATE_autonomy_tributary:0 "Aztlan Tributarius"
+
+ ATT_autonomy_client_tribe_DEF:0 "The Ant Scrapyard"
+ ATT_autonomy_client_tribe:0 "Ant Scrapyard"
+ ATT_autonomy_tributary_DEF:0 "The Ant Scrapyard"
+ ATT_autonomy_tributary:0 "Ant Scrapyard"
+
+ BAG_autonomy_client_tribe_DEF:0 "The Baggums Cohortem"  
+ BAG_autonomy_client_tribe:0 "Baggums Cohortem"
+ BAG_autonomy_tributary_DEF:0 "The Baggums"
+ BAG_autonomy_tributary:0 "Baggums" 
+
+ BAM_autonomy_client_tribe_DEF:0 "The Bayou Motorum"   
+ BAM_autonomy_client_tribe:0 "Bayou Motorum"
+ BAM_autonomy_tributary_DEF:0 "The Bayou Motorum"
+ BAM_autonomy_tributary:0 "Bayou Motorum" 
+
+ BAT_autonomy_client_tribe_DEF:0 "Batford Cohortem "
+ BAT_autonomy_client_tribe:0 "Batford Cohortem "
+ BAT_autonomy_tributary_DEF:0 "The Batford Tributarius"
+ BAT_autonomy_tributary:0 "Batford Tributarius"
+
+ BDT_autonomy_client_tribe_DEF:0 "The Cranium Templum"
+ BDT_autonomy_client_tribe:0 "Cranium Templum"
+ BDT_autonomy_tributary_DEF:0 "The Ossum Tributarius"
+ BDT_autonomy_tributary:0 "Ossum Tributarius"
+
+ BEL_autonomy_client_tribe_DEF:0 "The Bellingham Polis"
+ BEL_autonomy_client_tribe:0 "Bellingham Polis"
+ BEL_autonomy_tributary_DEF:0 "The Bellingham Tributarius"
+ BEL_autonomy_tributary:0 "Bellingham Tributarius"
+
+ BGC_autonomy_client_tribe_DEF:0 "Boggy Cohortem "
+ BGC_autonomy_client_tribe:0 "Boggy Cohortem "
+ BGC_autonomy_tributary_DEF:0 "The Boggy Tributarius"
+ BGC_autonomy_tributary:0 "Boggy Tributarius"
+
+ BGR_autonomy_client_tribe_DEF:0 "Grass Cohortem "
+ BGR_autonomy_client_tribe:0 "Grass Cohortem "
+ BGR_autonomy_tributary_DEF:0 "The Grass Tributarius"
+ BGR_autonomy_tributary:0 "Grass Tributarius"
+
+ BIG_autonomy_client_tribe_DEF:0 "Biggar Cohortem "
+ BIG_autonomy_client_tribe:0 "Biggar Cohortem "
+ BIG_autonomy_tributary_DEF:0 "The Biggar Tributarius"
+ BIG_autonomy_tributary:0 "Biggar Tributarius"
+
+ BIS_autonomy_client_tribe_DEF:0 "Bismarck Cohortem "
+ BIS_autonomy_client_tribe:0 "Bismarck Cohortem "
+ BIS_autonomy_tributary_DEF:0 "The Bismarck Tributarius"
+ BIS_autonomy_tributary:0 "Bismarck Tributarius"
+
+ BJS_autonomy_client_tribe_DEF:0 "The Baja Cohortem"
+ BJS_autonomy_client_tribe:0 "Baja Cohortem"
+ BJS_autonomy_tributary_DEF:0 "The Baja Tributarius"
+ BJS_autonomy_tributary:0 "Baja Tributarius"
+
+ BKB_autonomy_client_tribe_DEF:0 "Bank Cohortem "
+ BKB_autonomy_client_tribe:0 "Bank Cohortem "
+ BKB_autonomy_tributary_DEF:0 "The Bank Tributarius"
+ BKB_autonomy_tributary:0 "Bank Tributarius"
+
+ BLK_autonomy_client_tribe_DEF:0 "The Blackfoot Cohortem "
+ BLK_autonomy_client_tribe:0 "Blackfoot Cohortem "
+ BLK_autonomy_tributary_DEF:0 "The Blackfoot Tributarius"
+ BLK_autonomy_tributary:0 "Blackfoot Tributarius"
+
+ BLO_autonomy_client_tribe_DEF:0 "El Bandido's Horde"
+ BLO_autonomy_client_tribe:0 "El Bandido's Horde"
+ BLO_autonomy_tributary_DEF:0 "The Mazatlan Tributarius"
+ BLO_autonomy_tributary:0 "Mazatlan Tributarius"
+
+ BLP_autonomy_client_tribe_DEF:0 "The Paz Portus"
+ BLP_autonomy_client_tribe:0 "Paz Portus"
+ BLP_autonomy_tributary_DEF:0 "The Paz Tributarius"
+ BLP_autonomy_tributary:0 "Paz Tributarius"
+
+ BOS_autonomy_client_tribe_DEF:0 "The Steel Cohortem"
+ BOS_autonomy_client_tribe:0 "Steel Cohortem"
+ BOS_autonomy_tributary_DEF:0 "The Occidentalis Tributarius"
+ BOS_autonomy_tributary:0 "Occidentalis Tributarius"
+
+ BRA_autonomy_client_tribe_DEF:0 "Brandon Cohortem "
+ BRA_autonomy_client_tribe:0 "Brandon Cohortem "
+ BRA_autonomy_tributary_DEF:0 "The Brandon Tributarius"
+ BRA_autonomy_tributary:0 "Brandon Tributarius"
+
+ BRE_autonomy_client_tribe_DEF:0 "Breach Arena"
+ BRE_autonomy_client_tribe:0 "Breach Arena"
+ BRE_autonomy_tributary_DEF:0 "The Breach Arena"
+ BRE_autonomy_tributary:0 "Breach Arena"
+
+ BRI_autonomy_client_tribe_DEF:0 "The Parvapontem Cohorthem"
+ BRI_autonomy_client_tribe:0 "Parvapontem Cohorthem"
+ BRI_autonomy_tributary_DEF:0 "The Parvapontem Tributarius"
+ BRI_autonomy_tributary:0 "Parvapontem Tributarius"
+
+ BRK_autonomy_client_tribe_DEF:0 "The Graven's Cohortem"  
+ BRK_autonomy_client_tribe:0 "Graven's Cohortem"
+ BRK_autonomy_tributary_DEF:0 "The Maritimus Tributarius"
+ BRK_autonomy_tributary:0 "Maritimus Tributarius" 
+
+ BSU_autonomy_client_tribe_DEF:0 "The Black Sun Cohortem "
+ BSU_autonomy_client_tribe:0 "Black Sun Cohortem "
+ BSU_autonomy_tributary_DEF:0 "The Black Sun Tributarius"
+ BSU_autonomy_tributary:0 "Black Sun Tributarius"
+
+ BTH_autonomy_client_tribe_DEF:0 "The Thinker Cohortem "
+ BTH_autonomy_client_tribe:0 "Thinker Cohortem "
+ BTH_autonomy_tributary_DEF:0 "The Thinker Tributarius"
+ BTH_autonomy_tributary:0 "Thinker Tributarius"
+
+ BUM_autonomy_client_tribe_DEF:0 "The Bumblebee Scrapyard"
+ BUM_autonomy_client_tribe:0 "Bumblebee Scrapyard"
+ BUM_autonomy_tributary_DEF:0 "The Bumblebee Scrapyard"
+ BUM_autonomy_tributary:0 "Bumblebee Scrapyard"
+
+ BVC_autonomy_client_tribe_DEF:0 "The Valle Malus"
+ BVC_autonomy_client_tribe:0 "Valle Malus"
+ BVC_autonomy_tributary_DEF:0 "The Valle Tributarius"
+ BVC_autonomy_tributary:0 "Valle Tributarius"
+
+ CAF_autonomy_client_tribe_DEF:0 "The Oaxaca Tributarius"
+ CAF_autonomy_client_tribe:0 "Oaxaca Tributarius"
+ CAF_autonomy_tributary_DEF:0 "The Oaxaca Mercator"
+ CAF_autonomy_tributary:0 "Oaxaca Mercator"
+
+ CAR_autonomy_client_tribe_DEF:0 "The Chief's Realm"
+ CAR_autonomy_client_tribe:0 "The Chief's Realm"
+ CAR_autonomy_tributary_DEF:0 "The Carthage Tributarius"
+ CAR_autonomy_tributary:0 "Carthage Tributarius"
+
+ CBN_autonomy_client_tribe_DEF:0 "The Carbon Cohortem "
+ CBN_autonomy_client_tribe:0 "Carbon Cohortem "
+ CBN_autonomy_tributary_DEF:0 "The Carbon Tributarius"
+ CBN_autonomy_tributary:0 "Carbon Tributarius"
+
+ CCW_autonomy_client_tribe_DEF:0 "The Oreganum Segmentum"
+ CCW_autonomy_client_tribe:0 "Oreganum Segmentum"
+ CCW_autonomy_tributary_DEF:0 "The Oreganum Tributarius"
+ CCW_autonomy_tributary:0 "Oreganum Tributarius"
+
+ CES_autonomy_client_tribe_DEF:0 "The Arizona Cohortem "
+ CES_autonomy_client_tribe:0 "Arizona Cohortem "
+ CES_autonomy_tributary_DEF:0 "The Arizona Tributarius"
+ CES_autonomy_tributary:0 "Arizona Tributarius"
+
+ CHC_autonomy_client_tribe_DEF:0 "The Chorus Cohortem"
+ CHC_autonomy_client_tribe:0 "Chorus Cohortem"
+ CHC_autonomy_tributary_DEF:0 "The Chorus Captivus"
+ CHC_autonomy_tributary:0 "Chorus Captivus"
+
+ CHE_autonomy_client_tribe_DEF:0 "The Chemult Cohortem "
+ CHE_autonomy_client_tribe:0 "Chemult Cohortem "
+ CHE_autonomy_tributary_DEF:0 "The Chemult Tributarius"
+ CHE_autonomy_tributary:0 "Chemult Tributarius"
+
+ CHO_autonomy_client_tribe_DEF:0 "The Choctaw Cohortem"
+ CHO_autonomy_client_tribe:0 "Choctaw Cohortem"
+ CHO_autonomy_tributary_DEF:0 "The Choctaw Tributarius"
+ CHO_autonomy_tributary:0 "Choctaw Tributarius"
+
+ CHR_autonomy_client_tribe_DEF:0 "The Cherokee Cohortem"
+ CHR_autonomy_client_tribe:0 "Cherokee Cohortem"
+ CHR_autonomy_tributary_DEF:0 "The Cherokee Tributarius"
+ CHR_autonomy_tributary:0 "Cherokee Tributarius"
+
+ CLJ_autonomy_client_tribe_DEF:0 "The Boomer Cohortem "
+ CLJ_autonomy_client_tribe:0 "Boomer Cohortem "
+ CLJ_autonomy_tributary_DEF:0 "The Boomer Tributarius"
+ CLJ_autonomy_tributary:0 "Boomer Tributarius"
+
+ CLK_autonomy_client_tribe_DEF:0 "The Tempus Custodis"
+ CLK_autonomy_client_tribe:0 "Tempus Custodis"
+ CLK_autonomy_tributary_DEF:0 "The Tempus Custodis"
+ CLK_autonomy_tributary:0 "Tempus Custodis"
+
+ CMC_autonomy_client_tribe_DEF:0 "The Chickcogee Cohortem"
+ CMC_autonomy_client_tribe:0 "Chickcogee Cohortem"
+ CMC_autonomy_tributary_DEF:0 "The Chickcogee Tributarius"
+ CMC_autonomy_tributary:0 "Chickcogee Tributarius"
+
+ COM_autonomy_client_tribe_DEF:0 "The Red Deer Cohortem "
+ COM_autonomy_client_tribe:0 "Red Deer Cohortem "
+ COM_autonomy_tributary_DEF:0 "The Red Deer Tributarius"
+ COM_autonomy_tributary:0 "Red Deer Tributarius"
+
+ COW_autonomy_client_tribe_DEF:0 "The Cowboy Cohortem"
+ COW_autonomy_client_tribe:0 "Cowboy Cohortem"
+ COW_autonomy_tributary_DEF:0 "The Cowboy Tributarius"
+ COW_autonomy_tributary:0 "Cowboy Tributarius"
+
+ CPH_autonomy_client_tribe_DEF:0 "The Hell Cohortem "
+ CPH_autonomy_client_tribe:0 "Hell Cohortem "
+ CPH_autonomy_tributary_DEF:0 "The Hell Tributarius"
+ CPH_autonomy_tributary:0 "Hell Tributarius"
+
+ CPK_autonomy_client_tribe_DEF:0 "The Coal Cohortem "
+ CPK_autonomy_client_tribe:0 "Coal Cohortem "
+ CPK_autonomy_tributary_DEF:0 "The Coal Tributarius"
+ CPK_autonomy_tributary:0 "Coal Tributarius"
+
+ CRZ_autonomy_client_tribe_DEF:0 "Octaneius's Cohortem"
+ CRZ_autonomy_client_tribe:0 "Octaneius's Cohortem"
+ CRZ_autonomy_tributary_DEF:0 "The Octaneius Tributarius"
+ CRZ_autonomy_tributary:0 "Octaneius Tributarius"
+
+ CWB_autonomy_client_tribe_DEF:0 "The Helki's Warband"
+ CWB_autonomy_client_tribe:0 "Helki's Warband"
+ CWB_autonomy_tributary_DEF:0 "The Luddite Tributarius"
+ CWB_autonomy_tributary:0 "Luddite Tributarius"
+
+ CYC_autonomy_client_tribe_DEF:0 "The Oculus Cohortem"
+ CYC_autonomy_client_tribe:0 "Oculus Cohortem"
+ CYC_autonomy_tributary_DEF:0 "The Oculus Tributarius"
+ CYC_autonomy_tributary:0 "Oculus Tributarius"
+
+ DAM_autonomy_client_tribe_DEF:0 "The Oahe Dam Cohortem "
+ DAM_autonomy_client_tribe:0 "Oahe Dam Cohortem "
+ DAM_autonomy_tributary_DEF:0 "The Oahe Dam Tributarius"
+ DAM_autonomy_tributary:0 "Oahe Dam Tributarius"
+
+ DAY_autonomy_client_tribe_DEF:0 "The Dayglow Cohortem "
+ DAY_autonomy_client_tribe:0 "Dayglow Cohortem "
+ DAY_autonomy_tributary_DEF:0 "The Dayglow Tributarius" 
+ DAY_autonomy_tributary:0 "Dayglow Tributarius"
+
+ DEA_autonomy_client_tribe_DEF:0 "The Cesar Equites"
+ DEA_autonomy_client_tribe:0 "Cesar Equites"
+ DEA_autonomy_tributary_DEF:0 "The I-95 Tributarius"
+ DEA_autonomy_tributary:0 "I-95 Tributarius"
+
+ DED_autonomy_client_tribe_DEF:0 "The Midhold Cohortem "
+ DED_autonomy_client_tribe:0 "Midhold Cohortem "
+ DED_autonomy_tributary_DEF:0 "The Midhold Tributarius"
+ DED_autonomy_tributary:0 "Midhold Tributarius"
+
+ DES_autonomy_client_tribe_DEF:0 "The Silver Peak Cohortem "
+ DES_autonomy_client_tribe:0 "Silver Peak Cohortem "
+ DES_autonomy_tributary_DEF:0 "The Silver Peak Tributarius"
+ DES_autonomy_tributary:0 "Silver Peak Tributarius"
+
+ DIS_autonomy_client_tribe_DEF:0 "The Bonepicker Cohortem"
+ DIS_autonomy_client_tribe:0 "Bonepicker Cohortem"
+ DIS_autonomy_tributary_DEF:0 "The Bonepicker Tributarius"
+ DIS_autonomy_tributary:0 "Bonepicker Tributarius"
+
+ DLN_autonomy_client_tribe_DEF:0 "The Yorkton Cohortem "
+ DLN_autonomy_client_tribe:0 "Yorkton Cohortem "
+ DLN_autonomy_tributary_DEF:0 "The Yorkton Tributarius"
+ DLN_autonomy_tributary:0 "Yorkton Tributarius"
+
+ DMM_autonomy_client_tribe_DEF:0 "The Rock Ridge Cohortem "
+ DMM_autonomy_client_tribe:0 "Rock Ridge Cohortem "
+ DMM_autonomy_tributary_DEF:0 "The Rock Ridge Tributarius"
+ DMM_autonomy_tributary:0 "Rock Ridge Tributarius"
+
+ DRA_autonomy_client_tribe_DEF:0 "The The Masked Cohortem "
+ DRA_autonomy_client_tribe:0 "The Masked Cohortem "
+ DRA_autonomy_tributary_DEF:0 "The The Masked Tributarius"
+ DRA_autonomy_tributary:0 "The Masked Tributarius"
+
+ DRE_autonomy_client_tribe_DEF:0 "The Septentrionalis Segmentum" 
+ DRE_autonomy_client_tribe:0 "Septentrionalis Segmentum"
+ DRE_autonomy_tributary_DEF:0 "The Septentrionalis Segmentum"
+ DRE_autonomy_tributary:0 "Septentrionalis Segmentum" 
+
+ DRY_autonomy_client_tribe_DEF:0 "The Caveman's Realm" 
+ DRY_autonomy_client_tribe:0 "Caveman's Realm"
+ DRY_autonomy_tributary_DEF:0 "The Mineralis Tributarius"
+ DRY_autonomy_tributary:0 "Mineralis Tributarius" 
+
+ DSL_autonomy_client_tribe_DEF:0 "The Raymer Cohortem "
+ DSL_autonomy_client_tribe:0 "Raymer Cohortem "
+ DSL_autonomy_tributary_DEF:0 "The Raymer Tributarius"
+ DSL_autonomy_tributary:0 "Raymer Tributarius"
+
+ DSP_autonomy_client_tribe_DEF:0 "The Cursores Cohortem"  
+ DSP_autonomy_client_tribe:0 "Cursores Cohortem"
+ DSP_autonomy_tributary_DEF:0 "The Shreveport Tributarius"
+ DSP_autonomy_tributary:0 "Shreveport Tributarius" 
+
+ DUK_autonomy_client_tribe_DEF:0 "The Duck Mountain Cohortem "
+ DUK_autonomy_client_tribe:0 "Duck Mountain Cohortem "
+ DUK_autonomy_tributary_DEF:0 "The Duck Mountain Tributarius"
+ DUK_autonomy_tributary:0 "Duck Mountain Tributarius"
+
+ DUN_autonomy_client_tribe_DEF:0 "The Aberdeen Cohortem "
+ DUN_autonomy_client_tribe:0 "Aberdeen Cohortem "
+ DUN_autonomy_tributary_DEF:0 "The Aberdeen Tributarius"
+ DUN_autonomy_tributary:0 "Aberdeen Tributarius"
+
+ EAS_autonomy_client_tribe_DEF:0 "The Liquorem Cohorthem"
+ EAS_autonomy_client_tribe:0 "Liquorem Cohorthem"
+ EAS_autonomy_tributary_DEF:0 "The Liquorem Tributarius"
+ EAS_autonomy_tributary:0 "Liquorem Tributarius"
+
+ EDA_autonomy_client_tribe_DEF:0 "The Blue Rose Cohortem "
+ EDA_autonomy_client_tribe:0 "Blue Rose Cohortem "
+ EDA_autonomy_tributary_DEF:0 "The Blue Rose Tributarius"
+ EDA_autonomy_tributary:0 "Blue Rose Tributarius"
+
+ EDN_autonomy_client_tribe_DEF:0 "The Eden Ambusti Terrae "
+ EDN_autonomy_client_tribe:0 "Eden Containment Ambusti Terrae "
+ EDN_autonomy_tributary_DEF:0 "The Eden Ambusti Terrae"
+ EDN_autonomy_tributary:0 "Eden Ambusti Terrae"
+
+ EHT_autonomy_client_tribe_DEF:0 "The Thunderbird's Warband"
+ EHT_autonomy_client_tribe:0 "Thunderbird's Warband"
+ EHT_autonomy_tributary_DEF:0 "The Octoginta Tributarius"
+ EHT_autonomy_tributary:0 "Octoginta Tributarius"
+
+ ELB_autonomy_client_tribe_DEF:0 "The Liberty Cohortem "
+ ELB_autonomy_client_tribe:0 "Liberty Cohortem "
+ ELB_autonomy_tributary_DEF:0 "The Liberty Tributarius"
+ ELB_autonomy_tributary:0 "Liberty Tributarius"
+
+ ENT_autonomy_client_tribe_DEF:0 "The Walkerton Cohortem "
+ ENT_autonomy_client_tribe:0 "Walkerton Cohortem "
+ ENT_autonomy_tributary_DEF:0 "The Walkerton Tributarius"
+ ENT_autonomy_tributary:0 "Walkerton Tributarius"
+
+ EUK_autonomy_client_tribe_DEF:0 "The Arcata Cohortem "
+ EUK_autonomy_client_tribe:0 "Arcata Cohortem "
+ EUK_autonomy_tributary_DEF:0 "The Arcata Tributarius"
+ EUK_autonomy_tributary:0 "Arcata Tributarius"
+
+ EXE_autonomy_client_tribe_DEF:0 "The Plainrunners Cohortem "
+ EXE_autonomy_client_tribe:0 "Plainrunners Cohortem "
+ EXE_autonomy_tributary_DEF:0 "The Plainrunners Tributarius"
+ EXE_autonomy_tributary:0 "Plainrunners Tributarius"
+
+ FAR_autonomy_client_tribe_DEF:0 "The Absitcampi Cohorthem"
+ FAR_autonomy_client_tribe:0 "Absitcampi Cohorthem"
+ FAR_autonomy_tributary_DEF:0 "The Absitcampi Tributarius"
+ FAR_autonomy_tributary:0 "Absitcampi Tributarius"
+
+ FFI_autonomy_client_tribe_DEF:0 "El Santo's Cohort"
+ FFI_autonomy_client_tribe:0 "El Santo's Cohort"
+ FFI_autonomy_tributary_DEF:0 "The Caesar's Fighters"
+ FFI_autonomy_tributary:0 "Caesar's Fighters"
+
+ FIE_autonomy_client_tribe_DEF:0 "The Tributarius 3"
+ FIE_autonomy_client_tribe:0 "Tributarius 3"
+ FIE_autonomy_tributary_DEF:0 "The Tributarius 3"
+ FIE_autonomy_tributary:0 "Tributarius 3"
+
+ FOR_autonomy_client_tribe_DEF:0 "The Pabulatores"
+ FOR_autonomy_client_tribe:0 "The Pabulatores"
+ FOR_autonomy_tributary_DEF:0 "The Montrose Tributarius"
+ FOR_autonomy_tributary:0 "Montrose Tributarius"
+
+ FOU_autonomy_client_tribe_DEF:0 "The Lassen Cohortem "
+ FOU_autonomy_client_tribe:0 "Lassen Cohortem "
+ FOU_autonomy_tributary_DEF:0 "The Lassen Tributarius"
+ FOU_autonomy_tributary:0 "Lassen Tributarius"
+
+ FRG_autonomy_client_tribe_DEF:0 "The Fairy Glen Scrapyard"
+ FRG_autonomy_client_tribe:0 "Fairy Glen Scrapyard"
+ FRG_autonomy_tributary_DEF:0 "The Fairy Glen Scrapyard"
+ FRG_autonomy_tributary:0 "Fairy Glen Scrapyard"
+
+ FRI_autonomy_client_tribe_DEF:0 "The Isha's Warband"
+ FRI_autonomy_client_tribe:0 "Isha's Warband"
+ FRI_autonomy_tributary_DEF:0 "The Frisco Tributarius"
+ FRI_autonomy_tributary:0 "Frisco Tributarius"
+
+ FRN_autonomy_client_tribe_DEF:0 "The Steel Bow Cohortem "
+ FRN_autonomy_client_tribe:0 "Steel Bow Cohortem "
+ FRN_autonomy_tributary_DEF:0 "The Steel Bow Tributarius"
+ FRN_autonomy_tributary:0 "Steel Bow Tributarius"
+
+ GAM_autonomy_client_tribe_DEF:0 "The Sobek's Maw"   
+ GAM_autonomy_client_tribe:0 "Sobek's Maw"
+ GAM_autonomy_tributary_DEF:0 "The Alexandria Tributarius"
+ GAM_autonomy_tributary:0 "Alexandria Tributarius" 
+
+ GDH_autonomy_client_tribe_DEF:0 "The Sonora Cohortem "
+ GDH_autonomy_client_tribe:0 "Sonora Cohortem "
+ GDH_autonomy_tributary_DEF:0 "The Sonora Tributarius"
+ GDH_autonomy_tributary:0 "Sonora Tributarius"
+
+ GIM_autonomy_client_tribe_DEF:0 "The Khazad-Dûm Cohortem "
+ GIM_autonomy_client_tribe:0 "Khazad-Dûm Cohortem "
+ GIM_autonomy_tributary_DEF:0 "The Khazad-Dûm Tributarius"
+ GIM_autonomy_tributary:0 "Khazad-Dûm Tributarius"
+
+ GLC_autonomy_client_tribe_DEF:0 "The Cradle Cohortem "
+ GLC_autonomy_client_tribe:0 "Cradle Cohortem "
+ GLC_autonomy_tributary_DEF:0 "The Cradle Tributarius"
+ GLC_autonomy_tributary:0 "Cradle Tributarius"
+
+ GLW_autonomy_client_tribe_DEF:0 "The Boulder Camp"
+ GLW_autonomy_client_tribe:0 "Boulder Camp"
+ GLW_autonomy_tributary_DEF:0 "The Boulder Camp"
+ GLW_autonomy_tributary:0 "Boulder Camp" 
+
+ GRA_autonomy_client_tribe_DEF:0 "The Rapio Territorium"
+ GRA_autonomy_client_tribe:0 "Rapio Territorium"
+ GRA_autonomy_tributary_DEF:0 "The Rapio Tributarius"
+ GRA_autonomy_tributary:0 "Rapio Tributarius"
+
+ GRH_autonomy_client_tribe_DEF:0 "The Luis's Cohort"
+ GRH_autonomy_client_tribe:0 "Luis's Cohort"
+ GRH_autonomy_tributary_DEF:0 "The Vexillarius of Honduras"
+ GRH_autonomy_tributary:0 "Vexillarius of Honduras"
+
+ HAI_autonomy_client_tribe_DEF:0 "The Haida Portus" 
+ HAI_autonomy_client_tribe:0 "Haida Portus"
+ HAI_autonomy_tributary_DEF:0 "The Haida Tributarius"
+ HAI_autonomy_tributary:0 "Haida Tributarius" 
+
+ HAM_autonomy_client_tribe_DEF:0 "The Vitrum Cohorthem" 
+ HAM_autonomy_client_tribe:0 "Vitrum Cohorthem"
+ HAM_autonomy_tributary_DEF:0 "The Vitrum Tributarius"
+ HAM_autonomy_tributary:0 "Vitrum Tributarius"
+
+ HAN_autonomy_client_tribe_DEF:0 "The Caesar's Hounds"
+ HAN_autonomy_client_tribe:0 "The Caesar's Hounds"
+ HAN_autonomy_tributary_DEF:0 "The Caesar's Hounds"
+ HAN_autonomy_tributary:0 "Caesar's Hounds"
+
+ HBC_autonomy_client_tribe_DEF:0 "The Hubson Bay Cohortem "
+ HBC_autonomy_client_tribe:0 "Hubson Bay Cohortem "
+ HBC_autonomy_tributary_DEF:0 "The Hubson Bay Tributarius"
+ HBC_autonomy_tributary:0 "Hubson Bay Tributarius"
+
+ HEA_autonomy_client_tribe_DEF:0 "The Caelestis Cohorthem"
+ HEA_autonomy_client_tribe:0 "Caelestis Cohorthem"
+ HEA_autonomy_tributary_DEF:0 "The Caelestis Tributarius"
+ HEA_autonomy_tributary:0 "Caelestis Tributarius"
+
+ HGH_autonomy_client_tribe_DEF:0 "The "Idaho Monasterium"
+ HGH_autonomy_client_tribe:0 "Idaho Monasterium"
+ HGH_autonomy_tributary_DEF:0 "The Idaho Monasterium"
+ HGH_autonomy_tributary:0 "Idaho Monasterium"
+
+ HRO_autonomy_client_tribe_DEF:0 "The Houston Polis" 
+ HRO_autonomy_client_tribe:0 "Houston Polis"
+ HRO_autonomy_tributary_DEF:0 "The Houston Tributarius"
+ HRO_autonomy_tributary:0 "Houston Tributarius" 
+
+ HST_autonomy_client_tribe_DEF:0 "The Scribe Cohortem "
+ HST_autonomy_client_tribe:0 "Scribe Cohortem "
+ HST_autonomy_tributary_DEF:0 "The Scribe Tributarius"
+ HST_autonomy_tributary:0 "Scribe Tributarius"
+
+ HUA_autonomy_client_tribe_DEF:0 "The Hualapai Cohortem "
+ HUA_autonomy_client_tribe:0 "Hualapai Cohortem "
+ HUA_autonomy_tributary_DEF:0 "The Hualapai Tributarius" 
+ HUA_autonomy_tributary:0 "Hualapai Tributarius"
+
+ HVR_autonomy_client_tribe_DEF:0 "The Havre Cohortem "
+ HVR_autonomy_client_tribe:0 "Havre Cohortem "
+ HVR_autonomy_tributary_DEF:0 "The Havre Tributarius"
+ HVR_autonomy_tributary:0 "Havre Tributarius"
+
+ HXL_autonomy_client_tribe_DEF:0 "The Scottsbluff Cohortem "
+ HXL_autonomy_client_tribe:0 "Scottsbluff Cohortem "
+ HXL_autonomy_tributary_DEF:0 "The Scottsbluff Tributarius"
+ HXL_autonomy_tributary:0 "Scottsbluff Tributarius"
+
+ IMO_autonomy_client_tribe_DEF:0 "The Juggernaut's Horde"
+ IMO_autonomy_client_tribe:0 "Juggernaut's Horde"
+ IMO_autonomy_tributary_DEF:0 "The Fornax Tributarius"
+ IMO_autonomy_tributary:0 "Fornax Tributarius"
+
+ INR_autonomy_client_tribe_DEF:0 "The Helki's Warband"
+ INR_autonomy_client_tribe_DEF:0 "The Ironlines Cohortem"
+ INR_autonomy_client_tribe:0 "Helki's Warband"
+ INR_autonomy_client_tribe:0 "Ironlines Cohortem"
+ INR_autonomy_tributary_DEF:0 "The Ironlines Tributarius"
+ INR_autonomy_tributary_DEF:0 "The Luddite Tributarius"
+ INR_autonomy_tributary:0 "Ironlines Tributarius"
+
+ INR_autonomy_tributary:0 "Ironlines Tributarius"
+
+ ITZ_autonomy_client_tribe_DEF:0 "The Itzan Brotherhood"
+ ITZ_autonomy_client_tribe:0 "Itzan Brotherhood"
+ ITZ_autonomy_tributary_DEF:0 "The Itzan Tributarius"
+ ITZ_autonomy_tributary:0 "Itzan Tributarius"
+
+ JAC_autonomy_client_tribe_DEF:0 "The Banshee's Warband"
+ JAC_autonomy_client_tribe:0 "Banshee's Warband"
+ JAC_autonomy_tributary_DEF:0 "The Jackals Tributarius"
+ JAC_autonomy_tributary:0 "Jackals Tributarius"
+
+ JCK_autonomy_client_tribe_DEF:0 "The Buffalo Cohortem "
+ JCK_autonomy_client_tribe:0 "Buffalo Cohortem "
+ JCK_autonomy_tributary_DEF:0 "The Buffalo Tributarius"
+ JCK_autonomy_tributary:0 "Buffalo Tributarius"
+
+ KAM_autonomy_client_tribe_DEF:0 "The Kamlo Cohortem" 
+ KAM_autonomy_client_tribe:0 "Kamlo Cohortem"
+ KAM_autonomy_tributary_DEF:0 "The Kamlo Tributarius"
+ KAM_autonomy_tributary:0 "Kamlo Tributarius" 
+
+ KHA_autonomy_client_tribe_DEF:0 "The Khan Cohortem"
+ KHA_autonomy_client_tribe:0 "Khan Cohortem"
+ KHA_autonomy_tributary_DEF:0 "The Khan Tributarius"
+ KHA_autonomy_tributary:0 "Khan Tributarius"
+
+ KLA_autonomy_client_tribe_DEF:0 "The Klamath Cohortem "
+ KLA_autonomy_client_tribe:0 "Klamath Cohortem "
+ KLA_autonomy_tributary_DEF:0 "The Klamath Tributarius"
+ KLA_autonomy_tributary:0 "Klamath Tributarius"
+
+ LAC_autonomy_client_tribe_DEF:0 "Lanius Cohortem "
+ LAC_autonomy_client_tribe:0 "New Mexico Cohortem "
+ LAC_autonomy_tributary_DEF:0 "The Lanius Tributarius"
+ LAC_autonomy_tributary:0 "Lanius Tributarius"
+
+ LAP_autonomy_client_tribe_DEF:0 "The Crow Cohortem "
+ LAP_autonomy_client_tribe:0 "Crow Cohortem "
+ LAP_autonomy_tributary_DEF:0 "The Crow Tributarius"
+ LAP_autonomy_tributary:0 "Crow Tributarius"
+
+ LGS_autonomy_client_tribe_DEF:0 "The Chihuahua Cohortem "
+ LGS_autonomy_client_tribe:0 "Chihuahua Cohortem "
+ LGS_autonomy_tributary_DEF:0 "The Chihuahua Tributarius"
+ LGS_autonomy_tributary:0 "Chihuahua Tributarius"
+
+ LNS_autonomy_client_tribe_DEF:0 "The Hand Warband"
+ LNS_autonomy_client_tribe:0 "Hand Warband"
+ LNS_autonomy_tributary_DEF:0 "The Hand Tributarius"
+ LNS_autonomy_tributary:0 "Hand Tributarius" 
+
+ LOI_autonomy_client_tribe_DEF:0 "The Loidminster Cohortem "
+ LOI_autonomy_client_tribe:0 "Loidminster Cohortem "
+ LOI_autonomy_tributary_DEF:0 "The Loidminster Tributarius"
+ LOI_autonomy_tributary:0 "Loidminster Tributarius"
+
+ LON_autonomy_client_tribe_DEF:0 "The Lonetree Cohortem" 
+ LON_autonomy_client_tribe:0 "Lonetree Cohortem"
+ LON_autonomy_tributary_DEF:0 "The Lonetree Tributarius"
+ LON_autonomy_tributary:0 "Lonetree Tributarius" 
+
+ LOS_autonomy_client_tribe_DEF:0 "The Los Chemical Division"
+ LOS_autonomy_client_tribe:0 "Los Chemical Division"
+ LOS_autonomy_tributary_DEF:0 "The Los Tributarius"
+ LOS_autonomy_tributary:0 "Los Tributarius"
+
+ LUB_autonomy_client_tribe_DEF:0 "The Lubbock Polis"
+ LUB_autonomy_client_tribe:0 "Lubbock Polis"
+ LUB_autonomy_tributary_DEF:0 "The Lubbock Tributarius"
+ LUB_autonomy_tributary:0 "Lubbock Tributarius" 
+
+ LUM_autonomy_client_tribe_DEF:0 "The Lucidum Cohortem" 
+ LUM_autonomy_client_tribe:0 "Lucidum Cohortem"
+ LUM_autonomy_tributary_DEF:0 "The Castellum Lucidum"
+ LUM_autonomy_tributary:0 "Castellum Lucidum" 
+
+ MCA_autonomy_client_tribe_DEF:0 "The Mac Arthur Cohortem "
+ MCA_autonomy_client_tribe:0 "Mac Arthur Cohortem "
+ MCA_autonomy_tributary_DEF:0 "The Mac Arthur Tributarius"
+ MCA_autonomy_tributary:0 "Mac Arthur Tributarius"
+
+ MDT_autonomy_client_tribe_DEF:0 "The Mesmeralda's Horde"
+ MDT_autonomy_client_tribe:0 "Mesmeralda's Horde"
+ MDT_autonomy_tributary_DEF:0 "The Mesmetrum Tributarius"
+ MDT_autonomy_tributary:0 "Mesmetrum Tributarius"
+
+ MES_autonomy_client_tribe_DEF:0 "The Mescalero Cohortem "
+ MES_autonomy_client_tribe:0 "Mescalero Cohortem "
+ MES_autonomy_tributary_DEF:0 "The Mescalero Tributarius"
+ MES_autonomy_tributary:0 "Mescalero Tributarius"
+
+ MET_autonomy_client_tribe_DEF:0 "The Steel Jaws Cohortem "
+ MET_autonomy_client_tribe:0 "Steel Jaws Cohortem "
+ MET_autonomy_tributary_DEF:0 "The Steel Jaws Tributarius"
+ MET_autonomy_tributary:0 "Steel Jaws Tributarius"
+
+ MJW_autonomy_client_tribe_DEF:0 "The Manitoba Cohortem "
+ MJW_autonomy_client_tribe:0 "Manitoba Cohortem "
+ MJW_autonomy_tributary_DEF:0 "The Manitoba Tributarius"
+ MJW_autonomy_tributary:0 "Manitoba Tributarius"
+
+ MLT_autonomy_client_tribe_DEF:0 "The Mireluck Hordes" 
+ MLT_autonomy_client_tribe:0 "Mireluck Hordes"
+ MLT_autonomy_tributary_DEF:0 "The Coral Tributarius"
+ MLT_autonomy_tributary:0 "Coral Tributarius"
+
+ MOD_autonomy_client_tribe_DEF:0 "The Modoc Cohortem "
+ MOD_autonomy_client_tribe:0 "Modoc Cohortem "
+ MOD_autonomy_tributary_DEF:0 "The Modoc Tributarius"
+ MOD_autonomy_tributary:0 "Modoc Tributarius"
+
+ MOJ_autonomy_client_tribe_DEF:0 "The Helios Cohortem "
+ MOJ_autonomy_client_tribe:0 "Helios Cohortem "
+ MOJ_autonomy_tributary_DEF:0 "The Helios Tributarius"
+ MOJ_autonomy_tributary:0 "Helios Tributarius"
+
+ MOS_autonomy_client_tribe_DEF:0 "The Ulysses's Realm"
+ MOS_autonomy_client_tribe:0 "Ulysses's Realm"
+ MOS_autonomy_tributary_DEF:0 "The Ulysses's Wastes"
+ MOS_autonomy_tributary:0 "Ulysses's Wastes"
+
+ MOT_autonomy_client_tribe_DEF:0 "The Oliver's Tomb"
+ MOT_autonomy_client_tribe:0 "Oliver's Tomb"
+ MOT_autonomy_tributary_DEF:0 "The Oliver's Tomb"
+ MOT_autonomy_tributary:0 "Oliver's Tomb"
+
+ MRA_autonomy_client_tribe_DEF:0 "The Nipton Cohortem "
+ MRA_autonomy_client_tribe:0 "Nipton Cohortem "
+ MRA_autonomy_tributary_DEF:0 "The Nipton Tributarius"
+ MRA_autonomy_tributary:0 "Nipton Tributarius"
+
+ MRR_autonomy_client_tribe_DEF:0 "The Marshall Cohortem "
+ MRR_autonomy_client_tribe:0 "Marshall Cohortem "
+ MRR_autonomy_tributary_DEF:0 "The Marshall Tributarius"
+ MRR_autonomy_tributary:0 "Marshall Tributarius"
+
+ MSQ_autonomy_client_tribe_DEF:0 "The Mosquito Scrapyard"
+ MSQ_autonomy_client_tribe:0 "Mosquito Scrapyard"
+ MSQ_autonomy_tributary_DEF:0 "The Mosquito Scrapyard"
+ MSQ_autonomy_tributary:0 "Mosquito Scrapyard"
+
+ MTC_autonomy_client_tribe_DEF:0 "The Metis Cohortem "
+ MTC_autonomy_client_tribe:0 "Metis Cohortem "
+ MTC_autonomy_tributary_DEF:0 "The Metis Tributarius"
+ MTC_autonomy_tributary:0 "Metis Tributarius"
+
+ MTR_autonomy_client_tribe_DEF:0 "The Rail Cohortem "
+ MTR_autonomy_client_tribe:0 "Rail Cohortem "
+ MTR_autonomy_tributary_DEF:0 "The Rail Tributarius"
+ MTR_autonomy_tributary:0 "Rail Tributarius"
+
+ MUR_autonomy_client_tribe_DEF:0 "The Murtaugh Cohortem "
+ MUR_autonomy_client_tribe:0 "Murtaugh Cohortem "
+ MUR_autonomy_tributary_DEF:0 "The Murtaugh Tributarius"
+ MUR_autonomy_tributary:0 "Murtaugh Tributarius"
+
+ MXC_autonomy_client_tribe_DEF:0 "The Lucullus Expedition"
+ MXC_autonomy_client_tribe:0 "Lucullus Expedition"
+ MXC_autonomy_tributary_DEF:0 "The Lucullus Chapter"
+ MXC_autonomy_tributary:0 "Lucullus Chapter"
+
+ MXS_autonomy_client_tribe_DEF:0 "The Brotherhood Detention Center"
+ MXS_autonomy_client_tribe:0 "Brotherhood Detention Center"
+ MXS_autonomy_tributary_DEF:0 "The Brotherhood Detention Center"
+ MXS_autonomy_tributary:0 "Brotherhood Detention Center"
+
+ NAT_autonomy_client_tribe_DEF:0 "The Navarro Cohortem "
+ NAT_autonomy_client_tribe:0 "Navarro Cohortem "
+ NAT_autonomy_tributary_DEF:0 "The Navarro Tributarius"
+ NAT_autonomy_tributary:0 "Navarro Tributarius"
+
+ NAV_autonomy_client_tribe_DEF:0 "Steelwalkers"
+ NAV_autonomy_client_tribe:0 "Steelwalkers"
+ NAV_autonomy_tributary_DEF:0 "Navajo Tributarius"
+ NAV_autonomy_tributary:0 "Navajo Tributarius"
+
+ NCN_autonomy_client_tribe_DEF:0 "The Christum Cohorthem"
+ NCN_autonomy_client_tribe:0 "Christum Cohorthem"
+ NCN_autonomy_tributary_DEF:0 "The Christum Tributarius"
+ NCN_autonomy_tributary:0 "Christum Tributarius"
+
+ NCR_autonomy_client_tribe_DEF:0 "The Caesar's Bears"
+ NCR_autonomy_client_tribe:0 "The Caesar's Bears"
+ NCR_autonomy_tributary_DEF:0 "The California Segmentum"
+ NCR_autonomy_tributary:0 "California Segmentum"
+
+ NEW_autonomy_client_tribe_DEF:0 "The Reno Polis"
+ NEW_autonomy_client_tribe:0 "Reno Polis"
+ NEW_autonomy_tributary_DEF:0 "The Reno Tributarius"
+ NEW_autonomy_tributary:0 "Reno Tributarius"
+
+ NIT_autonomy_client_tribe_DEF:0 "The Heaven Peak Cohortem "
+ NIT_autonomy_client_tribe:0 "Heaven Peak Cohortem "
+ NIT_autonomy_tributary_DEF:0 "The Heaven Peak Tributarius"
+ NIT_autonomy_tributary:0 "Heaven Peak Tributarius"
+
+ NOE_autonomy_client_tribe_DEF:0 "The Hiericho Cohortem"
+ NOE_autonomy_client_tribe:0 "Hiericho Cohortem"
+ NOE_autonomy_tributary_DEF:0 "The Hiericho Tributarius"
+ NOE_autonomy_tributary:0 "Hiericho Tributarius"
+
+ NOR_autonomy_client_tribe_DEF:0 "The Nordikon Scrapyard"
+ NOR_autonomy_client_tribe:0 "Nordikon Scrapyard"
+ NOR_autonomy_tributary_DEF:0 "The Nordikon Scrapyard"
+ NOR_autonomy_tributary:0 "Nordikon Scrapyard"
+
+ NUN_autonomy_client_tribe_DEF:0 "The Valin Cohortem "
+ NUN_autonomy_client_tribe:0 "Valin Cohortem "
+ NUN_autonomy_tributary_DEF:0 "The Valin Tributarius"
+ NUN_autonomy_tributary:0 "Valin Tributarius"
+
+ OLY_autonomy_client_tribe_DEF:0 "The Olympos Cohortem"
+ OLY_autonomy_client_tribe:0 "Olympos Cohortem"
+ OLY_autonomy_tributary_DEF:0 "The Olympos Tributarius"
+ OLY_autonomy_tributary:0 "Olympos Tributarius"
+
+ OQZ_autonomy_client_tribe_DEF:0 "The Belden Cohortem "
+ OQZ_autonomy_client_tribe:0 "Belden Cohortem "
+ OQZ_autonomy_tributary_DEF:0 "The Belden Tributarius"
+ OQZ_autonomy_tributary:0 "Belden Tributarius"
+
+ ORO_autonomy_client_tribe_DEF:0 "The Ouroboros Graves"
+ ORO_autonomy_client_tribe:0 "The Ouroboros Graves"
+ ORO_autonomy_tributary_DEF:0 "The Hecate's Grave"
+ ORO_autonomy_tributary:0 "The Hecate's Grave"
+
+ OST_autonomy_client_tribe_DEF:0 "The Sanctum Cohortem "
+ OST_autonomy_client_tribe:0 "Sanctum Cohortem "
+ OST_autonomy_tributary_DEF:0 "The Sanctum Tributarius"
+ OST_autonomy_tributary:0 "Sanctum Tributarius"
+
+ PAC_autonomy_client_tribe_DEF:0 "The Packers Cohortem "
+ PAC_autonomy_client_tribe:0 "Packers Cohortem "
+ PAC_autonomy_tributary_DEF:0 "The Packers Tributarius"
+ PAC_autonomy_tributary:0 "Packers Tributarius"
+
+ PAL_autonomy_client_tribe_DEF:0 "The Pallidus Cohortem"
+ PAL_autonomy_client_tribe:0 "Pallidus Cohortem"
+ PAL_autonomy_tributary_DEF:0 "The Pallidus Tributarius"
+ PAL_autonomy_tributary:0 "Pallidus Tributarius"
+
+ PAP_autonomy_client_tribe_DEF:0 "The Redwing Cohortem "
+ PAP_autonomy_client_tribe:0 "Redwing Cohortem "
+ PAP_autonomy_tributary_DEF:0 "The Redwing Tributarius"
+ PAP_autonomy_tributary:0 "Redwing Tributarius"
+
+ PAR_autonomy_client_tribe_DEF:0 "The Mesa Warriors"
+ PAR_autonomy_client_tribe:0 "Mesa Warriors"
+ PAR_autonomy_tributary_DEF:0 "The Mesa Warriors"
+ PAR_autonomy_tributary:0 "Mesa Warriors"
+
+ PAS_autonomy_client_tribe_DEF:0 "The Warden Cohortem "
+ PAS_autonomy_client_tribe:0 "Warden Cohortem "
+ PAS_autonomy_tributary_DEF:0 "The Warden Tributarius"
+ PAS_autonomy_tributary:0 "Warden Tributarius"
+
+ PEC_autonomy_client_tribe_DEF:0 "The Pecos Cohortem "
+ PEC_autonomy_client_tribe:0 "Pecos Cohortem "
+ PEC_autonomy_tributary_DEF:0 "The Pecos Tributarius"
+ PEC_autonomy_tributary:0 "Pecos Tributarius"
+
+ PEN_autonomy_client_tribe_DEF:0 "The Northwall Cohortem "
+ PEN_autonomy_client_tribe:0 "Northwall Cohortem "
+ PEN_autonomy_tributary_DEF:0 "The Northwall Tributarius"
+ PEN_autonomy_tributary:0 "Northwall Tributarius"
+
+ PER_autonomy_client_tribe_DEF:0 "McAllen Cohortem "
+ PER_autonomy_client_tribe:0 "McAllen Cohortem "
+ PER_autonomy_tributary_DEF:0 "The McAllen Tributarius"
+ PER_autonomy_tributary:0 "McAllen Tributarius"
+
+ PET_autonomy_client_tribe_DEF:0 "The Petroleum Sons"
+ PET_autonomy_client_tribe:0 "Petroleum Sons"
+ PET_autonomy_tributary_DEF:0 "The Petroleum Subsidium"
+ PET_autonomy_tributary:0 "Petroleum Subsidium"
+
+ PHR_autonomy_client_tribe_DEF:0 "The Phoenix Cohortem "
+ PHR_autonomy_client_tribe:0 "Phoenix Cohortem "
+ PHR_autonomy_tributary_DEF:0 "The Phoenix Tributarius" 
+ PHR_autonomy_tributary:0 "Phoenix Tributarius"
+
+ PLT_autonomy_client_tribe_DEF:0 "The Annaheim Cohortem "
+ PLT_autonomy_client_tribe:0 "Annaheim Cohortem "
+ PLT_autonomy_tributary_DEF:0 "The Annaheim Tributarius"
+ PLT_autonomy_tributary:0 "Annaheim Tributarius"
+
+ PMR_autonomy_client_tribe_DEF:0 "The Junkportus"
+ PMR_autonomy_client_tribe:0 "Junkportus"
+ PMR_autonomy_tributary_DEF:0 "The Junk Tributarius"
+ PMR_autonomy_tributary:0 "Junk Tributarius"
+
+ PRO_autonomy_client_tribe_DEF:0 "The Steel Sons Cohortem "
+ PRO_autonomy_client_tribe:0 "Steel Sons Cohortem "
+ PRO_autonomy_tributary_DEF:0 "The Steel Sons Tributarius"
+ PRO_autonomy_tributary:0 "Steel Sons Tributarius"
+
+ PSH_autonomy_client_tribe_DEF:0 "The Ardenti Errores Cohorthem"
+ PSH_autonomy_client_tribe:0 "Ardenti Errores Cohorthem"
+ PSH_autonomy_tributary_DEF:0 "The Ardenti Errores Tributarius"
+ PSH_autonomy_tributary:0 "Ardenti Errores Tributarius"
+
+ RAD_autonomy_client_tribe_DEF:0 "The Scrapyard"
+ RAD_autonomy_client_tribe:0 "Scrapyard"
+ RAD_autonomy_tributary_DEF:0 "The Scrapyard "
+ RAD_autonomy_tributary:0 "Scrapyard"
+
+ RAP_autonomy_client_tribe_DEF:0 "Los Algodones Cohortem "
+ RAP_autonomy_client_tribe:0 "Los Algodones Cohortem "
+ RAP_autonomy_tributary_DEF:0 "Los Algodones Tributarius"
+ RAP_autonomy_tributary:0 "Los Algodones Tributarius"
+
+ RBD_autonomy_client_tribe_DEF:0 "The Baudelio Cohortem"
+ RBD_autonomy_client_tribe:0 "Baudelio Cohortem"
+ RBD_autonomy_tributary_DEF:0 "The Baudelio Tributarius"
+ RBD_autonomy_tributary:0 "Baudelio Tributarius"
+
+ RBT_autonomy_client_tribe_DEF:0 "The Ruptor Cohortem"
+ RBT_autonomy_client_tribe:0 "Ruptor Cohortem"
+ RBT_autonomy_tributary_DEF:0 "The Ruptor Tributarius"
+ RBT_autonomy_tributary:0 "Ruptor Tributarius"
+
+ RCK_autonomy_client_tribe_DEF:0 "The Grafton Cohortem "
+ RCK_autonomy_client_tribe:0 "Grafton Cohortem "
+ RCK_autonomy_tributary_DEF:0 "The Grafton Tributarius"
+ RCK_autonomy_tributary:0 "Grafton Tributarius"
+
+ REH_autonomy_client_tribe_DEF:0 "The New Colombus Cohortem "
+ REH_autonomy_client_tribe:0 "New Colombus Cohortem "
+ REH_autonomy_tributary_DEF:0 "The New Colombus Tributarius"
+ REH_autonomy_tributary:0 "New Colombus Tributarius"
+
+ RES_autonomy_client_tribe_DEF:0 "The Alamos Studium"
+ RES_autonomy_client_tribe:0 "Alamos Studium"
+ RES_autonomy_tributary_DEF:0 "The Alamos Tributarius"
+ RES_autonomy_tributary:0 "Alamos Tributarius"
+
+ RIP_autonomy_client_tribe_DEF:0 "The Riperult Cohortem "
+ RIP_autonomy_client_tribe:0 "Riperult Cohortem "
+ RIP_autonomy_tributary_DEF:0 "The Riperult Tributarius"
+ RIP_autonomy_tributary:0 "Riperult Tributarius"
+
+ RMT_autonomy_client_tribe_DEF:0 "The Rushmore Cohortem "
+ RMT_autonomy_client_tribe:0 "Rushmore Cohortem "
+ RMT_autonomy_tributary_DEF:0 "The Rushmore Tributarius"
+ RMT_autonomy_tributary:0 "Rushmore Tributarius"
+
+ ROB_autonomy_client_tribe_DEF:0 "The Mechanica Cohortem"
+ ROB_autonomy_client_tribe:0 "Mechanica Cohortem"
+ ROB_autonomy_tributary_DEF:0 "The Mechanicus Tributarius"
+ ROB_autonomy_tributary:0 "Mechanicus Tributarius"
+
+ ROL_autonomy_client_tribe_DEF:0 "The Notre Dame Cohortem "
+ ROL_autonomy_client_tribe:0 "Notre Dame Cohortem "
+ ROL_autonomy_tributary_DEF:0 "The Notre Dame Tributarius"
+ ROL_autonomy_tributary:0 "Notre Dame Tributarius"
+
+ ROT_autonomy_client_tribe_DEF:0 "The Steel Purgers"
+ ROT_autonomy_client_tribe:0 "Steel Purgers"
+ ROT_autonomy_tributary_DEF:0 "The Steel Purgers"
+ ROT_autonomy_tributary:0 "Steel Purgers"
+
+ RRG_autonomy_client_tribe_DEF:0 "The Mexicanus Regnum"
+ RRG_autonomy_client_tribe:0 "Mexicanus Regnum"
+ RRG_autonomy_tributary_DEF:0 "The Mexicanus Tributarius"
+ RRG_autonomy_tributary:0 "Mexicanus Tributarius"
+
+ RRR_autonomy_client_tribe_DEF:0 "The Red Earth Cohortem "
+ RRR_autonomy_client_tribe:0 "Red Earth Cohortem "
+ RRR_autonomy_tributary_DEF:0 "The Red Earth Tributarius"
+ RRR_autonomy_tributary:0 "Red Earth Tributarius"
+
+ RSR_autonomy_client_tribe_DEF:0 "The Red Sun Cohortem "
+ RSR_autonomy_client_tribe:0 "Red Sun Cohortem "
+ RSR_autonomy_tributary_DEF:0 "The Red Sun Tributarius"
+ RSR_autonomy_tributary:0 "Red Sun Tributarius"
+
+ RUB_autonomy_client_tribe_DEF:0 "The Gemma Asylum"
+ RUB_autonomy_client_tribe:0 "Gemma Asylum"
+ RUB_autonomy_tributary_DEF:0 "The Gemma Tributarius"
+ RUB_autonomy_tributary:0 "Gemma Tributarius"
+
+ SAN_autonomy_client_tribe_DEF:0 "The Bridgeport Cohortem "
+ SAN_autonomy_client_tribe:0 "Bridgeport Cohortem "
+ SAN_autonomy_tributary_DEF:0 "The Bridgeport Tributarius"
+ SAN_autonomy_tributary:0 "Bridgeport Tributarius"
+
+ SBR_autonomy_client_tribe_DEF:0 "The Jaansen Cohortem "
+ SBR_autonomy_client_tribe:0 "Jaansen Cohortem "
+ SBR_autonomy_tributary_DEF:0 "The Jaansen Tributarius"
+ SBR_autonomy_tributary:0 "Jaansen Tributarius"
+
+ SCA_autonomy_client_tribe_DEF:0 "The Scrappers Consilium"
+ SCA_autonomy_client_tribe:0 "Scrappers Consilium"
+ SCA_autonomy_tributary_DEF:0 "The Scrappers Tributarius"
+ SCA_autonomy_tributary:0 "Scrappers Tributarius"
+
+ SCO_autonomy_client_tribe_DEF:0 "The Stinger Cohortem "
+ SCO_autonomy_client_tribe:0 "Stinger Cohortem "
+ SCO_autonomy_tributary_DEF:0 "The Stinger Tributarius"
+ SCO_autonomy_tributary:0 "Stinger Tributarius"
+
+ SCR_autonomy_client_tribe_DEF:0 "The Lawson Cohortem "
+ SCR_autonomy_client_tribe:0 "Lawson Cohortem "
+ SCR_autonomy_tributary_DEF:0 "The Lawson Tributarius"
+ SCR_autonomy_tributary:0 "Lawson Tributarius"
+
+ SHA_autonomy_client_tribe_DEF:0 "The Shale's Warband"
+ SHA_autonomy_client_tribe:0 "Shale's Warband"
+ SHA_autonomy_tributary_DEF:0 "The Stockton Castellum"
+ SHA_autonomy_tributary:0 "Stockton Castellum"
+
+ SHI_autonomy_client_tribe_DEF:0 "The Shi Cohortem"
+ SHI_autonomy_client_tribe:0 "Shi Cohortem"
+ SHI_autonomy_tributary_DEF:0 "The Sheng's Cohort"
+ SHI_autonomy_tributary:0 "Sheng's Cohort"
+
+ SHO_autonomy_client_tribe_DEF:0 "The Shoshone Cohortem"
+ SHO_autonomy_client_tribe:0 "Shoshone Cohortem"
+ SHO_autonomy_tributary_DEF:0 "The Shoshone Tributarius"
+ SHO_autonomy_tributary:0 "Shoshone Tributarius"
+
+ SIE_autonomy_client_tribe_DEF:0 "The Rawlins Cohortem "
+ SIE_autonomy_client_tribe:0 "Rawlins Cohortem "
+ SIE_autonomy_tributary_DEF:0 "The Rawlins Tributarius"
+ SIE_autonomy_tributary:0 "Rawlins Tributarius"
+
+ SIN_autonomy_client_tribe_DEF:0 "The Maria's Warband"
+ SIN_autonomy_client_tribe:0 "Maria's Warband"
+ SIN_autonomy_tributary_DEF:0 "The Sinaloa Tributarius"
+ SIN_autonomy_tributary:0 "Sinaloa Tributarius"
+
+ SKY_autonomy_client_tribe_DEF:0 "The Sky Decanus"
+ SKY_autonomy_client_tribe:0 "Sky Decanus"
+ SKY_autonomy_tributary_DEF:0 "The Secretum Territorium"
+ SKY_autonomy_tributary:0 "Secretum Territorium"
+
+ SLA_autonomy_client_tribe_DEF:0 "The Free State Cohortem "
+ SLA_autonomy_client_tribe:0 "Free State Cohortem "
+ SLA_autonomy_tributary_DEF:0 "The Free State Tributarius"
+ SLA_autonomy_tributary:0 "Free State Tributarius"
+
+ SLE_autonomy_client_tribe_DEF:0 "The Somnum Cohortem"
+ SLE_autonomy_client_tribe:0 "Somnum Cohortem"
+ SLE_autonomy_tributary_DEF:0 "The Somnum Tributarius"
+ SLE_autonomy_tributary:0 "Somnum Tributarius"
+
+ SLN_autonomy_client_tribe_DEF:0 "The Burrow Test Field"
+ SLN_autonomy_client_tribe:0 "Burrow Test Field"
+ SLN_autonomy_tributary_DEF:0 "The Burrow Test Field"
+ SLN_autonomy_tributary:0 "Burrow Test Field"
+
+ SNO_autonomy_client_tribe_DEF:0 "The Fort Peck Cohortem "
+ SNO_autonomy_client_tribe:0 "Fort Peck Cohortem "
+ SNO_autonomy_tributary_DEF:0 "The Fort Peck Tributarius"
+ SNO_autonomy_tributary:0 "Fort Peck Tributarius"
+
+ SOK_autonomy_client_tribe_DEF:0 "The Sons of Steel Cohortem "
+ SOK_autonomy_client_tribe:0 "Sons of Steel Cohortem "
+ SOK_autonomy_tributary_DEF:0 "The Sons of Steel Tributarius"
+ SOK_autonomy_tributary:0 "Sons of Steel Tributarius"
+
+ SOR_autonomy_client_tribe_DEF:0 "The Zion Cohortem "
+ SOR_autonomy_client_tribe:0 "Zion Cohortem "
+ SOR_autonomy_tributary_DEF:0 "The Zion Tributarius"
+ SOR_autonomy_tributary:0 "Zion Tributarius"
+
+ SPO_autonomy_client_tribe_DEF:0 "The Nova Spokane Terra"
+ SPO_autonomy_client_tribe:0 "Nova Spokane Terra"
+ SPO_autonomy_tributary_DEF:0 "The Spokane Tributarius"
+ SPO_autonomy_tributary:0 "Spokane Tributarius"
+
+ STA_autonomy_client_tribe_DEF:0 "The Alberta Cohortem "
+ STA_autonomy_client_tribe:0 "Alberta Cohortem "
+ STA_autonomy_tributary_DEF:0 "The Alberta Tributarius"
+ STA_autonomy_tributary:0 "Alberta Tributarius"
+
+ STB_autonomy_client_tribe_DEF:0 "The Honey Cohortem "
+ STB_autonomy_client_tribe:0 "Honey Cohortem "
+ STB_autonomy_tributary_DEF:0 "The Honey Tributarius"
+ STB_autonomy_tributary:0 "Honey Tributarius"
+
+ STC_autonomy_client_tribe_DEF:0 "The Redmond Cohortem "
+ STC_autonomy_client_tribe:0 "Redmond Cohortem "
+ STC_autonomy_tributary_DEF:0 "The Redmond Tributarius"
+ STC_autonomy_tributary:0 "Redmond Tributarius"
+
+ STM_autonomy_client_tribe_DEF:0 "The Great Falls Cohortem "
+ STM_autonomy_client_tribe:0 "Great Falls Cohortem "
+ STM_autonomy_tributary_DEF:0 "The Great Falls Tributarius"
+ STM_autonomy_tributary:0 "Great Falls Tributarius"
+
+ STN_autonomy_client_tribe_DEF:0 "The Grandora Cohortem "
+ STN_autonomy_client_tribe:0 "Grandora Cohortem "
+ STN_autonomy_tributary_DEF:0 "The Grandora Tributarius"
+ STN_autonomy_tributary:0 "Grandora Tributarius"
+
+ STR_autonomy_client_tribe_DEF:0 "The Trail City Cohortem "
+ STR_autonomy_client_tribe:0 "Trail City Cohortem "
+ STR_autonomy_tributary_DEF:0 "The Trail City Tributarius"
+ STR_autonomy_tributary:0 "Trail City Tributarius"
+
+ SUF_autonomy_client_tribe_DEF:0 "The Summers Cohortem "
+ SUF_autonomy_client_tribe:0 "Summers Cohortem "
+ SUF_autonomy_tributary_DEF:0 "The Summers Tributarius"
+ SUF_autonomy_tributary:0 "Summers Tributarius"
+
+ SUN_autonomy_client_tribe_DEF:0 "The Mars' Dogs"
+ SUN_autonomy_client_tribe:0 "Mars' Dogs"
+ SUN_autonomy_tributary_DEF:0 "The Mars' Dogs"
+ SUN_autonomy_tributary:0 "Mars' Dogs"
+
+ SYN_autonomy_client_tribe_DEF:0 "The Sylix Cohortem "
+ SYN_autonomy_client_tribe:0 "Sylix Cohortem "
+ SYN_autonomy_tributary_DEF:0 "The Sylix Tributarius"
+ SYN_autonomy_tributary:0 "Sylix Tributarius"
+
+ TAA_autonomy_client_tribe_DEF:0 "The South Texan Mercatores"
+ TAA_autonomy_client_tribe:0 "South Texan Mercatores"
+ TAA_autonomy_tributary_DEF:0 "The South Texan Tributarius"
+ TAA_autonomy_tributary:0 "South Texan Tributarius"
+
+ TAR_autonomy_client_tribe_DEF:0 "The Tar Cohortem"
+ TAR_autonomy_client_tribe:0 "The Tar Cohortem"
+ TAR_autonomy_tributary_DEF:0 "The Concrento Tributarius"
+ TAR_autonomy_tributary:0 "Concrento Tributarius"
+
+ TBH_autonomy_client_tribe_DEF:0 "The Texae Cohortem"
+ TBH_autonomy_client_tribe:0 "Texae Cohortem"
+ TBH_autonomy_tributary_DEF:0 "The Texae Segmentum"
+ TBH_autonomy_tributary:0 "Texae Segmentum" 
+
+ TCA_autonomy_client_tribe_DEF:0 "The Portland Custodes"
+ TCA_autonomy_client_tribe:0 "Portland Custodes"
+ TCA_autonomy_tributary_DEF:0 "The Portland Tributarius"
+ TCA_autonomy_tributary:0 "Portland Tributarius"
+
+ TDN_autonomy_client_tribe_DEF:0 "The Den Cohortem "
+ TDN_autonomy_client_tribe:0 "Den Cohortem "
+ TDN_autonomy_tributary_DEF:0 "The Den Tributarius"
+ TDN_autonomy_tributary:0 "Den Tributarius"
+
+ TDT_autonomy_client_tribe_DEF:0 "The Tzotzil Cohortem "
+ TDT_autonomy_client_tribe:0 "Tzotzil Cohortem "
+ TDT_autonomy_tributary_DEF:0 "The Chiapas Tributarius"
+ TDT_autonomy_tributary:0 "Chiapas Tributarius"
+
+ TER_autonomy_client_tribe_DEF:0 "The Termite Scrapyard"
+ TER_autonomy_client_tribe:0 "Termite Scrapyard"
+ TER_autonomy_tributary_DEF:0 "The Termite Scrapyard"
+ TER_autonomy_tributary:0 "Termite Scrapyard"
+
+ TIM_autonomy_client_tribe_DEF:0 "The Tignum Cohortem"
+ TIM_autonomy_client_tribe:0 "Tignum Cohortem"
+ TIM_autonomy_tributary_DEF:0 "The Tignum Tributarius"
+ TIM_autonomy_tributary:0 "Tignum Tributarius"
+
+ TLA_autonomy_client_tribe_DEF:0 "The Centralis Mexicanus Territorium"
+ TLA_autonomy_client_tribe:0 "Centralis Mexicanus Territorium"
+ TLA_autonomy_tributary_DEF:0 "The Centralis Mandatum"
+ TLA_autonomy_tributary:0 "Centralis Mandatum"
+
+ TLL_autonomy_client_tribe_DEF:0 "The Mars Territorium"
+ TLL_autonomy_client_tribe:0 "The Mars Territorium"
+ TLL_autonomy_tributary_DEF:0 "The Mars Lodge"
+ TLL_autonomy_tributary:0 "The Mars Lodge"
+
+ TLP_autonomy_client_tribe_DEF:0 "The Oklahonum Territorium"
+ TLP_autonomy_client_tribe:0 "Oklahonum Territorium"
+ TLP_autonomy_tributary_DEF:0 "The Oklahonum Tributarius"
+ TLP_autonomy_tributary:0 "Oklahonum Tributarius"
+
+ TOB_autonomy_client_tribe_DEF:0 "The Tyrantus's Warband" 
+ TOB_autonomy_client_tribe:0 "Tyrantus's Warband"
+ TOB_autonomy_tributary_DEF:0 "The Dinosaurum Tributarius"
+ TOB_autonomy_tributary:0 "Dinosaurum Tributarius" 
+
+ TOC_autonomy_client_tribe_DEF:0 "The Spokane Cohortem "
+ TOC_autonomy_client_tribe:0 "Spokane Cohortem "
+ TOC_autonomy_tributary_DEF:0 "The Spokane Tributarius"
+ TOC_autonomy_tributary:0 "Spokane Tributarius"
+
+ TOF_autonomy_client_tribe_DEF:0 "The Deep Springs Cohortem "
+ TOF_autonomy_client_tribe:0 "Deep Springs Cohortem "
+ TOF_autonomy_tributary_DEF:0 "The Deep Springs Tributarius"
+ TOF_autonomy_tributary:0 "Deep Springs Tributarius"
+
+ TON_autonomy_client_tribe_DEF:0 "The Tohono Cohortem "
+ TON_autonomy_client_tribe:0 "Tohono Cohortem "
+ TON_autonomy_tributary_DEF:0 "The Tohono Tributarius"
+ TON_autonomy_tributary:0 "Tohono Tributarius"
+
+ TPA_autonomy_client_tribe_DEF:0 "The Pass Cohortem "
+ TPA_autonomy_client_tribe:0 "Pass Cohortem "
+ TPA_autonomy_tributary_DEF:0 "The Pass Tributarius"
+ TPA_autonomy_tributary:0 "Pass Tributarius"
+
+ TPL_autonomy_client_tribe_DEF:0 "The Coopertown Cohortem "
+ TPL_autonomy_client_tribe:0 "Coopertown Cohortem "
+ TPL_autonomy_tributary_DEF:0 "The Coopertown Tributarius"
+ TPL_autonomy_tributary:0 "Coopertown Tributarius"
+
+ TPM_autonomy_client_tribe_DEF:0 "The Patrolum Cohortem"
+ TPM_autonomy_client_tribe:0 "Patrolum Cohortem"
+ TPM_autonomy_tributary_DEF:0 "The Patrolum Tributarius"
+ TPM_autonomy_tributary:0 "Patrolum Tributarius"
+
+ TRL_autonomy_client_tribe_DEF:0 "The First's Warren"
+ TRL_autonomy_client_tribe:0 "First's Horde"
+ TRL_autonomy_tributary_DEF:0 "The Troll Tributarius"
+ TRL_autonomy_tributary:0 "Troll Tributarius"
+
+ TSI_autonomy_client_tribe_DEF:0 "The I-10 Cohortem "
+ TSI_autonomy_client_tribe:0 "I-10 Cohortem "
+ TSI_autonomy_tributary_DEF:0 "The I-10 Tributarius"
+ TSI_autonomy_tributary:0 "I-10 Tributarius"
+
+ TTM_autonomy_client_tribe_DEF:0 "The Seminarium"
+ TTM_autonomy_client_tribe:0 "Seminarium"
+ TTM_autonomy_tributary_DEF:0 "The Seminarium"
+ TTM_autonomy_tributary:0 "Seminarium"
+
+ TUB_autonomy_client_tribe_DEF:0 "The Tubeheads Cohortem "
+ TUB_autonomy_client_tribe:0 "Tubeheads Cohortem "
+ TUB_autonomy_tributary_DEF:0 "The KXII Tributarius"
+ TUB_autonomy_tributary:0 "KXII Tributarius"
+
+ TVR_autonomy_client_tribe_DEF:0 "The Nayarit Cohortem "
+ TVR_autonomy_client_tribe:0 "The Nayarit Cohortem "
+ TVR_autonomy_tributary_DEF:0 "The Nayarit Tributarius"
+ TVR_autonomy_tributary:0 "Nayarit Tributarius"
+
+ TVT_autonomy_client_tribe_DEF:0 "The TV Town Scrapyard"
+ TVT_autonomy_client_tribe:0 "TV Town Scrapyard"
+ TVT_autonomy_tributary_DEF:0 "The TV Town Scrapyard"
+ TVT_autonomy_tributary:0 "TV Town Scrapyard"
+
+ TWI_autonomy_client_tribe_DEF:0 "The Capillus Cohortem"
+ TWI_autonomy_client_tribe:0 "Capillus Cohortem"
+ TWI_autonomy_tributary_DEF:0 "The Capillus Tributarius"
+ TWI_autonomy_tributary:0 "Capillus Tributarius"
+
+ TWO_autonomy_client_tribe_DEF:0 "Two-Sun"
+ TWO_autonomy_client_tribe:0 "Two-Sun"
+ TWO_autonomy_tributary_DEF:0 "Two-Sun"
+ TWO_autonomy_tributary:0 "Two-Sun"
+
+ UIN_autonomy_client_tribe_DEF:0 "The Uintah Cohortem "
+ UIN_autonomy_client_tribe:0 "Uintah Cohortem "
+ UIN_autonomy_tributary_DEF:0 "The Uintah Tributarius"
+ UIN_autonomy_tributary:0 "Uintah Tributarius"
+
+ UMB_autonomy_client_tribe_DEF:0 "The Umbra Cohortem "
+ UMB_autonomy_client_tribe:0 "Umbra Cohortem "
+ UMB_autonomy_tributary_DEF:0 "The Umbra Tributarius"
+ UMB_autonomy_tributary:0 "Umbra Tributarius"
+
+ UNB_autonomy_client_tribe_DEF:0 "The Williston Cohortem "
+ UNB_autonomy_client_tribe:0 "Williston Cohortem "
+ UNB_autonomy_tributary_DEF:0 "The Williston Tributarius"
+ UNB_autonomy_tributary:0 "Williston Tributarius"
+
+ UOA_autonomy_client_tribe_DEF:0 "The Crusher's Cohort"
+ UOA_autonomy_client_tribe:0 "Crusher's Cohort"
+ UOA_autonomy_tributary_DEF:0 "The Austin Tributarius"
+ UOA_autonomy_tributary:0 "Austin Tributarius"
+
+ URA_autonomy_client_tribe_DEF:0 "The Uranium City Ambusti Terrae"
+ URA_autonomy_client_tribe:0 "Uranium City Ambusti Terrae"
+ URA_autonomy_tributary_DEF:0 "The Uranium City Ambusti Terrae"
+ URA_autonomy_tributary:0 "Uranium City Ambusti Terrae"
+
+ VEG_autonomy_client_tribe_DEF:0 "Novus Vegus"
+ VEG_autonomy_client_tribe:0 "Novus Vegus"
+ VEG_autonomy_tributary_DEF:0 "Novus Vegus"
+ VEG_autonomy_tributary:0 "Novus Vegus"
+
+ VER_autonomy_client_tribe_DEF:0 "The Vermilion Cohortem "
+ VER_autonomy_client_tribe:0 "Vermilion Cohortem "
+ VER_autonomy_tributary_DEF:0 "The Vermilion Tributarius"
+ VER_autonomy_tributary:0 "Vermilion Tributarius"
+
+ VIC_autonomy_client_tribe_DEF:0 "The Nova Cascadia"  
+ VIC_autonomy_client_tribe:0 "Nova Cascadia"
+ VIC_autonomy_tributary_DEF:0 "The Victoriam Tributarius"
+ VIC_autonomy_tributary:0 "Victoriam Tributarius" 
+
+ VIP_autonomy_client_tribe_DEF:0 "The Veronica's Warband"
+ VIP_autonomy_client_tribe:0 "Veronica's Warband"
+ VIP_autonomy_tributary_DEF:0 "The Vipers Tributarius"
+ VIP_autonomy_tributary:0 "Vipers Tributarius"
+
+ VLT_autonomy_client_tribe_DEF:0 "The Crypta Polis"
+ VLT_autonomy_client_tribe:0 "Crypta Polis"
+ VLT_autonomy_tributary_DEF:0 "The Crypta Tributarius"
+ VLT_autonomy_tributary:0 "Crypta Tributarius"
+
+ VTS_autonomy_client_tribe_DEF:0 "The Fort Yates Cohortem "
+ VTS_autonomy_client_tribe:0 "Fort Yates Cohortem "
+ VTS_autonomy_tributary_DEF:0 "The Fort Yates Tributarius"
+ VTS_autonomy_tributary:0 "Fort Yates Tributarius"
+
+ WAK_autonomy_client_tribe_DEF:0 "The Birch Hills Cohortem "
+ WAK_autonomy_client_tribe:0 "Birch Hills Cohortem "
+ WAK_autonomy_tributary_DEF:0 "The Birch Hills Tributarius"
+ WAK_autonomy_tributary:0 "Birch Hills Tributarius"
+
+ WAP_autonomy_client_tribe_DEF:0 "The Apache Cohortem "
+ WAP_autonomy_client_tribe:0 "Apache Cohortem "
+ WAP_autonomy_tributary_DEF:0 "The Apache Tributarius" 
+ WAP_autonomy_tributary:0 "Apache Tributarius"
+
+ WBH_autonomy_client_tribe_DEF:0 "The Tenebris Regnum"
+ WBH_autonomy_client_tribe:0 "Tenebris Regnum"
+ WBH_autonomy_tributary_DEF:0 "The Tenebris Tributarius"
+ WBH_autonomy_tributary:0 "Tenebris Tributarius"
+
+ WEN_autonomy_client_tribe_DEF:0 "The Wendover Cohortem "
+ WEN_autonomy_client_tribe:0 "Wendover Cohortem "
+ WEN_autonomy_tributary_DEF:0 "The Wendover Tributarius"
+ WEN_autonomy_tributary:0 "Wendover Tributarius"
+
+ WHC_autonomy_client_tribe_DEF:0 "The Dragon Cohortem "
+ WHC_autonomy_client_tribe:0 "Dragon Cohortem "
+ WHC_autonomy_tributary_DEF:0 "The Dragon Tributarius"
+ WHC_autonomy_tributary:0 "Dragon Tributarius"
+
+ WHD_autonomy_client_tribe_DEF:0 "Fort Collins"
+ WHD_autonomy_client_tribe:0 "Fort Collins"
+ WHD_autonomy_tributary_DEF:0 "Fort Collins"
+ WHD_autonomy_tributary:0 "Fort Collins"
+
+ WHI_autonomy_client_tribe_DEF:0 "The Colombia Territorium" 
+ WHI_autonomy_client_tribe:0 "Colombia Territorium"
+ WHI_autonomy_tributary_DEF:0 "The Whistler Tributarius"
+ WHI_autonomy_tributary:0 "Whistler Tributarius" 
+
+ WHT_autonomy_client_tribe_DEF:0 "The Salt Cohortem"
+ WHT_autonomy_client_tribe:0 "Salt Cohortem"
+ WHT_autonomy_tributary_DEF:0 "The Salt Tributarius"
+ WHT_autonomy_tributary:0 "Salt Tributarius"
+
+ WPG_autonomy_client_tribe_DEF:0 "The North End Cohortem "
+ WPG_autonomy_client_tribe:0 "North End Cohortem "
+ WPG_autonomy_tributary_DEF:0 "The North End Tributarius"
+ WPG_autonomy_tributary:0 "North End Tributarius"
+
+ WSP_autonomy_client_tribe_DEF:0 "The Wasp Scrapyard"
+ WSP_autonomy_client_tribe:0 "Wasp Scrapyard"
+ WSP_autonomy_tributary_DEF:0 "The Wasp Scrapyard"
+ WSP_autonomy_tributary:0 "Wasp Scrapyard"
+
+ YAK_autonomy_client_tribe_DEF:0 "The Yakama Cohortem "
+ YAK_autonomy_client_tribe:0 "Yakama Cohortem "
+ YAK_autonomy_tributary_DEF:0 "The Yakama Tributarius"
+ YAK_autonomy_tributary:0 "Yakama Tributarius"
+
+ YKZ_autonomy_client_tribe_DEF:0 "Yakuza Cohortem "
+ YKZ_autonomy_client_tribe:0 "Yakuza Cohortem "
+ YKZ_autonomy_tributary_DEF:0 "The Carson Tributarius"
+ YKZ_autonomy_tributary:0 "Carson Tributarius"
+
+ YLJ_autonomy_client_tribe_DEF:0 "The Yellowjacket Scrapyard"
+ YLJ_autonomy_client_tribe:0 "Yellowjacket Scrapyard"
+ YLJ_autonomy_tributary_DEF:0 "The Yellowjacket Scrapyard"
+ YLJ_autonomy_tributary:0 "Yellowjacket Scrapyard"
+
+ YMP_autonomy_client_tribe_DEF:0 "The Rocky Claustrum" 
+ YMP_autonomy_client_tribe:0 "Rocky Claustrum"
+ YMP_autonomy_tributary_DEF:0 "The Montes Territorium"
+ YMP_autonomy_tributary:0 "Montes Territorium" 
+
+
+

@@ -1,0 +1,27 @@
+all_core_land_owned_by_prev_puppet = {
+	custom_trigger_tooltip = {
+		tooltip = all_core_land_owned_by_prev_puppet_tt
+		PREV = {
+			puppet_owns_all_core_land_of_prev = yes
+		}
+	}
+}
+
+puppet_owns_all_core_land_of_prev = {
+	custom_trigger_tooltip = {
+		tooltip = puppet_owns_all_core_land_of_prev_tt
+		set_temp_variable = { sphere_country = THIS }
+		set_temp_variable = { target_country = PREV }
+		NOT = {
+			any_of_scopes = {
+				array = PREV.core_states
+				OWNER = {
+					NOT = {
+						tag = sphere_country
+						is_subject_of = sphere_country
+					}
+				}
+			}
+		}
+	}
+}
